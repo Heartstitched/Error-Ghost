@@ -118,18 +118,15 @@ OnMouseMove.Sakura
 	"\0\s[0]You're annoying me."
 	"\0\s[0]What do they feel like to you?\n\w8\![*]\q[Sharp,OnStringsBad] \w8\n\![*]\q[Soft,OnStringsGood]"
 
-	OnStringsBad
-	{
-		"\_q(He seems smug.)\_q\w8\w8\w8"
-	}
+		OnStringsBad
+		{
+			"\_q(He seems smug.)\_q\w8\w8\w8"
+		}
 
-	OnStringsGood
-	{
-		"You'd be the first one to say that.\w8\w8"
-	}
-
-	
-	
+		OnStringsGood
+		{
+			"You'd be the first one to say that.\w8\w8"
+		}
 
 	}
     // elseif reference4 == "Face"
