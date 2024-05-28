@@ -1,0 +1,17 @@
+charset,UTF-8
+
+name,Error
+type,ghost
+
+shiori,yaya.dll
+
+craftman, Heartstitched, hazerun3
+craftmanw,
+craftmanurl, https://www.tumblr.com/monster-kind  https://www.tumblr.com/hazerun3
+
+sakura.name,Error
+kero.name,null
+
+icon,icon.ico
+
+sstp.allowunspecifiedsend,0

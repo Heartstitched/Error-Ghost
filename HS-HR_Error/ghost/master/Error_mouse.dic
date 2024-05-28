@@ -1,0 +1,179 @@
+// //Separate from the menus because you could put other interactions here, like poking or booping or punching or asking about various hotspots
+OnMouseDoubleClick
+{
+	if reference5 == 0 //reference5 is the mouse button being clicked, in this case a left click
+	{
+		//reference3 is which character is being clicked
+		//If you want to add double click interactions, reference4 will be the name of the hitbox the mouse is over
+		if reference3 == 0
+		{
+			OnSakuraMenu
+		}
+		elseif reference3 == 4
+		{
+			OnBlueMenu
+		}
+		else
+		{
+			OnKeroMenu
+		}
+	}
+}
+
+OnMouseMove
+{
+	if reference4 != ""
+	{
+		stroke++
+		
+		if stroke % 40 == 0
+		{
+			if reference3 == 0; OnMouseMove.Sakura
+			elseif reference3 == 4; OnMouseMove.Blue
+			else; OnMouseMove.Kero
+		}
+	}
+}
+//I've redone the petting code from the GT template, since some of it didn't actually do what it claimed to, at least in my testing. With this system, we track two stroke values, one for normal petting which resets every time you trigger dialogue, and one for continuous petting that counts up until the mouse leaves the character. For this to work, it's vital that you use either OnMouseLeave or OnMouseLeaveAll to reset the stroke values when the mouse leaves the character. The way the template had this set up doesn't actually work, so it's important you add the new event.
+
+OnMouseMove.Sakura
+{
+    stroke++ //These increase the stroke values by 1 any time the mouse is moved
+    continuousstroke++
+	if reference4 == "Head" && WearingDressup("La Creatura") || reference4 == "Head" && WearingDressup("La Creatura Dos")
+	{
+			"\0\s[0]\f[bold,true]W-w-WWhy do you insist on p-ppetting that thi-i-ing?\f[bold,false]"
+	}
+    elseif reference4 == "Head"
+    {
+        if continuousstroke >= 1 //this would happen starting at 4 pets. Adjust as needed, but you should probably keep it as a multiple of whatever your normal stroking dialogue triggers at
+        {
+            if stroke >= 200 //Stroke count is longer so that you have time to read the dialogue here. Adjust as you like.
+            {
+                stroke = 0
+                totalpets++
+                currentpetstreak++ //I haven't used this yet, but if you want to count successful pets for the high score rather than the raw stroke value, use this variable instead. More on this below.
+                "\0\s[0]s-s-stop it- i mean it.\e"
+				"\0\s[0]dD-Dont toUCHH Me!\e"
+            }
+			
+        }
+		if continuousstroke >= 5 //this would happen starting at 4 pets. Adjust as needed, but you should probably keep it as a multiple of whatever your normal stroking dialogue triggers at
+        {
+            if stroke <= 200 //Stroke count is longer so that you have time to read the dialogue here. Adjust as you like.
+            {
+                stroke = 0
+                totalpets++
+                currentpetstreak++ //I haven't used this yet, but if you want to count successful pets for the high score rather than the raw stroke value, use this variable instead. More on this below.
+                "\0\s[1]noNONonoNONONoO\e"
+				"\0\s[1] aaaAAAUGhHH\e"
+				"\0\s[0] s̷t̷o̸P̵I̵T̵S̴t̷t̶o̷P̷ ̸I̴T̷ ̷S̴t̷O̷-̶o̵O̶P̶ ̵i̷T̴\e"
+            }
+			
+        }
+		if continuousstroke >= 7 //this would happen starting at 4 pets. Adjust as needed, but you should probably keep it as a multiple of whatever your normal stroking dialogue triggers at
+        {
+            if stroke <= 200 //Stroke count is longer so that you have time to read the dialogue here. Adjust as you like.
+            {  
+                stroke = 0
+                totalpets++
+                currentpetstreak++ //I haven't used this yet, but if you want to count successful pets for the high score rather than the raw stroke value, use this variable instead. More on this below.
+                "\0\s[0] i̵ ̴h̶A̴T̸E̸ ̷t̸H̶i̴-̵i̶-̷I̸S̶ \e"
+				"\0\s[0] i̵ ̵h̵-̷H̶-̶A̴T̴e̴ ̴Y̷o̷U̵U̴\e"
+				"\0\s[0] yYoU-\e"
+            }
+			
+        }
+		if continuousstroke >= 10 //this would happen starting at 4 pets. Adjust as needed, but you should probably keep it as a multiple of whatever your normal stroking dialogue triggers at
+        {
+            if stroke <= 200 //Stroke count is longer so that you have time to read the dialogue here. Adjust as you like.
+            {  	
+                stroke = 0
+                totalpets++
+                currentpetstreak++ //I haven't used this yet, but if you want to count successful pets for the high score rather than the raw stroke value, use this variable instead. More on this below.
+                "\0\s[0]I T̵o̵L̴D̷ yy-y-yOU to S̴t̸O̶--\s[20]\w8\w8\w8\w8\w8\w8\w8\-\e" 
+				--
+				ErrorCrashed += 1
+            }
+			
+        }
+        elseif stroke > 200
+        {
+            stroke = 0 //Stroke value is reset
+            totalpets++
+            currentpetstreak++
+            "\0\s[0] sT-T-top it.\e"
+        }
+    }
+	elseif reference4 == "Hands"
+	{
+	"\0\s[0]\f[bold,true]D-dd-dont Touch mE.\f[bold,false]"
+
+	}
+    // elseif reference4 == "Face"
+    // {
+        // if stroke >= 40
+        // {
+            // stroke = 0
+            // "\0\s[0]Face stroking dialogue.\e"
+        // }
+    // }
+}
+OnMouseMove.Blue
+{
+	if reference4 == "Head"
+	{
+		"\p[4]Mwehehehe! That reminds me of my brother."
+		"\p[4]That was nice!"
+		"\p[4]Mweh!"
+		"\p[4]That’s great, my head was getting kind of itchy."
+		"\p[4]What’s going on?"
+		"\p[4]You’re being really nice to me! Thank you!"
+//		"\p[4]"
+	}
+	elseif reference4 == "Hands"
+	{
+			"\p[4]Oh, are you trying to hold my hand? ... Are you scared? (pause) Don’t worry, the Magnificent Sans will protect you!\w8\w8\0\s[0]What could you be scared about?"
+			"\p[4]Don’t worry, it doesn’t hurt that much."
+			"\p[4]I’ll be okay!"
+			"\p[4]I wish I could hold your hands back, but I’m a bit tied up here."
+			"\p[4]\_q(He gives you a supportive smile.)\_q\w8\w8"
+			"\p[4]I see you couldn’t resist holding the Magnificent Sans’s hand."
+			"\p[4]What are you doing?"
+	}
+	elseif reference4 == "Scarf"
+	{
+		"\p[4]Stop it, that tickles!"
+		"\p[4]Are you trying to steal my scarf? Don’t do that, friend! I can’t steal it back from you!"
+		"\p[4]What is it? Do you like my epic swag? Mweheheh, it’s pretty awesome right? My brother helped me put it on."
+		"\p[4]It’s pretty cool, right? It’s my favorite piece of clothing ever."
+		"\p[4]I’d offer to let you try it on, but I can’t help you tie it..."
+	}
+}
+OnMouseMove.Kero
+{
+	
+		"\0\s[10]......"
+	
+}
+OnMouseLeaveAll //Activates when the mouse leaves all hitboxes. You can change to OnMouseLeave if you want it to happen when you leave one hitbox for another
+{
+    if continuousstroke > 40 && continuousstroke > pethighscore //Checks if you're in continuous petting, and if you are, if you got a high score. \C will display the previous balloon again so you can add onto it seamlessly
+    {
+        pethighscore = continuousstroke
+        "\C\n\n(New high score! %(pethighscore)!)\e"
+    }
+    --
+    if currentpetstreak > toppetstreak //Same thing here, but it's counting the number of actual pets you got. You can use this instead of the stroke count if you like.
+    {
+        toppetstreak = currentpetstreak
+        //"\C\n\n(New high score! %(toppetstreak) pets!)\e"
+    }
+    --
+    stroke = 0
+    continuousstroke = 0
+    currentpetstreak = 0
+}
+
+
+

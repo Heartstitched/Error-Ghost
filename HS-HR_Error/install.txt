@@ -1,0 +1,5 @@
+charset,UTF-8
+type,ghost
+
+name,Error
+directory,HS-HR_Error

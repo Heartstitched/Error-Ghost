@@ -1,0 +1,405 @@
+//Envelopes/word groups can be so much more than a simple basic list! Here's an example to make you think outside the box a little. To be used with dialogues like:
+//"I spent like 3 hours at the store the other day, looking for a shirt in %(favoredcolors). I found everything but, can you believe it?"
+//It gets fun because if it's a more mundane color, it's absurd they didn't have it. If it's one of the longer entries here though, why were you looking for that!! That's so oddly specific. But more generally, the kinds of things you add and the kinds of things you leave out can say a TON about a character. Like, this envelope here only has blues and grays. But maybe it could only have soft colors, or only very bold colors! Maybe all the entries are very clinical, or maybe they're long and rambly. Envelopes can say SO much about your character, have fun with them!
+/*
+favoredcolors
+{
+	"baby blue"
+	"cerulean"
+	"mint"
+	"misty gray"
+	"soft blue"
+	"ocean blue"
+	"navy blue"
+	"slate"
+	"aqua"
+	"a blue so rich you could get lost in it for hours"
+	"the very same blue of the dress my mother used to wear every sunday"
+	"a soft blue with hints of green"
+	"an electrifying blue that takes your breath away"
+	"a bold and undeniable blue"
+	"a blue often mistaken for purple"
+	"the kind of blue that makes you sad"
+	"a gray that helps you blend into the crowd"
+	"the grayest gray possible"
+	"a gray so gray you can only see gray for days afterwards"
+}
+*/
+
+//And if you're not interested in making word groups like this at all, you can just remove this whole file! Or use it for something else, you do you
+
+ //%(UndernovellaChitchat)
+UndernovellaChitchat
+{
+	"\s[6]I can't wait to see what Asgoro's gonna do about his son's betrayal."
+	"\0\s[14]It's the only thing worth watching around here..."
+	"\0\s[7]I wonder who Sin's gonna kill next."
+	"\0\s[11]I bet Sin wouldnt put up with your idea of affection either."
+	"\0\s[9]\f[italic,true]Creo que voy a murir de....\f[italic,false]\w8\w8 \0\s[7]fuck how do you say 'anticipation' in spanish?"
+}
+
+//%(ErrorTalksToHimself)
+ErrorTalksToHimself
+{
+	"....I didnt ask! Shut up."
+	"...What?\w8 No,\w5 of course not..."
+	"...I dont care.\w8 It's not meant to exist anyway.\w8 Actually...\w8\w8 Where did you say it was?\w8 I'll just destroy the abomination outright."
+	"...Yeah,\w5 what about it?"
+	"...dont touch me."
+}
+
+SomethingToEat
+{
+"\![*]\q[some chocolate,OnGiveChocolate]"
+"\![*]\q[a milkshake,OnGiveMilkshake]"
+"\![*]\q[chocolate milk,OnGiveChocoMilk]"
+"\![*]\q[battery Acid,OnGiveBatteryAcid]"
+"\![*]\q[a salad,OnGiveSalad]"
+"\![*]\q[some popcorn,OnGivePopcorn]"
+}
+SomethingToWork
+{
+"\![*]\q[some yarn,OnGiveYarn]"
+"\![*]\q[crochet hooks,OnGiveHooks]"
+"\![*]\q[sewing needles,OnGiveNeedles]"
+"\![*]\q[knitting needles,OnGiveKnit]"
+}
+SomethingToWear
+{
+"\![*]\q[a blanket,OnGiveBlanket]"
+"\![*]\q[a pair of sunglasses,OnGiveSunglasses]"
+"\![*]\q[a red scarf,OnGivePapScarf]"
+}
+
+
+
+
+OnGiveChocolate
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"Where did you find this?"
+		"I don't want your pity."
+		"Why should I trust you?"
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"oh… thanks."
+		"for me? huh. I guess you're not so bad."
+		"you got me chocolate? What do you want?"
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"oh boy! chocolate! for meee!"
+		"deliciousss!"
+		"I love it when you try to manipulate me with treats."
+		"yum yum yum."
+		"Did you want a piece?\w8\w8\w8 You should have thought of that before giving me the whole bar!"
+	}
+}
+OnGiveMilkshake
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"ew."
+		"I hate that flavor. Not that I would ever trust you to keep track of the details."
+		"I didn't fucking ask you to get me a milkshake, did I?"
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"Huh? Chocolate? You remembered…"
+		"How did you...\w8 you know what?\w8\w8 \cWho cares?\w8\w8 Thanks,\w8 or whatever."	
+		"Ah, yes.\w8\w8 Shaken milk.\w8 The best way to consume milk.\w8\w8 Naturally."
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"My milkshake brings all the boys to the yard and they're like, mhm mhmmm hmm~!"
+		"Yesss, I was just craving that!"
+		"Chocolatey goodness and sweet sweet cream! Hm… forget I said that."
+		"Yum yum yum!"
+		"You got one for yourself, too, right?"
+	}
+}
+OnGiveChocoMilk
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"This is an acceptable offering."
+		"Hmmm. Not bad"
+		"You will live another day, mortal. Now fetch me another."
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"\_q(He decimates it in one go.)\_q\n\n\w8\w8 Give me more."
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"It’s so good!"
+	}
+}
+OnGiveBatteryAcid
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"What the hell? It smells awful. Where did you fish this out of, the rivers of a nuclear wasteland?"
+		"I’m not going to drink that."
+		"The bubbles are making my nose itch."
+		"Why would I take this?"
+		"I should use this to poison someone."
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"Why does it have this bright color...? I guess I’ll try it."
+		"I wonder if it glows in the dark."
+		"I’ve seen this get poured into a car."
+		"I guess it’s okay. For battery acid."
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"Want some? I can go steal a cup for you."
+		"I feel so energetic after this."
+		"Ouggghhhh my stomach"
+		"You know what? This isn’t half bad.\n\n\w8(SLURRRP)\n\n\w8It’s fizzy!"
+		"I’m all jittery. But in a good way."
+	}
+}
+OnGiveSalad
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"Yuck!"
+		"Ha. Ha. very funny."
+		"What the hell is that?"
+		"Oh boy! Food! \w8\w8\w8 Which is what I would say if I found what you just gave me at all edible."
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"Uh… okay?"
+		"Hm. The tomatoes are… fine, I guess."
+		"The perfect start to a food fight. I really don't care for the mess, though."
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"I'll... try a bite.\w8\w8 Oh,\w8 don't get all excited!\w8\w8 I'm taking ONE bite!\w8\w8\n\n\_q(He pauses to chew)\_q ...\c\w8\w8\w8it's fine."
+		"Is chocolate salad a thing? Heh, could you imagine?"
+		"I don't get why you're sharing your lunch with me. I don't need to eat like you do. No matter what you feed me, I'll always be hungry, anyway! Monsters in general have different nutritional needs to humans… yeah, yeah, I'll take the tomatoes."
+		"Oh, different type today?\w8\w8 What are those little cube things?\w8\w8\w8\w8 ...Croutons?\w8\w8 \n...huh. \w8\w8\w8\n\n\_q(pause to crunch)\_q\w8\w8\w8\w8\w8\w8\w8 \cI see. I demand more of these croutons immediately."
+		"Croooutons!"
+	}
+}
+OnGivePopcorn
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"I get my own stash from abomination thirteen’s pantry. I don't want to think about where you could have possibly got those."
+		"...They're stale."
+		"You got me \w8\w8\w8\w8\w8\nan unpopped bag of popcorn. \w8\w8\w8\w8\w8\nStill in the wrapper. \w8\w8\w8\w8\w8\cAs soon as I find a microwave I'm throwing you in there with it."
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"Kettle corn? uh. Thanks, I guess?"
+		"Pop. pop. pop. pop- huh? oh, uh, right. You got these to eat during the new episode today, right?"
+		"The kernels always get stuck between my teeth. One of the perks of having a bunch of tongues though, is not having to stick my fingers in to pick them out."
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"Oooh! A salty sweet treat that can't be beat! (pause) Did you happen to find any chocolate sauce to drizzle over these?"
+		"Oh. My. STARS! Yes, Yes, Yes! You're practically set for today's episode. I knew you'd love it eventually."
+		"I love it when you try to manipulate me with treats."
+		"yum yum yum."
+		"Pop. pop. pop. pop. POP. pop! Hahaha."
+		"Are these your favorite flavor? … And you're sharing them with me? \s[3]Wow... you really are lame, you know that?"
+	}
+}
+OnGiveYarn
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"what could I possibly need this for?"
+		"It's the wrong color."
+		"ew ew ew, that texture is making me gag!"
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"Yarn… for what?"
+		"I guess I could use this instead of my usual strings. It would probably hurt less."
+		"Blueberry was trying to teach me how to knit with this stuff… where'd you find it?"
+		//(highlight Blue and link to summon him?)
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"The perfect color."
+		"Now this is quality! It's so soft."
+		"Yarn! I could use that on my next project. My strings work well enough, but you never know when you're gonna want to switch things up."
+	}
+}
+OnGiveHooks
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"Did you just try to give me my own hooks?\w8\w8\n Idiot!\w8\w8\cStop touching my things!"
+		"Are you making fun of me?"
+		"They're the wrong size. Did you put any thought into this or did you not have enough brain power for the task?"
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"I've been looking for those. Where did you get them?"
+		"About time you returned those. You didn't even use them!"
+		"Oh, these aren't mine. You can tell by the size. These are too small."
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"There they are! Thanks for finding them."
+		"Excellent, just what I wanted."
+		"Oh, hey, an extra pair. I could teach you how to crochet someday if you wanted? Or, uhm... it's okay if not..."
+		"Don't tell that squid that I'm making outfits for everybody. I would never hear the end of it."
+		//(highlight that squid and summon ink puppet?)
+	}
+}
+OnGiveNeedles
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"I don't need those."
+		"Ouch! watch where you're pointing those things!"
+		"I couldn't care less."
+		"Gee, thanks."
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"What for?"
+		"Is this your way of telling me that my jacket is torn? I know, you jerk."
+		"I crochet. These needles are too small for my strings to work with. Obviously."
+		"Actually, I already have a set of my own. Where are you getting these things? Why do you feel the need to give them to me?"
+		
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"Hah, nice. More things to poke into that pin cushion."
+		//(highlight pin cushion to summon ink puppet?)
+		"Hm… I wonder if I could use these as weapons."
+		"Thanks. You can use these to add small details to any project. I've got a friend in mind who could use some patches."
+	}
+}
+OnGiveKnit
+{
+	if ErrorFriends > 0 && ErrorFriends < 10
+	{
+		"I only keep those around for when Blueberry stops by."
+		"Are you making fun of me?"
+		"\_q(He snaps the needles with an audible crack.)\_q"
+		"Whatever."
+	}
+	elseif ErrorFriends > 11 && ErrorFriends < 20
+	{
+		"Oh… uh, thanks. I broke the last pair. I've been meaning to get some new ones."
+		"Did Blueberry put you up to this?"
+		"Crochet. C R O C H E T. I don't know how to knit and I'm not about to learn of my own volition."
+		"Oh. My. Stars. I'm going to stab you if you hand me these things again. I don't want to think about that damn abomination."
+	}
+	elseif ErrorFriends > 21 && ErrorFriends < 30
+	{
+		"Well… I guess I could get some practice in while Blueberry is off playing hero."
+		"Here, let me show you a few tricks I've come up with. Soon enough, I'm gonna be the best knitter this side of the void has ever seen. I might as well give myself something new to compare to"
+		"Oh, that's where they went. Thanks."
+		" \_q(Error takes the needles and pokes you playfully.)\_q \n\n Have at thee! Hahahah."
+	}
+}
+OnGiveBlanket
+{
+	"yeah"
+	if ErrorFriends >=  10
+	{
+		"It itches."
+		"I hate the texture. Can’t you get something softer if you’re going to try this?"
+		"I hate when you think I need your help. I don't want your help."
+		"Go away."
+		"Ew! Why does it reek?"
+		"I'm not even cold."
+		"Can’t you just leave me alone? I don’t need a blanket, I have a coat for a reason."
+	}
+	elseif ErrorFriends >=  20
+	{
+		"...thanks."
+		"Another one? When did you have time to make this?"
+		"I guess it's pretty soft. It's better than just my coat."
+		"It may not get hot or cold here, but have you ever had a program freeze on you? ...is that why you're giving me a blanket?"
+	}
+	elseif ErrorFriends >=  30
+	{
+		"Sweet! \w8\w8\w8\nYou're not getting this back, by the way."
+		"It smells like you... (\w8\w8\w8\w8 Huh?\w8 What’s weird about that?\w8 It’s comforting.\w8\w8 Heh,\w8 you don’t get it like I do."
+		"It's heavy! That's on purpose? I've never tried a weighted blanket before. (pause) … Hm. Why haven't I? This is rather nice."
+		"Give me more of these. I want to make a blanket nest on the ground."
+		"My blanket empire grows."
+		"Nap kingdom awaits."
+		"Ah… I could take a nap right here. You'd join me, right?"
+		"I was getting cold, thanks. Not really, but… (pause) y’know. I like it. Shut up."
+		"It’s so fluffy"
+	}
+}
+OnGiveSunglasses
+{
+	if ErrorFriends >=  10
+	{
+		"perfect. now I don't have to look at you."
+		"where'd you get those? the dump?"
+		"I don't need your input on my style choices, thanks."
+	}
+	elseif ErrorFriends >=  20
+	{
+		"I'm putting these on because I'm cute as hell in them, not because I like you."
+		"Oh, hey, I've been looking for those."
+		"huh? sunglasses? what for? it's not like there's a fucking sun in here."
+	}
+	elseif ErrorFriends >=  30
+	{
+		"Oh, yes! the perfect set to match my outfit!"
+		"Shades to block out the haters."
+		"Why, thank you! I've been meaning to upgrade my look. You've got a knack for fashion, kid."
+	}
+}
+
+OnGivePapScarf
+{
+	if ErrorFriends >=  10
+	{
+		"It’s not mine, what are you talking about?"
+		"You can’t have it back."
+		"Whose is this?"
+		"Did you sneak this off a Papyrus?\n\w8\![*]\q[Yep,OnIStoleTheScarf] \w8\n\![*]\q[No...,OnDidntStealIt]"
+		"It’s just another scarf. I don’t need a new one. Especially not one that someone else touched."
+		"It doesn’t smell like me. I don’t want it."
+	}
+	elseif ErrorFriends >=  20
+	{
+		"It’s soft… (pause) Someone wore this a lot.” (He looks pensive. His brows pinch, like he’s trying to remember something.)"
+		"I-I don’t know what you want from me. Why would you give me something so precious?"
+		"You shouldn’t have this."
+		"I don’t want it. (He won’t let go of it.)"
+		"Why are you…? Why do you want me to have this? I already have a scarf."
+	}
+	elseif ErrorFriends >=  30
+	{
+		"(He’s touching his own scarf with a contemplative look, comparing the textures.)"
+		"(He’s rubbing the material between his fingertips.)"
+		"(His expression becomes melancholy when he sees it.)"
+		"I don’t want to wear it. It feels wrong. Thanks anyway."
+		"I don’t think I should have this. It doesn’t belong to me. (pause) I think."
+	}
+
+}
+
+
+
+
+
+OnIStoleTheScarf
+{
+	"\_q(He stares down at it.)\_q\w8\w8\w8"
+}
+
+OnDidntStealIt
+{
+	"Liar.\w8\w8"
+}

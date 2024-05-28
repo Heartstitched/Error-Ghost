@@ -1,0 +1,127 @@
+charset,UTF-8
+type,shell
+
+name,Biblically Accurate
+craftman,Hazerun3
+craftmanw,Hazerun3
+craftmanurl,https://www.tumblr.com/hazerun3
+
+seriko.alignmenttodesktop,top
+seriko.use_self_alpha,1
+
+
+//--Sakura Dressups---------------------------------------------
+
+
+
+//--Hats and/or creatures-------------------------------------------
+
+sakura.bindoption2.group,Hats and/or Creatures, 
+// //Pencil
+// sakura.bindgroup904.name,Hats and/or Creatures,Thieved Pencil
+// sakura.bindgroup904.default,0
+
+// //Cat Ears
+// sakura.bindgroup905.name,Hats and/or Creatures,Stupid Cat Ears
+// sakura.bindgroup905.default,0
+
+//Spinky
+sakura.bindgroup911.name,Hats and/or Creatures,La Creatura
+sakura.bindgroup911.default,0
+
+// //Parasite
+// sakura.bindgroup902.name,Hats and/or Creatures,La Creatura Dos
+// sakura.bindgroup902.default,0
+
+//--Glasses---------------------------------------------------------
+
+sakura.bindoption2.group,Glasses
+
+//Circle Glasses
+sakura.bindgroup900.name,Glasses,Circle Glasses
+sakura.bindgroup900.default,0
+
+// //Stolen Heart Glasses
+// sakura.bindgroup901.name,Glasses,Thieved Shades
+// sakura.bindgroup901.default,0
+
+// //Fresh Shades
+// sakura.bindgroup903.name,Glasses,Also Stolen Shades
+// sakura.bindgroup903.default,0
+
+//--Accessories---------------------------------------------------------
+
+//sakura.bindoption2.group,Accessories,multiple 
+
+// //Fancy Boa
+// sakura.bindgroup910.name,Accessories,Fancy Boa
+// sakura.bindgroup910.default,0
+
+//--Clothes---------------------------------------------------------
+
+//Example Outfit
+//sakura.bindgroup900.name,Clothes,Example here
+//sakura.bindgroup900.default,1
+//sakura.bindoption900.group,Clothes,mustselect
+
+//Example Outfit 2
+//sakura.bindgroup901.name,Clothes,Also Example Here
+//sakura.bindgroup901.default,0
+
+
+
+sakura.menu, auto
+
+//--Kero Dressups---------------------------------------------
+
+
+
+//--Puppets--------------------------------------------------
+
+kero.bindoption2.group,Puppets
+
+Ink Puppet
+kero.bindgroup700.name,Puppets,Ink Puppet
+kero.bindgroup700.default,0
+
+//Example Outfit 2
+//sakura.bindgroup901.name,Puppets,
+//sakura.bindgroup901.default,0
+
+
+//--Colors----------------------------------------------------
+kero.bindoption2.group,Souls
+
+//Cyan Soul
+kero.bindgroup801.name,Souls,Cyan Soul
+kero.bindgroup801.default,0
+
+//Yellow Soul
+kero.bindgroup802.name,Souls,Yellow Soul
+kero.bindgroup802.default,0
+
+//Purple Soul
+kero.bindgroup803.name,Souls,Purple Soul
+kero.bindgroup803.default,0
+
+//Orange Soul
+kero.bindgroup804.name,Souls,Orange Soul
+kero.bindgroup804.default,0
+
+//Blue Soul
+kero.bindgroup805.name,Souls,Blue Soul
+kero.bindgroup805.default,0
+
+//Green Soul
+kero.bindgroup806.name,Souls,Green Soul
+kero.bindgroup806.default,0
+
+//Monster Soul
+kero.bindgroup807.name,Souls,Monster Soul
+kero.bindgroup807.default,0
+
+//Cross Soul
+kero.bindgroup808.name,Souls,Cross Soul
+kero.bindgroup808.default,0
+
+kero.menu, auto
