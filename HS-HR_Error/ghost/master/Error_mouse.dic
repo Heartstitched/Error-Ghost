@@ -110,6 +110,11 @@ OnMouseMove.Sakura
 	"\0\s[0]\f[bold,true]D-dd-dont Touch mE.\f[bold,false]"
 
 	}
+	elseif reference4 == "Strings"
+	{
+	"\0\s[0]\f[bold,true]D-dd-dont Touch mE.\f[bold,false]"
+
+	}
     // elseif reference4 == "Face"
     // {
         // if stroke >= 40
