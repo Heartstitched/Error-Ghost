@@ -25,7 +25,7 @@ OnSakuraMenu : all
 }
 OnActMenu : all
 {
-	"(He sighs.)...what do you want?\n"
+	"(He sighs.)... What do you want?\n"
     "(You want to...)\n"
 	"\![*]\q[give an item.,OnErrorGift] \![*]\q[ask for blue.,OnBlueVisit]\n"
 	"\![*]\q[ask to hold his hand.,OnHoldMeHand]"
@@ -83,11 +83,16 @@ OnBlueVisit
 {
 	BlueIsHere = 1
 	--
-	"\p[4]\s[500]\w8\w8Oh- I've been here! Just uh...\w8\w8\w8\w8 hanging around.\w8\w8  \nMweh heh......"
+	"\p[4]\s[500]\w8\w8Oh- I've been here! Just uh...\w8\w8\w8\w8 hanging around. Out of sight, out of mind.\w8\w8  \nMweh heh...... \w8 (he grimaces.)"
 }
 
 OnHoldMeHand
 {
-	
+	"\0\s[11]Don't touch me. \w8\w8 Unless you want to lose all your files."
+	"\0\s[0]Absolutely not."
+	"\0\s[0]Can you get any worse than this? No."
+	"\0\s[1]No."
+	"\0\s[1]Not a chance in hell."
+	"\0\s[1]Are you kidding me? \w8\w8\s[3] Ha! \s[11]No."
 
 }
