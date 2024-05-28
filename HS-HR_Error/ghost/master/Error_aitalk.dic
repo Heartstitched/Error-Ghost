@@ -137,7 +137,7 @@ BlueDropsIn
 	
 	"\p[4]\s[500]Nice desktop you got here! Could use a few more sunglasses and muscles."
 	"\p[4]\s[500]I’m getting used to hanging around here. My arms hurt a little, though…"
-	"\p[4]\s[500]I wonder if I can get Error to feed me a taco like this… Hmmm, not a bad idea! 0\s[7]Not a chance.\w8\w8"
+	"\p[4]\s[500]I wonder if I can get Error to feed me a taco like this... Hmmm, not a bad idea! \0\s[7]Not a chance.\w8\w8" 
 	"\p[4]\s[500]I wonder if I’ll ever see my brother again... \0\s[2]...Should I drag him here too? \p[4]\s[500]No, um, don’t worry about it."
 	"\p[4]\s[500]\_q(It seems like hes whispering to you)\_q \n\nHe’s a bit prickly, right? I don’t think he means any of it. \w8\w8 I’m sure I’ll get through to him eventually."
 	"\p[4]\s[500]I miss eating tacos."

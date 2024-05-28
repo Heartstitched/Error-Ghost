@@ -50,7 +50,7 @@ OnWindowStateRestore
 //Tada! That's your url! Make sure you test it! The dev palette and script/network log can help with that
 On_homeurl
 {
-	"raw.githubusercontent.com/Heartstitched/Error-Ghost/master/Updates/HS-HR_Error/"
+	"https://raw.githubusercontent.com/Heartstitched/Error-Ghost/main/HS-HR_Error/"
 }
 
 
