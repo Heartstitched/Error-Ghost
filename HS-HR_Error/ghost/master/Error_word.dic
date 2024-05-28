@@ -75,7 +75,15 @@ SomethingToWear
 
 
 OnGiveChocolate
-{
+{	
+		"You hand him a bar of chocolate."
+		--
+		"\n\n\n\_b[Choco,100,70]"
+		--
+		"\n\n\nWhere did you find this?"
+		"\n\n\nI don't want your pity."
+		"\n\n\nWhy should I trust you?"
+	/*  
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"Where did you find this?"
@@ -96,9 +104,17 @@ OnGiveChocolate
 		"yum yum yum."
 		"Did you want a piece?\w8\w8\w8 You should have thought of that before giving me the whole bar!"
 	}
+	 */
 }
 OnGiveMilkshake
-{
+{		"You offer him a milkshake."
+		--
+		"\n\n\n\_b[Milkshake,100,70]"
+		--
+		"\n\n\new."
+		"\n\n\nI hate that flavor. Not that I would ever trust you to keep track of the details."
+		"\n\n\nI didn't fucking ask you to get me a milkshake, did I?"
+	/*   
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"ew."
@@ -119,9 +135,18 @@ OnGiveMilkshake
 		"Yum yum yum!"
 		"You got one for yourself, too, right?"
 	}
+	 */
 }
 OnGiveChocoMilk
 {
+		"You give him some chocolate milk."
+		--
+		"\n\n\n\_b[Milkshaaaake,100,70]"
+		--
+		"\n\n\nThis is an acceptable offering."
+		"\n\n\nHmmm. Not bad"
+		"\n\n\nYou will live another day, mortal. Now fetch me another."
+	/*   
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"This is an acceptable offering."
@@ -136,9 +161,20 @@ OnGiveChocoMilk
 	{
 		"It’s so good!"
 	}
+	*/
 }
 OnGiveBatteryAcid
 {
+		"You give him a wine glass of Battery Acid"
+		--
+		"\_b[BatAcid,100,70]"
+		--
+		"\n\n\nWhat the hell? It smells awful. Where did you fish this out of, the rivers of a nuclear wasteland?"
+		"\n\n\nI’m not going to drink that."
+		"\n\n\nThe bubbles are making my nose itch."
+		"\n\n\nWhy would I take this?"
+		"\n\n\nI should use this to poison someone."
+	/*   
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"What the hell? It smells awful. Where did you fish this out of, the rivers of a nuclear wasteland?"
@@ -162,9 +198,19 @@ OnGiveBatteryAcid
 		"You know what? This isn’t half bad.\n\n\w8(SLURRRP)\n\n\w8It’s fizzy!"
 		"I’m all jittery. But in a good way."
 	}
+	*/
 }
 OnGiveSalad
-{
+{		
+		"You offer him a salad."
+		--
+		"\n\n\n\_b[Salad,100,70]"
+		--
+		"\n\n\nYuck!"
+		"\n\n\nHa. Ha. very funny."
+		"\n\n\nWhat the hell is that?"
+		"\n\n\nOh boy! Food! \w8\w8\w8 Which is what I would say if I found what you just gave me at all edible."
+	/* 
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"Yuck!"
@@ -186,9 +232,18 @@ OnGiveSalad
 		"Oh, different type today?\w8\w8 What are those little cube things?\w8\w8\w8\w8 ...Croutons?\w8\w8 \n...huh. \w8\w8\w8\n\n\_q(pause to crunch)\_q\w8\w8\w8\w8\w8\w8\w8 \cI see. I demand more of these croutons immediately."
 		"Croooutons!"
 	}
+	*/
 }
 OnGivePopcorn
 {
+		"You give him some popcorn."
+		--
+		"\n\n\n\_b[Popcorn,100,70]"
+		--
+		"\n\n\nI get my own stash from abomination thirteen’s pantry. I don't want to think about where you could have possibly got those."
+		"\n\n\n...They're stale."
+		"\n\n\nYou got me \w8\w8\w8\w8\w8\nan unpopped bag of popcorn. \w8\w8\w8\w8\w8\nStill in the wrapper. \w8\w8\w8\w8\w8\cAs soon as I find a microwave I'm throwing you in there with it."
+	/*  
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"I get my own stash from abomination thirteen’s pantry. I don't want to think about where you could have possibly got those."
@@ -210,9 +265,18 @@ OnGivePopcorn
 		"Pop. pop. pop. pop. POP. pop! Hahaha."
 		"Are these your favorite flavor? … And you're sharing them with me? \s[3]Wow... you really are lame, you know that?"
 	}
+	 */
 }
 OnGiveYarn
 {
+		"You toss him a ball of yarn."
+		--
+		"\n\n\n\_b[Yarn,100,70]"
+		--
+		"\n\n\nwhat could I possibly need this for?"
+		"\n\n\nIt's the wrong color."
+		"\n\n\new ew ew, that texture is making me gag!"
+	/*  
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"what could I possibly need this for?"
@@ -232,14 +296,22 @@ OnGiveYarn
 		"Now this is quality! It's so soft."
 		"Yarn! I could use that on my next project. My strings work well enough, but you never know when you're gonna want to switch things up."
 	}
+	 */
 }
 OnGiveHooks
-{
+{		
+		"You hand him some crochet hooks."
+		--
+		"\n\n\n\_b[CrochetHooks,100,70]"
+		--
+	"\n\n\nDid you just try to give me my own hooks?\w8\w8\n Idiot!\w8\w8\cStop touching my things!"
+	"\n\n\nAre you making fun of me?"
+	"\n\n\nThey're the wrong size. Did you put any thought into this or did you not have enough brain power for the task?"
+
+	/*   
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
-		"Did you just try to give me my own hooks?\w8\w8\n Idiot!\w8\w8\cStop touching my things!"
-		"Are you making fun of me?"
-		"They're the wrong size. Did you put any thought into this or did you not have enough brain power for the task?"
+
 	}
 	elseif ErrorFriends > 11 && ErrorFriends < 20
 	{
@@ -255,9 +327,19 @@ OnGiveHooks
 		"Don't tell that squid that I'm making outfits for everybody. I would never hear the end of it."
 		//(highlight that squid and summon ink puppet?)
 	}
+	*/
 }
 OnGiveNeedles
 {
+		"You offer him a set of sewing needles."
+		--
+		"\n\n\n\_b[SewNeedles,100,70]"
+		--
+		"\n\n\nI don't need those."
+		"\n\n\nOuch! watch where you're pointing those things!"
+		"\n\n\nI couldn't care less."
+		"\n\n\nGee, thanks."
+	/*  
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"I don't need those."
@@ -280,9 +362,19 @@ OnGiveNeedles
 		"Hm… I wonder if I could use these as weapons."
 		"Thanks. You can use these to add small details to any project. I've got a friend in mind who could use some patches."
 	}
+	 */
 }
 OnGiveKnit
 {
+		"You give him a set of knitting needles."
+		--
+		"\n\n\n\_b[KnitNeedles,100,70]"
+		--
+		"\n\n\nI only keep those around for when Blueberry stops by."
+		"\n\n\nAre you making fun of me?"
+		"\n\n\n\_q(He snaps the needles with an audible crack.)\_q"
+		"\n\n\nWhatever."
+	/*  	
 	if ErrorFriends > 0 && ErrorFriends < 10
 	{
 		"I only keep those around for when Blueberry stops by."
@@ -304,10 +396,22 @@ OnGiveKnit
 		"Oh, that's where they went. Thanks."
 		" \_q(Error takes the needles and pokes you playfully.)\_q \n\n Have at thee! Hahahah."
 	}
+	*/
 }
 OnGiveBlanket
 {
-	"yeah"
+		"You hand him a blanket"
+		--
+		"\n\n\n\_b[Blanket,100,70]"
+		--
+		"\n\n\nIt itches."
+		"\n\n\nI hate the texture. Can’t you get something softer if you’re going to try this?"
+		"\n\n\nI hate when you think I need your help. I don't want your help."
+		"\n\n\nGo away."
+		"\n\n\nEw! Why does it reek?"
+		"\n\n\nI'm not even cold."
+		"\n\n\nCan’t you just leave me alone? I don’t need a blanket, I have a coat for a reason."
+	/*
 	if ErrorFriends >=  10
 	{
 		"It itches."
@@ -337,11 +441,21 @@ OnGiveBlanket
 		"I was getting cold, thanks. Not really, but… (pause) y’know. I like it. Shut up."
 		"It’s so fluffy"
 	}
+	*/
 }
 OnGiveSunglasses
-{
+{	
+	"You offer him a pair of sunglasses" 
+	--
+	"\n\n\n\_b[Sunglsses,100,70]"
+	--
+	"\n\n\nperfect. now I don't have to look at you."
+	"\n\n\nwhere'd you get those? the dump?"
+	"\n\n\nI don't need your input on my style choices, thanks."
+	/*
 	if ErrorFriends >=  10
 	{
+		
 		"perfect. now I don't have to look at you."
 		"where'd you get those? the dump?"
 		"I don't need your input on my style choices, thanks."
@@ -358,10 +472,22 @@ OnGiveSunglasses
 		"Shades to block out the haters."
 		"Why, thank you! I've been meaning to upgrade my look. You've got a knack for fashion, kid."
 	}
+	*/
 }
 
 OnGivePapScarf
 {
+	"You toss him worn red scarf" 
+	--
+	"\n\n\n\_b[PapScarf,100,70]"
+	--
+		"\n\n\nIt’s not mine, what are you talking about?"
+		"\n\n\nYou can’t have it back."
+		"\n\n\nWhose is this?"
+		"\n\n\nDid you sneak this off a Papyrus?\n\w8\![*]\q[Yep,OnIStoleTheScarf] \w8\n\![*]\q[No...,OnDidntStealIt]"
+		"\n\n\nIt’s just another scarf. I don’t need a new one. Especially not one that someone else touched."
+		"\n\n\nIt doesn’t smell like me. I don’t want it."
+	/*  
 	if ErrorFriends >=  10
 	{
 		"It’s not mine, what are you talking about?"
@@ -387,6 +513,7 @@ OnGivePapScarf
 		"I don’t want to wear it. It feels wrong. Thanks anyway."
 		"I don’t think I should have this. It doesn’t belong to me. (pause) I think."
 	}
+	*/
 
 }
 

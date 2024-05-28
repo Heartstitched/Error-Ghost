@@ -24,6 +24,8 @@ Development Team:
 
 Error Sans: CrayonQueen / loverofpiggies at https://www.tumblr.com/loverofpiggies
 Underswap Sans / Blue: popcornpr1nce / UTMV Community https://www.tumblr.com/tagged/popcornpr1nce
+Ink Sans: Comyet at https://comyet.tumblr.com
+
 Dressup Recognition: https://ukagaka.zichqec.com/function/index#wearingdressup
 Continuous Petting code: https://ukagaka.zichqec.com/minigame/index#continuous_petting
 Simplicity Template v1.0.8 https://github.com/Zichqec/simplicity_template

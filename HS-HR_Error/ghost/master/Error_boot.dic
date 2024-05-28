@@ -11,9 +11,7 @@ OnFirstBoot
     currentpetstreak = 0
 	CurrentDressups = IARRAY
 	ErrorFriends = 0
-	
-	"\1\s[10]\0\s[0]Hello, and welcome to the Simplicity Template, %(username).\w8 As the name implies, this template is very simple.\w8 You will notice there is not much here.\w8 That's on purpose!\w8 This template's primary goal is to make ghost creation less intimidating.\w8 You really need almost nothing to make a ghost;\w4 a basic shell with some interesting randomtalk can be an incredible and fun experience.\w8 So all those boring functions to do with email checking and such?\w8 Not here, unless you decide you want to add them.\w8 Don't let tedious functions tire you out before you can finish your ghost!\w8 Make something simple and fun, or start small and expand upon it later!\w8 Embrace the freedom of simplicity!"
-	
+		
 	"\0\s[2]What the-?\w8\w8 \s[11]Who are you?\w8\w8\w8\cWhere am I?? \w8\w8\w8\cWhere have you- \s[2]\w8\w8\w8\cI mean!\n\n\s[0]You! \w8\w8\w8\cYes, of course... \w8\w8\w8\c\s[6]You are my prisoner now... \w8\w8\w8I suppose you'll just have to rely on me for most things,\w8\w8 hm?\w8\w8\w8 So be it.\w8\w8\w8\c\s[13]I expect you to call me Error.\w8\w8\w8 \c\s[14]I am The God of Destruction.\w8 \s[6]I can destroy your precious files or corrupt your all-so-exciting programs.\w8 \cEither you treat me with due respect, or I destroy everything you know and love in a snap.\w8\w8\w8 \c\s[9]Capiche? \w8\w8\w8 \c\s[6]Good...\w8\w8\w8"
  
  //\cYou might as well give me something to call you. Unless you're okay being called ‘dumbass, idiot, or fuckwit.’ No?
