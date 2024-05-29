@@ -26,7 +26,7 @@ RandomTalk : nonoverlap_pool
 	"\0\s[7]Anomaly Thirteen hasn't bought new chocolate in a while... \w8\w8\w8\s[0]Hey you, go get me some."
 //	"\0\s[7]Anomaly 13 hasn't bought new chocolate in a while... \w8\w8\w8\s[0]Hey, %(username), go get me some."
 	"\0\s[0]Hey... \w8 \s[7] \w8\w8\w8\w8\s[0]If you're going to make something, see it though to the end. \s[1] Don't just make more trash for me to clean up."
-	"\p[3]\s[100]\0\s[0]Oh, hey Classic....\w8\w8\s[9]\ndon't tell anyone... But \nhe's my favorite.\s[6] \w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8 \p[3]\s[-1]"
+	"\p[3]\s[100]\0\s[0]Oh, hey Classic....\w8\w8\s[9]\ndon't tell anyone... But \nhe's my favorite.\w8\w8\s[6] \w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8 \p[3]\s[-1]"
 	"\0\s[2]You haven't said anything in a while. I don't know if the silence is better or worse."
 	"\0\s[12]Don't mind me. I'm just... hanging out."
 	"\0\s[2]There's supposed to be a new episode of Undernovela tonight. \w8\w4\n\n%(UndernovellaChitchat)"
@@ -71,8 +71,6 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[101]... \x\p[3]\s[-1]"
 	"\p[3]\s[101]You're so lonely here! Don't worry, I'll be your friend!\n\w8We can do everything together! \0\s[0]No one asked you, Abomination Thirteen! \x\p[3]\s[-1]"
 	"\p[3]\s[101]Grrr, you took all my chocolate again! \w8\w8\0\s[6]Mwahaha! It wasn’t like you’d enjoy it as much as I do, anyway! \w8 I’m going to throw my wrappers back into your room now! \w8\p[3]\s[101]\cNooo! \w8\w8\0\s[6]\cYesss! \x\p[3]\s[-1]"
-	
-
 	
 	//ink
 	"\p[3]\s[103]... ... ... \x\p[3]\s[-1]"

@@ -26,39 +26,177 @@ OnSakuraMenu : all
 OnActMenu : all
 {
 	"(He sighs.)... What do you want?\n\n"
-    "(You want to...)\n"
+    "\_q(You want to...)\_q\n"
 	"\![*]\q[CHECK,OnCheck], \![*]\q[FLIRT,OnFlirt], \n"
 	"\![*]\q[JOKE,OnJoke], \![*]\q[ITEM.,OnErrorGift]\n"
 	
 }	
-
-OnCheck : all
+OnHoldMeHand
 {
-	"[ERROR]  ATK ??? DEF ??? \n (He thinks you're strange, but tolerable.) \n\n\0\s[0]Oi, what are you looking for?"
-	"[ERROR]  ATK ??? DEF ??? \n (He's been looking straight at you this whole time.) \n\n\0\s[0]There's nothing else interesting to look at."
-	"[ERROR]  ATK ??? DEF ??? \n (He knows you're watching.) \n\n\0\s[1]..."
-	"[ERROR]  ATK ??? DEF ??? \n (He's getting tired of cleaning up other people's messes.) \n\n\0\s[7]Seriously, it's getting annoying."
-	"[ERROR]  ATK ??? DEF ??? \n (The Destroyer. He's erased more timelines than you can count.) \n\n\0\s[6]That's right."	
-	"[ERROR]  ATK ??? DEF ??? \n (God of Destruction. Or so he calls himself.) \n\n\0\s[1]It's the name you freaks gave me, isn't it?! \w8\w8\s[11]It isn't my fault for responding to it!"	
+	"\0\s[11]Don't touch me. \w8\w8 Unless you want to lose all your files."
+	"\0\s[0]Absolutely not."
+	"\0\s[0]Can you get any worse than this? No."
+	"\0\s[1]No."
+	"\0\s[1]Not a chance in hell."
+	"\0\s[1]Are you kidding me? \w8\w8\s[3] Ha! \s[11]No."
+
+}
+OnCheck
+{
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(He thinks you're strange, but tolerable.)\q \n\n\0\s[0]Oi, what are you looking for?"
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(He's been looking straight at you this whole time.) \n\n\0\s[0]There's nothing else interesting to look at."
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(He knows you're watching.) \n\n\0\s[1]..."
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(He's getting tired of cleaning up other people's messes.) \n\n\0\s[7]Seriously, it's getting annoying."
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(The Destroyer. He's erased more timelines than you can count.) \n\n\0\s[6]That's right."	
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(God of Destruction. Or so he calls himself.) \n\n\0\s[1]It's the name you freaks gave me, isn't it?! \w8\w8\s[11]It isn't my fault for responding to it!"	
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(Error is in a constant state of agony.)\n\n\0\s[7]Tch, I'm fine. Don't listen to that thing."
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(Error twitches uncontrollably for a few seconds.) \w8\w8\w8\n\n\0\s[5]Never been better."
+	"\0\s[0][ERROR]  ATK ??? DEF ??? \n(Error taps a rhythm with his left hand.) \w8\w8\n\n\0\s[0]Okay. Bored, mostly."
+	"\0\s[1][ERROR]  ATK ??? DEF ??? \nWhy do you care? \n\n(Error doesn't feel like talking right now. Maybe give him a gift?)"
+	"\0\s[0][ERROR] ATK ??? DEF ??? \n(Error hums along to a short melody.) \n\nJust peachy."
+	"\0\s[5][ERROR] ATK ??? DEF ??? \n(Error is responding to voices you can't hear.) \w8\n\nShut up. \w8Shut up, \w8\0\s[1]SHUT UP. I can hear you."
+	"\0\s[1][ERROR] ATK ??? DEF ??? \n(Error flickers wildly.) \w8\w8\n\nHahahahahahhaha...\w8\w8\0\s[20] HAHAHAHAHHA!"
+	"\0\s[1][ERROR] ATK ??? DEF ??? \n(Error sounds very quiet.) \0\s[14]\w8\w8\n\nYou can't save me. There's nothing to save. Stop acting like you care. You're only going to get my hopes up. "
+	"\0\s[1][ERROR] ATK ??? DEF ??? \n(Error is skipping like a broken record.) \0\s[20]\w8\w8\n\nWhat's the point? What's the point? What's the point? What's the point? What's the"
+	"\0\s[0][ERROR] ATK ??? DEF ??? \n(Error is experiencing a sugar high.) \w8\w8\n\nWONDERFUL! WHAT ARE YOU DOING? \w8ARE YOU HAVING FUN? WHERE HAVE YOU BEEN? WELCOME BACK!! \0\s[20]HAHAHAHAHAHA! "
+	
 
 }
 
-OnFlirt : all
-{
+OnFlirt
+{	
+	OnFlirt1
+	{
+	"\0\s[0]\_q(You tell Error that his glitches look lovely today.)\_q \w8\w8\c %(OnFlirt1A)"
+	}
+	/*OnFlirtTest
+	{
+		"Test"
+	}*/
 	
+	OnFlirt2
+	{	
+	"\0\s[0]\_q(You tell Error that his outfit is very well put together.)\_q \w8\w8\c %(OnFlirt2A)"
+	}
+	
+	OnFlirt3
+	{
+		"\0\s[0]\_q(You tell Error that he's your favorite.)\_q \w8\w8\c %(OnFlirt3A)"
+	}
+		
 }
 
-OnJoke : all
+OnJoke
 {
-	
+	/*
+	"Oh! I've got one! What do you call a fish with no eyes? (pause) blind! Did you see what I did there? Usually the answer to that is ‘fshhh!’ Did I getcha? Hahaha!"
+"What do you call [Blank]? (pause) a write-off!"
+"How many Sanses does it take to destroy a timeline? (pause) ONE! Just meee!!!"
+[When Blue is summoned] "Hey, why are you looking so blue, Blueberry? I haven't even destroyed your timeline yet. And boy, have I had sooo much practice! Your universe is one of the worst, you know that? I bet even your own creator abandoned you because of how many timelines and variants your abomination of a story spawned. I know I would. I mean, golly! There's gotta be dozens upon dozens of versions of you! You're, like, worthless!"
+"1G for your thoughts? Hah! As if I'd pay that high of a price."
+"Why did the skeleton flake out from attending the party? (pause) because he had no body to go with. hah. haha… Actually, it was because he wasn't invited in the first place."
+"You just can't trust atoms… (pause) because they make up everything!"
+"Why did the chicken cross the road? (pause) to get to the idiot’s house. Knock knock. (pause) it's the chicken!"
+"There's nothing to laugh about… except for your face! Hahaha!"
+
+
+	*/
 }
 
 OnAskMenu : all
 {
-	"Of course you've got a question for me...\n"
+	"\0\s[14] Of course you've got a question for me...\n"
+	"(Ask him about...)\n\n"
+	"\![*]\q[Preferences,OnAskPrefer], \![*]\q[Puppets,OnAskPuppet], \n"	
+	"\![*]\q[AUs,OnAskAU], \![*]\q[Outfits,OnAskOutfit], \n"	
+	"\![*]\q[ask for Blue.,OnBlueVisit], \![*]\q[holding his hand,OnHoldMeHand]\n"
 	
-	"\![*]\q[ask for Blue.,OnBlueVisit]\n"
 }
+
+OnAskPrefer : all
+{
+	"(What are his preferences for...)\n\n"
+	"\![*]\q[Colors,OnPreferColor], \![*]\q[Food,OnPreferFood], \n"	
+	"\![*]\q[Touch,OnPreferTouch]\n"	
+	
+	OnPreferColor
+{
+	/*
+	"Blue, I guess? Red and Yellow are good, too."
+"What a childish, immature question. I have no such opinions on the topic. (pause) H’yellooow, I'll have blue know that I'm quite red up with such debasing questions!"
+"Blue. what? What?? WHAT??? It's a classic."
+*/
+}
+
+OnPreferFood
+{
+	/*
+	"Dark Chocolate is the best flavor, no competition. I don't want to see a single DROP of caramel, thank you very much."
+"Milkshakes are fine if they're chocolate. Chocolate smoothies though? Yuck."
+"Popcorn is the perfect thing to snack on while watching my favorite show."
+"I'm always hungry. It's a perpetual state of being, when you're in the antivoid. You don't need anything to sustain your life form here, you just exist. That's why you can't force me to touch anything green, thank you very much. If I don't need it, AND I don't want it, then I will not have it!"
+"Who needs food anyway? It's overrated. Except for chocolate… Specifically, when it's raided from Abomination Thirteen's fridge."
+
+	*/
+}
+
+OnPreferTouch
+{
+	/*
+	"Just don't. I can't stand it, and I don't care for it. If you touch me for long enough, I'll just crash, and it is the most irritating thing (pause)…what's with that look on your face?"
+"You never know when someone's touch will be gentle or harsh. I don't like guessing."
+"It's been a long time. How would you like it if someone you barely knew started petting you out of nowhere?"
+
+	*/
+}
+}
+
+
+OnAskPuppet : all
+{
+	"(What are his preferences for...)\n\n"
+	"\![*]\q[Blue,OnPuppetBlue], \![*]\q[Ink,OnPuppetInk], \n"	
+	"\![*]\q[Red (Abomination 13),OnPuppetRed], \![*]\q[Classic,OnPuppetClassic]\n"	
+	
+	OnPuppetBlue
+	{
+		"\p[3]\s[500]"
+	}
+	
+	OnPuppetInk
+	{
+		"\p[3]\s[103]"
+	}
+	
+	OnPuppetRed
+	{
+		"\p[3]\s[101]"
+	}
+	OnPuppetClassic
+	{
+		"\p[3]\s[100]"
+	}
+}
+
+	
+
+OnAskAU : all
+{
+	/*
+	Antivoid
+Error
+Papyrus
+Underground
+Multiverse
+Guardian
+	*/
+}
+
+OnAskOutfit : all
+{
+	
+}
+
 
 OnLastTalk
 {
@@ -106,13 +244,3 @@ OnBlueVisit
 	"\p[4]\s[500]\w8\w8Oh- I've been here! Just uh...\w8\w8\w8\w8 hanging around. Out of sight, out of mind.\w8\w8  \nMweh heh...... \w8 (he grimaces.)"
 }
 
-OnHoldMeHand
-{
-	"\0\s[11]Don't touch me. \w8\w8 Unless you want to lose all your files."
-	"\0\s[0]Absolutely not."
-	"\0\s[0]Can you get any worse than this? No."
-	"\0\s[1]No."
-	"\0\s[1]Not a chance in hell."
-	"\0\s[1]Are you kidding me? \w8\w8\s[3] Ha! \s[11]No."
-
-}
