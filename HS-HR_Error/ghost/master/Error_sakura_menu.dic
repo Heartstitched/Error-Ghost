@@ -1,7 +1,7 @@
 SakuraMenuGreetings : nonoverlap
 {
 	"What now??"
-	"What- so you think i'll just-- ugh. fine."
+	"What- so you think I'll just-- ugh. fine."
 }
 
 //Because there is an all modifier here, you don't need to write -- between menu options
@@ -16,29 +16,49 @@ OnSakuraMenu : all
 
 	if LastTalk != ""; "\![*]\q[Say that again,OnLastTalk]"
 	"\n\n"
-		"Or would you rather.....\n\n"
-	"\![*]\q[perform an ACTion,OnActMenu] or \n\![*]\q[ask a question?,OnAskErrorMenu]"
+		"Or, would you rather.....\n\n"
+	"\![*]\q[ACT,OnActMenu] \n\![*]\q[ask him something?,OnAskMenu]"
 	"\n\n"
 	"\![*]\q[Speech Settings,OnTalkRateMenu]\n\n"
 	
-	"\![*]\q[Nevermind,blank]"	
+	"\![*]\q[Nevermind...,blank]"	
 }
 OnActMenu : all
 {
-	"(He sighs.)... What do you want?\n"
+	"(He sighs.)... What do you want?\n\n"
     "(You want to...)\n"
-	"\![*]\q[give an item.,OnErrorGift] \![*]\q[ask for blue.,OnBlueVisit]\n"
-	"\![*]\q[ask to hold his hand.,OnHoldMeHand]"
-	
+	"\![*]\q[CHECK,OnCheck], \![*]\q[FLIRT,OnFlirt], \n"
+	"\![*]\q[JOKE,OnJoke], \![*]\q[ITEM.,OnErrorGift]\n"
 	
 }	
 
-OnAskErrorMenu : all
+OnCheck : all
 {
-	"Of course you've got a question for me..."
+	"[ERROR]  ATK ??? DEF ??? \n (He thinks you're strange, but tolerable.) \n\n\0\s[0]Oi, what are you looking for?"
+	"[ERROR]  ATK ??? DEF ??? \n (He's been looking straight at you this whole time.) \n\n\0\s[0]There's nothing else interesting to look at."
+	"[ERROR]  ATK ??? DEF ??? \n (He knows you're watching.) \n\n\0\s[1]..."
+	"[ERROR]  ATK ??? DEF ??? \n (He's getting tired of cleaning up other people's messes.) \n\n\0\s[7]Seriously, it's getting annoying."
+	"[ERROR]  ATK ??? DEF ??? \n (The Destroyer. He's erased more timelines than you can count.) \n\n\0\s[6]That's right."	
+	"[ERROR]  ATK ??? DEF ??? \n (God of Destruction. Or so he calls himself.) \n\n\0\s[1]It's the name you freaks gave me, isn't it?! \w8\w8\s[11]It isn't my fault for responding to it!"	
+
 }
 
+OnFlirt : all
+{
+	
+}
 
+OnJoke : all
+{
+	
+}
+
+OnAskMenu : all
+{
+	"Of course you've got a question for me...\n"
+	
+	"\![*]\q[ask for Blue.,OnBlueVisit]\n"
+}
 
 OnLastTalk
 {

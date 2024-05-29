@@ -23,7 +23,7 @@ RandomTalk : nonoverlap_pool
 	"\0\s[0]Hey,\w8\s[6]there's a new Undernovela timeline starting up soon, do you want to watch it with me? \n\w8\w8\s[3]Don't worry, I'll explain everything. I'm an expert."
 //	"\0\s[0]Hey %(username),\w8\s[6]there's a new Undernovela timeline starting up soon, do you want to watch it with me? \n\w8\w8\s[3]Dont worry, I'll explain everything."
 	"\0\s[0] It's so.\s[7] \w8\w8\w8Noisy here. \n\w8\s[8]At least in the antivoid I had some peace and quiet."
-	"\0\s[7]Anomaly 13 hasn't bought new chocolate in a while... \w8\w8\w8\s[0]Hey you, go get me some."
+	"\0\s[7]Anomaly Thirteen hasn't bought new chocolate in a while... \w8\w8\w8\s[0]Hey you, go get me some."
 //	"\0\s[7]Anomaly 13 hasn't bought new chocolate in a while... \w8\w8\w8\s[0]Hey, %(username), go get me some."
 	"\0\s[0]Hey... \w8 \s[7] \w8\w8\w8\w8\s[0]If you're going to make something, see it though to the end. \s[1] Don't just make more trash for me to clean up."
 	"\p[3]\s[100]\0\s[0]Oh, hey Classic....\w8\w8\s[9]\ndon't tell anyone... But \nhe's my favorite.\s[6] \w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8 \p[3]\s[-1]"
@@ -52,15 +52,36 @@ RandomTalk : nonoverlap_pool
 	"\0\s[7]\_q(Error is muttering strange things to himself.) \_q"
 	"\0\s[0]\_q(Error is resisting the urge to pace.) \_q"
 	"\0\s[0]\_q(Error is jittering in his seat.) \_q"
-	"\0\s[3]\_q(Error is humming something under his breath.) \_q"
+	"\0\s[3]\_q(Error is clicking his needles around.) \_q"
+	"\0\s[3]\_q(Error is absentmindedly winding strings around his fingers.) \_q"
+	"\0\s[7]\_q(Error is discreetly untangling himself from his strings.) \_q"
+	"\0\s[3]\_q(Error is cursing under his breath at a knot in his thread.) \_q"
+	"\0\s[0]\_q(Error is scowling at a complex pattern.) \_q"
+	"\0\s[5]\_q(Error is getting lost in code.) \_q"
+	
+
 	
 	//classic
 	"\p[3]\s[100]... \x\p[3]\s[-1]"
+	"\p[3]\s[100]... \w8\w8\w8\p[0]\s[3]Why yes,\w8 Classic,\w8 I do know everything that happened in Undernovela season one.\w8\p[0]\s[15] I can recite it all off the top of my head to you right now. \w8\w8\p[3]\s[100]Error, you're so cool. \w8\p[0]\s[3]"
+
+	"\p[3]\s[100]... \x\p[3]\s[-1]"
+
+	//fell or red
 	"\p[3]\s[101]... \x\p[3]\s[-1]"
-	"\p[3]\s[103]... \x\p[3]\s[-1]"
-	"\p[3]\s[104]Heyyy pal! Whatcha up to? \p[0]\s[1]\w8\w8Ugh, Ink! Go away!\x\p[3]\s[-1]"
-	"\p[3]\s[104]Just checking in on ya, pal! Remember to take care of yourself!\x\p[3]\s[-1]"
-	"\p[3]\s[104]It's been a while since I've last seen ya, Error. \w8\w8\p[3]\s[103]When are you gonna say hi again? \p[0]\s[0]\w8\w8 Never.\x\p[3]\s[-1]"
+	"\p[3]\s[101]You're so lonely here! Don't worry, I'll be your friend!\n\w8We can do everything together! \0\s[0]No one asked you, Abomination Thirteen! \x\p[3]\s[-1]"
+	"\p[3]\s[101]Grrr, you took all my chocolate again! \w8\w8\0\s[6]Mwahaha! It wasn’t like you’d enjoy it as much as I do, anyway! \w8 I’m going to throw my wrappers back into your room now! \w8\p[3]\s[101]\cNooo! \w8\w8\0\s[6]\cYesss! \x\p[3]\s[-1]"
+	
+
+	
+	//ink
+	"\p[3]\s[103]... ... ... \x\p[3]\s[-1]"
+	"\p[3]\s[103]Been working on that for a while now, pal!\x\p[3]\s[103]"
+	"\p[3]\s[103]So, Error... \p[0]\s[0]\w8\w8\w8What? \p[3]\s[103]\w8\w8How's your most recent crochet project?\p[0]\s[6]\w8\w8Well, it's about time that you asked. Here,\w8 take a look. \p[3]\s[104]\c\w8Wow, it looks great Error!\p[0]\s[12]\w8\w8\c... Thanks. Of course it does!\w8\w8"
+	
+	"\p[3]\s[104]Heyyy pal! Whatcha up to? \p[0]\s[1]\w8\w8Ugh, Ink! Go away!\x\p[3]\s[-1]Awww..."
+	"\p[3]\s[104]Just checking in on ya, pal! \w8\w8\nRemember to take care of yourself!\p[0]\s[0]\x\p[3]\s[-1]"
+	"\p[3]\s[104]It's been a while since I've last seen ya, Error. \w8\w8\p[3]\s[103]When are you gonna say hi again? \p[0]\s[6]\w8\w8 Never.\x\p[3]\s[-1]"
 
 
 	"\p[3]\s[100]... \x\p[3]\s[-1]"
@@ -71,7 +92,12 @@ RandomTalk : nonoverlap_pool
  if WearingDressup("Circle Glasses")
 	{ 
 		"\0\s[0] What are you staring at."
-		"\0\s[0]I didn't notice before but \s[2] Your place is a mess! \w8 \n \s[0] Clean up your files or I'll do it for you."
+		"\0\s[0]I didn't notice before but... \w8\w8\s[2] Your place is a mess! \w8\n\s[0]Clean up your files or I'll do it for you."
+		"\0\s[0]I thought I lost these glasses a long time ago, actually."
+		"\0\s[3]Wearing these makes me wonder if I can find my lost crochet hooks..."
+		"\0\s[0]Hmm, interesting. \w8\w8 \s[2]Huh? I'm trying to read along. \w8\w8 \s[6]Of course you'd be excited to have my company."
+		"\0\s[3]This is less boring now that I can see."
+		"\0\s[14]You have some strange hobbies..."		
 	}
   //if wearing benjis glasses
   if WearingDressup("Thieved Shades")
@@ -122,14 +148,14 @@ OnLookChoiceNada
 	"\0\s[13]Not even whatever you're doing??\w8\w8\w8\c\0\s[2]Wow.\w8\w8 \0\s[11]\cYou must think I'm some sort of idiot."
 	"\0\s[11]\w8... That's what I thought."
 	"\0\s[0]Stop ignoring me!"
-	"\0\s[0]Rude."
+	"\0\s[0]Rude. I'm right here."
 }
 BlueDropsIn
 {
 	BlueIsHere = 1
 	--
 //\p[4]\s[500]
-	"\p[4]\s[500]When can I go home?\w8 I'm hungry... \w8\w8\0\s[0]You can't starve in the antivoid,\w8 idiot.\w8\w8\n The sense of hunger will follow you forever.\w8\w8\p[4]\s[500]\c.....(disturbed) \0\s[0]\cand I'm already feeding you chocolate. \p[4]\s[500]\cth-thats not enough food to stave off hunger.\0\s[0]\cit isn't?\w8\w8\w8\c...oh, yeah,\w8 I knew that,\w8\w8\nbut since you're on good behavior,\w8 I might as well raid the rest of abomination thirteen’s fridge."
+	"\p[4]\s[500]When can I go home?\w8 I'm hungry... \w8\w8\0\s[0]You can't starve in the antivoid,\w8 idiot.\w8\w8\n The sense of hunger will follow you forever.\w8\w8\p[4]\s[500]\c.....(disturbed) \0\s[0]\cand I'm already feeding you chocolate. \p[4]\s[500]\cth-thats not enough food to stave off hunger.\0\s[0]\cit isn't?\w8\w8\w8\c...oh, yeah,\w8 I knew that,\w8\w8\nbut since you're on good behavior,\w8 I might as well raid the rest of Abomination Thirteen’s fridge."
 	"\0\s[0]Stop twitching.\w8 I can feel it when you move and it's distracting.\w8\w8\p[4]\s[500]I'm sorry,\w8 I can't help it.\w8\w8\w8\0\s[0]\cWhy the hell not?\w8\w8 \p[4]\s[500]\cIt's really uncomfortable.\w8 Can you please let me out of the strings?\w8 I promise I won't go.\w8\w8 \0\s[0]\cI'm not falling for that."
     "\p[4]\s[500]I wish you would meet Alphys.\w8\w8 She's really fun,\w8 you'd like her.\w8\w8\w8\0\s[0]Who...-\p[4]\s[500]\c...I told you,\w8 she's the captain of the royal guard-\w8\w8 \0\s[0]\n-asked?\w8\w8\s[9]\cHA\w3HA\w3HA\w3HA\w8\w8\p[4]\s[500]\c\w8.\w8.\w8."
 	"\0\s[0]Shut up.\w8\w8\p[4]\s[500]I didn't say anything!\w8\w8\w8\0\s[0]\cYou're breathing SO loud.\w8 You don't even need to breathe!\p[4]\s[500]\cOkay,\w5 okay!\w8\w8 \nI'm sorry\w8 \nI'll-\w5 I'll try..."
@@ -141,7 +167,7 @@ BlueDropsIn
 	"\p[4]\s[500]I wonder if I’ll ever see my brother again... \0\s[2]...Should I drag him here too? \p[4]\s[500]No, um, don’t worry about it."
 	"\p[4]\s[500]\_q(It seems like hes whispering to you)\_q \n\nHe’s a bit prickly, right? I don’t think he means any of it. \w8\w8 I’m sure I’ll get through to him eventually."
 	"\p[4]\s[500]I miss eating tacos."
-	"\p[4]\s[500]I’m kind of hungry, Error... \0\s[2]Already? I guess I’ll go find you something to eat..."
+	"\p[4]\s[500]I’m kind of hungry, Error... \w8\w8\w8\0\s[2]Already? I guess I’ll go find you something to eat... \w8\w8\p[4]\s[500]Don't you ever feel hungry as well? \w8\w8\0\s[2]No. I don't remember ever being hungry. I just eat to enjoy the taste of chocolate. \w8\w8\0\s[9]Hmm, does that make me better than you?"
 	"\p[4]\s[500]I hope he will let me go home eventually. I mean, he has to get bored of me somehow, and he wouldn’t... \w8\w8\w8\w8\w8\w8 \n\n\_q(He trails off, muttering to himself. He seems distracted by thoughts you don’t know.)\_q"
 	"\p[4]\s[500]I wonder if Error’s ever had a real friend before. \w8\w8\w8\n\nI can be that for him! If he’d just let me!"
 	"\p[4]\s[500]Never fear, the Magnificent Sans is here!\w8\w8\c.\w3.\w3.\w8\w9\w8\w8  \cThat was kind of a mouthful.\w8\w8 Maybe I should have chosen a different adjective.\w8\w8 \cHmmm...\w8\w8\w8\nI won’t doubt myself!"
@@ -149,7 +175,7 @@ BlueDropsIn
 	"\p[4]\s[500]What are you listening to?"
 	"\p[4]\s[500]What are you reading?"
 	"\p[4]\s[500]Do you like Error?\n\w8\![*]\q[Uhh..Sure?,OnErrorLiker]\n\w8\![*]\q[Not at all.,OnErrorHater]"
-	"\p[4]\s[500]It’s so lonely out there on your own. You can’t touch or hear anyone, but you can see so many other souls. But there’s nothing you can do...\cI’m sorry, that was depressing! Just ignore me, mweheheh. I was thinking out loud."
+	//"\p[4]\s[500]It’s so lonely out there on your own. You can’t touch or hear anyone, but you can see so many other souls. But there’s nothing you can do...\cI’m sorry, that was depressing! Just ignore me, mweheheh. I was thinking out loud."
 	"\p[4]\s[500]I could really use a chair about now."
 	
 }
