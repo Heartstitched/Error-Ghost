@@ -1,7 +1,7 @@
 SakuraMenuGreetings : nonoverlap
 {
 	"What now??"
-	"What- so you think i'll just-- ugh. fine."
+	"What- so you think I'll just-- ugh. fine."
 }
 
 //Because there is an all modifier here, you don't need to write -- between menu options
@@ -16,28 +16,212 @@ OnSakuraMenu : all
 
 	if LastTalk != ""; "\![*]\q[Say that again,OnLastTalk]"
 	"\n\n"
-		"Or would you rather.....\n\n"
-	"\![*]\q[perform an ACTion,OnActMenu] or \n\![*]\q[ask a question?,OnAskErrorMenu]"
+		"Or, would you rather.....\n\n"
+	"\![*]\q[ACT,OnActMenu] \n\![*]\q[ask him something?,OnAskMenu]"
 	"\n\n"
 	"\![*]\q[Speech Settings,OnTalkRateMenu]\n\n"
 	
-	"\![*]\q[Nevermind,blank]"	
+	"\![*]\q[Nevermind...,blank]"	
 }
 OnActMenu : all
 {
-	"(He sighs.)... What do you want?\n"
-    "(You want to...)\n"
-	"\![*]\q[give an item.,OnErrorGift] \![*]\q[ask for blue.,OnBlueVisit]\n"
-	"\![*]\q[ask to hold his hand.,OnHoldMeHand]"
-	
+	"(He sighs.)... What do you want?\n\n"
+    "\_q(You want to...)\_q\n"
+	"\![*]\q[CHECK,OnCheck], \![*]\q[FLIRT,OnFlirt], \n"
+	"\![*]\q[JOKE,OnJoke], \![*]\q[ITEM.,OnErrorGift]\n"
 	
 }	
-
-OnAskErrorMenu : all
+OnHoldMeHand
 {
-	"Of course you've got a question for me..."
+	"\0\s[11]Don't touch me. \w8\w8 Unless you want to lose all your files."
+	"\0\s[0]Absolutely not."
+	"\0\s[0]Can you get any worse than this? No."
+	"\0\s[1]No."
+	"\0\s[1]Not a chance in hell."
+	"\0\s[1]Are you kidding me? \w8\w8\s[3] Ha! \s[11]No."
+
 }
 
+//can probably fix this up to be the same setup as flirt, where it calls to the word.dic for random text on check, but that's tedious rn. plus the expressions before the status are better timed this way
+OnCheck
+{
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ???\_q \n(He thinks you're strange, but tolerable.)\q \n\n\0\s[0]Oi, what are you looking for?"
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ???\_q \n(He's been looking straight at you this whole time.) \n\n\0\s[0]There's nothing else interesting to look at."
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ??? \_q\n(He knows you're watching.) \n\n\0\s[1]..."
+	"\0\s[0]\_q[ERROR]  ATK ??? DEF ??? \n(He's getting tired of cleaning up other people's messes.) \n\n\0\s[7]Seriously, it's getting annoying."
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ??? \_q\n(The Destroyer. He's erased more timelines than you can count.) \n\n\0\s[6]That's right."	
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ??? \_q\n(God of Destruction. Or so he calls himself.) \n\n\0\s[1]It's the name you freaks gave me, isn't it?! \w8\w8\s[11]It isn't my fault for responding to it!"	
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error is in a constant state of agony.)\n\n\0\s[7]Tch, I'm fine. Don't listen to that thing."
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error twitches uncontrollably for a few seconds.) \w8\w8\w8\n\n\0\s[5]Never been better."
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error taps a rhythm with his left hand.) \w8\w8\n\n\0\s[0]Okay. Bored, mostly."
+	"\0\s[1]\_q[ERROR] - ATK ??? DEF ??? \_q\nWhy do you care? \n\n(Error doesn't feel like talking right now. Maybe give him a gift?)"
+	"\0\s[0]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error hums along to a short melody.) \n\nJust peachy."
+	"\0\s[5]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error is responding to voices you can't hear.) \w8\n\nShut up. \w8Shut up, \w8\0\s[1]SHUT UP. I can hear you."
+	"\0\s[1]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error flickers wildly.) \w8\w8\n\nHahahahahahhaha...\w8\w8\0\s[20] HAHAHAHAHHA!"
+	"\0\s[1]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error sounds very quiet.) \0\s[14]\w8\w8\n\nYou can't save me. There's nothing to save. Stop acting like you care. You're only going to get my hopes up. "
+	"\0\s[1]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error is skipping like a broken record.) \0\s[20]\w8\w8\n\nWhat's the point? What's the point? What's the point? What's the point? What's the"
+	"\0\s[22]\_q[ERROR] - ATK ??? DEF ??? \_q\n(Error is experiencing a sugar high.) \w8\w8\n\nWONDERFUL! WHAT ARE YOU DOING? \w8ARE YOU HAVING FUN? WHERE HAVE YOU BEEN? WELCOME BACK!! \0\s[20]HAHAHAHAHAHA! "
+	
+
+}
+
+OnFlirt
+{	
+	OnFlirt1
+	{
+	"\0\s[0]\_q(You tell Error that his glitches look lovely today.)\_q \w8\w8\c %(OnFlirt1A)"
+	}
+	/*OnFlirtTest
+	{
+		"Test"
+	}*/
+	
+	OnFlirt2
+	{	
+	"\0\s[0]\_q(You tell Error that his outfit is very well put together.)\_q \w8\w8\c %(OnFlirt2A)"
+	}
+	
+	OnFlirt3
+	{
+		"\0\s[0]\_q(You tell Error that he's your favorite.)\_q \w8\w8\c %(OnFlirt3A)"
+	}
+		
+}
+
+OnJoke
+{
+	
+	"\0\s[0]Oh! I've got one! What do you call a fish with no eyes? \w8\w8\w8 Blind! \w8Did you see what I did there? \w6Usually the answer to that is ‘fshhh!’ Did I getcha? \0\s[12]Hahaha!"
+	"\0\s[0]What do you call [Blank]? (pause) a write-off!"
+	"\0\s[0]How many Sanses does it take to destroy a timeline? (pause) ONE! Just meee!!!"
+	//[When Blue is summoned] "Hey, why are you looking so blue, Blueberry? I haven't even destroyed your timeline yet. And boy, have I had sooo much practice! Your universe is one of the worst, you know that? I bet even your own creator abandoned you because of how many timelines and variants your abomination of a story spawned. I know I would. I mean, golly! There's gotta be dozens upon dozens of versions of you! You're, like, worthless!"
+	"\0\s[0]1G for your thoughts? \w8Hah! \w4As if I'd pay that high of a price."
+	"\0\s[0]Why did the skeleton flake out from attending the party? \w8\w8\w8Because he had no body to go with. hah. \w8haha… \w8\w8\0\s[0]Actually, it was because he wasn't invited in the first place."
+	"\0\s[0]You just can't trust atoms… (pause) because they make up everything!"
+	"\0\s[0]Why did the chicken cross the road? (pause) to get to the idiot’s house. Knock knock. (pause) it's the chicken!"
+	"\0\s[0]There's nothing to laugh about… except for your face! Hahaha!"
+
+}
+
+OnAskMenu : all
+{
+	"\0\s[14] Of course you've got a question for me...\n"
+	"\_q(Ask him about...)\_q\n\n"
+	"\![*]\q[Preferences,OnAskPrefer], \![*]\q[Puppets,OnAskPuppet], \n"	
+	"\![*]\q[AUs,OnAskAU], \![*]\q[Outfits,OnAskOutfit], \n"	
+	"\![*]\q[ask for Blue.,OnBlueVisit], \![*]\q[holding his hand,OnHoldMeHand]"
+	
+}
+
+OnAskPrefer : all
+{
+	"\_q(What are his preferences for...)\_q\n\n"
+	"\![*]\q[Colors,OnPreferColor], \![*]\q[Food,OnPreferFood], \n"	
+	"\![*]\q[Touch,OnPreferTouch]"	
+}
+
+//do not move the Prefer randomtalks over to word.dic, it'll run the entire block otherwise
+OnPreferFood
+	{
+		"\0\s[0]Dark Chocolate is the best flavor, no competition. I don't want to see a single DROP of caramel, thank you very much."
+		"\0\s[0]Milkshakes are fine if they're chocolate. Chocolate smoothies though? Yuck."
+		"\0\s[3]Popcorn is the perfect thing to snack on while watching my favorite show."
+		"\0\s[0]I'm always hungry. It's a perpetual state of being, when you're in the antivoid. You don't need anything to sustain your life form here, you just exist. That's why you can't force me to touch anything green, thank you very much. If I don't need it, AND I don't want it, then I will not have it!"
+		"\0\s[0]Who needs food anyway? It's overrated. Except for chocolate… Specifically, when it's raided from Abomination Thirteen's fridge."
+
+	}
+OnPreferTouch
+	{
+		"\0\s[13]Just don't.\w4 I can't stand it,\w6 and I don't care for it.\x\c If you touch me for long enough,\w4 I'll just crash, and it is the most irritating thing. \x\c... \w8\w8What's with that look on your face?"
+		"\0\s[7]You never know when someone's touch will be gentle or harsh.\x\c I don't like guessing."
+		"\0\s[7]It's been a long time. \w6\0\s[14]How would you like it if someone you barely knew started petting you out of nowhere?"
+		"\0\s[7]Don't get excited, but...\w8\0\s[2] I do crave it, sometimes. \w8\0\s[14]It can burn, to the point of my very clothes irritating the longing need for so much as a held hand...\w8\w8 \0\s[7]I hate it. I don't want it. Why is it that I need it at all? \x\c\0\s[1]If I can just bear through the pain, \w6\0\s[11]soon I'll become so numb that I'll never have to worry about it again!"
+		"\0\s[7]No, thanks."
+		"\0\s[7]It's whatever."
+		"\0\s[11]If you touch me you are losing your hand."
+
+
+	}
+OnPreferColor
+{
+	
+	"\0\s[0]Blue, I guess? \w8\0\s[6]Red and Yellow are good,\w8 too."
+	"\0\s[0]What a childish, immature question. \w8\w8I have no such opinions on the topic. \w8\w8 \0\s[3]H’yellooow,\w8 I'll have blue \w8know that I'm quite red\w5 \0\s[6] up with such debasing questions!"
+	"\0\s[0]Blue. \w8\0\s[6] what?\w5 What??\w5 WHAT???\w5 \nIt's a classic."
+}	
+
+
+OnAskPuppet : all
+{
+	"(What are his preferences for...)\n\n"
+	"\![*]\q[Blue,OnPuppetBlue], \![*]\q[Ink,OnPuppetInk], \n"	
+	"\![*]\q[Red (Abomination 13),OnPuppetRed], \![*]\q[Classic,OnPuppetClassic]\n"	
+	
+	OnPuppetBlue
+	{
+		"\p[3]\s[500]"
+	}
+	
+	OnPuppetInk
+	{
+		"\p[3]\s[103]"
+	}
+	
+	OnPuppetRed
+	{
+		"\p[3]\s[101]"
+	}
+	OnPuppetClassic
+	{
+		"\p[3]\s[100]"
+	}
+}
+
+	
+
+OnAskAU : all
+{
+	"\0\s[13] The AUs, huh?\n"
+	"\_q(Ask him about...)\_q\n\n"
+	"\![*]\q[Antivoid,OnAUAntivoid], \![*]\q[Error,OnAUError], \n"	
+	"\![*]\q[Papyrus,OnAUPapyr], \![*]\q[Underground,OnAUUnderg], \n"	
+	"\![*]\q[Multiverse,OnAUMultiv], \![*]\q[Guardians,OnAUGuard]"
+}
+
+OnAUAntivoid
+{
+	"\0\s[13]Blank white, wide open space. \w4What's there not to love? \x\cWhat's there to love? It's literally the opposite of nothing. \w8Nothing has no opposite, of course, because it's nothing. \x\cThere's just little ol' me in here! \x\c\0\s[22]And frankly, I'll have you know that I'm very lovable!"
+	"\0\s[13]The silence was nice, in a way. I slept for days, I think.\w8 That got boring quickly, though. I started filling the silence myself. \0\s[4]\w8\w8\w8Talking.\w6 Shouting.\w6 \cScreaming.\w6 Screaming.\w6 \0\s[5] Screaming.\w6 Screaming. \0\s[20]\w6 Screaming.\w8\w8\w8\w8\0\s[5]\w8\0\s[4]\w8"
+	"\0\s[13]The antivoid is a space out of time. \w6The void is a time without space. \w6Neither can exist without the other,\w4 but both are just different types of nothing. \w4Isn't that fascinating?"
+	"\0\s[3]I'm all set up for comfort. I have my strings, the bean bag chair, my puppets, the portals to the multiverse... \0\s[22]\w8\w8Yeahhh. This is the life."
+
+}
+
+OnAUError
+{
+	
+}
+
+OnAUGuard
+{
+	
+}
+
+OnAUPapyr
+{
+	
+}
+
+OnAUUnderg
+{
+	
+}
+
+
+OnAskOutfit : all
+{
+	
+}
 
 
 OnLastTalk
@@ -86,13 +270,3 @@ OnBlueVisit
 	"\p[4]\s[500]\w8\w8Oh- I've been here! Just uh...\w8\w8\w8\w8 hanging around. Out of sight, out of mind.\w8\w8  \nMweh heh...... \w8 (he grimaces.)"
 }
 
-OnHoldMeHand
-{
-	"\0\s[11]Don't touch me. \w8\w8 Unless you want to lose all your files."
-	"\0\s[0]Absolutely not."
-	"\0\s[0]Can you get any worse than this? No."
-	"\0\s[1]No."
-	"\0\s[1]Not a chance in hell."
-	"\0\s[1]Are you kidding me? \w8\w8\s[3] Ha! \s[11]No."
-
-}
