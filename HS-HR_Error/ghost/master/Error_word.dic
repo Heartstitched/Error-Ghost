@@ -519,8 +519,6 @@ OnGivePapScarf
 
 
 
-
-
 OnIStoleTheScarf
 {
 	"\_q(He stares down at it.)\_q\w8\w8\w8"
@@ -530,3 +528,38 @@ OnDidntStealIt
 {
 	"Liar.\w8\w8"
 }
+
+OnFlirt1A
+		{
+		"\0\s[1]...are you making fun of me?"
+		"\0\s[3]Hah! That's a good one."
+		"\0\s[3]I'm positively dazzling, darling."
+		"\0\s[12]Thank you."
+		"\0\s[3]I was waiting for you to mention it!"
+		"\0\s[2]Oh, you noticed!"
+		"\0\s[9]I knowwww!"
+		}
+
+OnFlirt2A
+	{
+		"\0\s[3]I know. Made it myself."
+		"\0\s[2]Thank you."
+		"\0\s[11]Are you trying to make me hate myself more than I already do?"
+		"\0\s[1]Is that sarcasm?"
+		"\0\s[0]I'm the prettiest belle at the ball, aren't I?"
+		"\0\s[3]Walk, walk, fashion baby, make that bitch cuhrazy-"
+		"\0\s[0]Of course it does! Do you have any idea how long it took me to make it??"
+		"\0\s[3]Naturally."
+	}
+	
+OnFlirt3A
+	{	
+		"\0\s[6]As if there’d be any other?"
+		"\0\s[6]Of course I am. Why else have you kept me here for this long?"
+		"\0\s[3]Nice."
+		"\0\s[7]You're just saying that. Flattery won't get you any mercy from me."
+		"\0\s[7]So?"
+		"\0\s[7]I'm nobody's favorite, and that's on purpose. Who could love a broken script?"
+		"\0\s[6]I'd say you're in the top three. No, wait! \w8\w8...top five."
+	}	
+	
