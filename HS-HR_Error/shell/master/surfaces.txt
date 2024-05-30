@@ -777,12 +777,17 @@ animation910.interval,bind
 animation910.pattern0,add,3004,20,0,0	
 }
 //Base Body
-surface.append0-7,11,12,16-25
+surface.append0-7,11,12,16-20,22-25
 {
 //Fancy Boa
 animation910.interval,bind
 animation910.pattern0,add,3003,20,0,0
-
+//Chocolate Eater
+surface.append21
+{
+//Fancy Boa
+animation910.interval,bind
+animation910.pattern0,add,3010,20,0,0
 }
 
 //--Accessories-----------------------
@@ -815,6 +820,10 @@ animation905.pattern0,add,3009,20,0,0
 //Spinky
 animation911.interval,bind
 animation911.pattern0,add,3005,20,0,0
+
+//Ghost Jam Hat
+sakura.bindgroup912.name,Hats and/or Creatures,Ghost Jam Hat
+sakura.bindgroup912.default,0
 
 }
 
