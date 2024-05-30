@@ -34,6 +34,8 @@ scope,0
 18,
 19,
 20,ErrorCrashed
+21,Chocolate Eaterrrrr
+22,Smiley Boiye
 }
 
 group,Dolls
@@ -57,6 +59,12 @@ group,Soul
 group,Blue
 {
 500, Default
+501, Sheepish
+502, Hopeful
+503, Angry
+504, Disappointed
+505, Starry-eyed
+506, Horrified
 }
 
 

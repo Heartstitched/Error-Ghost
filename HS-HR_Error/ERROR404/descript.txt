@@ -76,10 +76,11 @@ communicatebox.y,18
 communicatebox.width,301
 communicatebox.height,18
 
-craftmanw,
-craftmanurl,
 
-homeurl,
+craftmanw,Heartstitched
+craftmanurl,https://www.tumblr.com/inks-inbox
+
+homeurl,https://raw.githubusercontent.com/Heartstitched/Error-Ghost/develop/HS-HR_Error/ERROR404/
 
 
 
