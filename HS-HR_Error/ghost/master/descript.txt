@@ -5,9 +5,9 @@ type,ghost
 
 shiori,yaya.dll
 
-craftman, Heartstitched, hazerun3
-craftmanw,
-craftmanurl, https://www.tumblr.com/monster-kind  https://www.tumblr.com/hazerun3
+craftman, Heartstitched, hazerun3, Robanilla, Onlyplatonicirl, Vicen_non
+craftmanw, Heartstitched, Hazerun3, Robanilla, Onlyplatonicirl, Vicen_non
+craftmanurl, https://www.tumblr.com/inks-inbox
 
 sakura.name,Error
 kero.name,null

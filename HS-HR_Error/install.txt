@@ -3,3 +3,5 @@ type,ghost
 
 name,Error
 directory,HS-HR_Error
+
+balloon.directory,ERROR404
