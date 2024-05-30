@@ -821,6 +821,10 @@ animation905.pattern0,add,3009,20,0,0
 animation911.interval,bind
 animation911.pattern0,add,3005,20,0,0
 
+//Ghost Jam Hat
+sakura.bindgroup912.name,Hats and/or Creatures,Ghost Jam Hat
+sakura.bindgroup912.default,0
+
 }
 
 

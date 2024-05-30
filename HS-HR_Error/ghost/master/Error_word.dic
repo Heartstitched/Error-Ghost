@@ -519,8 +519,6 @@ OnGivePapScarf
 
 
 
-
-
 OnIStoleTheScarf
 {
 	"\_q(He stares down at it.)\_q\w8\w8\w8"
@@ -564,3 +562,4 @@ OnFlirt3A
 		"\0\s[7]I'm nobody's favorite, and that's on purpose. Who could love a broken script?"
 		"\0\s[6]I'd say you're in the top three. No, wait! \w8\w8...top five."
 	}	
+	

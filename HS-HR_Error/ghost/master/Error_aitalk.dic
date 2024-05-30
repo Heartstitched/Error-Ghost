@@ -64,25 +64,26 @@ RandomTalk : nonoverlap_pool
 	//classic
 	"\p[3]\s[100]... \x\p[3]\s[-1]"
 	"\p[3]\s[100]... \w8\w8\w8\p[0]\s[3]Why yes,\w8 Classic,\w8 I do know everything that happened in Undernovela season one.\w8\p[0]\s[15] I can recite it all off the top of my head to you right now. \w8\w8\p[3]\s[100]Error, you're so cool. \w8\p[0]\s[3]"
+	"\p[3]\s[100]How long have you been sitting here? \w6Let's go look at the stars! \w8\w8\p[0]\s[6]\w8\w8 Huh, not a bad idea.\x\p[3]\s[-1]"
+	
 
 	"\p[3]\s[100]... \x\p[3]\s[-1]"
 
 	//fell or red
 	"\p[3]\s[101]... \x\p[3]\s[-1]"
-	"\p[3]\s[101]You're so lonely here! Don't worry, I'll be your friend!\n\w8We can do everything together! \0\s[0]No one asked you, Abomination Thirteen! \x\p[3]\s[-1]"
-	"\p[3]\s[101]Grrr, you took all my chocolate again! \w8\w8\0\s[6]Mwahaha! It wasn’t like you’d enjoy it as much as I do, anyway! \w8 I’m going to throw my wrappers back into your room now! \w8\p[3]\s[101]\cNooo! \w8\w8\0\s[6]\cYesss! \x\p[3]\s[-1]"
+	"\p[3]\s[101]You're so lonely here! Don't worry, I'll be your friend!\n\w8We can do everything together! \0\s[0]No one asked you, Abomination Thirteen! \p[3]\s[101]\x\p[3]Aw man...\s[-1]"
+	"\p[3]\s[101]Grrr, you took all my chocolate again! \w8\w8\0\s[6]Mwahaha! It wasn’t like you’d enjoy it as much as I do, anyway!\w8\w8\w6\cI’m going to throw my wrappers back into your room now! \w8\p[3]\s[101]\cNooo! \w8\w8\0\s[6]\cYesss!\x\p[3]Arggh!\s[101]\s[-1]"
 	
 	//ink
-	"\p[3]\s[103]... ... ... \x\p[3]\s[-1]"
+	"\p[3]\s[103]... Error... ... \x\p[3]\s[-1]"
 	"\p[3]\s[103]Been working on that for a while now, pal!\x\p[3]\s[103]"
 	"\p[3]\s[103]So, Error... \p[0]\s[0]\w8\w8\w8What? \p[3]\s[103]\w8\w8How's your most recent crochet project?\p[0]\s[6]\w8\w8Well, it's about time that you asked. Here,\w8 take a look. \p[3]\s[104]\c\w8Wow, it looks great Error!\p[0]\s[12]\w8\w8\c... Thanks. Of course it does!\w8\w8"
 	
-	"\p[3]\s[104]Heyyy pal! Whatcha up to? \p[0]\s[1]\w8\w8Ugh, Ink! Go away!\x\p[3]\s[-1]Awww..."
+	"\p[3]\s[104]Heyyy pal! Whatcha up to? \p[0]\s[0]\w8\w8Ugh, Ink! Go away!\x\p[3]Awww...\s[-1]"
 	"\p[3]\s[104]Just checking in on ya, pal! \w8\w8\nRemember to take care of yourself!\p[0]\s[0]\x\p[3]\s[-1]"
+	"\p[3]\s[104]Hiya pal! \w6Whatcha readin? \p[0]\s[0]\w8\w8Leave it alone, Ink.\w8\w8\w8\p[3]\cAwww, mmkay~\x\p[3]\s[-1]"
 	"\p[3]\s[104]It's been a while since I've last seen ya, Error. \w8\w8\p[3]\s[103]When are you gonna say hi again? \p[0]\s[6]\w8\w8 Never.\x\p[3]\s[-1]"
-
-
-	"\p[3]\s[100]... \x\p[3]\s[-1]"
+	"\p[3]\s[104]Heyo Error! Let's get together and fight one more time! \w8\w8\p[3]\s[103]But this time, I'll win! \p[0]\s[6]\w8\w8 Yeah right.\x\p[3]\s[-1]"
 
 
 	

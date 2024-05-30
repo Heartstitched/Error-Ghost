@@ -15,8 +15,10 @@ seriko.use_self_alpha,1
 
 
 //--Hats and/or creatures-------------------------------------------
+//Ghost Jam Hat
+sakura.bindgroup912.name,Hats and/or Creatures,Ghost Jam Hat
+sakura.bindgroup912.default,0
 
-sakura.bindoption2.group,Hats and/or Creatures, 
 //Pencil
 sakura.bindgroup904.name,Hats and/or Creatures,Thieved Pencil
 sakura.bindgroup904.default,0
