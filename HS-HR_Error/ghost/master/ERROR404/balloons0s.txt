@@ -1,0 +1,9 @@
+origin.x,30
+origin.y,40
+
+windowposition.x,10
+windowposition.y,10
+
+wordwrappoint.x,-50
+wordwrappoint.y60
+wordwrappoint.y,-30
