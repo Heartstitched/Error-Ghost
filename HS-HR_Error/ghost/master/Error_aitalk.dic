@@ -154,28 +154,28 @@ BlueDropsIn
 	BlueIsHere = 1
 	--
 //\p[4]\s[500]
-	"\p[4]\s[500]When can I go home?\w8 I'm hungry... \w8\w8\0\s[0]You can't starve in the antivoid,\w8 idiot.\w8\w8\n The sense of hunger will follow you forever.\w8\w8\p[4]\s[500]\c.....(disturbed) \0\s[0]\cand I'm already feeding you chocolate. \p[4]\s[500]\cth-thats not enough food to stave off hunger.\0\s[0]\cit isn't?\w8\w8\w8\c...oh, yeah,\w8 I knew that,\w8\w8\nbut since you're on good behavior,\w8 I might as well raid the rest of Abomination Thirteen’s fridge."
-	"\0\s[0]Stop twitching.\w8 I can feel it when you move and it's distracting.\w8\w8\p[4]\s[500]I'm sorry,\w8 I can't help it.\w8\w8\w8\0\s[0]\cWhy the hell not?\w8\w8 \p[4]\s[500]\cIt's really uncomfortable.\w8 Can you please let me out of the strings?\w8 I promise I won't go.\w8\w8 \0\s[0]\cI'm not falling for that."
-    "\p[4]\s[500]I wish you would meet Alphys.\w8\w8 She's really fun,\w8 you'd like her.\w8\w8\w8\0\s[0]Who...-\p[4]\s[500]\c...I told you,\w8 she's the captain of the royal guard-\w8\w8 \0\s[0]\n-asked?\w8\w8\s[9]\cHA\w3HA\w3HA\w3HA\w8\w8\p[4]\s[500]\c\w8.\w8.\w8."
-	"\0\s[0]Shut up.\w8\w8\p[4]\s[500]I didn't say anything!\w8\w8\w8\0\s[0]\cYou're breathing SO loud.\w8 You don't even need to breathe!\p[4]\s[500]\cOkay,\w5 okay!\w8\w8 \nI'm sorry\w8 \nI'll-\w5 I'll try..."
-	"\0\s[0]Dang it.\w8\w8 Dropped another stitch... \w8\w8\w8\w8\w8\p[4]\s[500]Oh! Are you knitting? I know how to fix that without starting over!\w8\w8\0\s[0]\cNo, I don't knit. I crochet.\w8\w8\p[4]\s[500]\cNo issue too great for the Magnificent Sansational Sans to handle!\w8 You can count on me,\w4 Error!\w8 All I need is a bit of wiggle room!\w8\w8\0\s[0]\cOkay.\w8\w8\w8\p[4]\s[500]\c...\w8\w8The uh,\w8 the strings? \w8\w8\w8\w8\n.....\w8\w8\w8\w8\w8\nRight! R-Ready whenever you are, friend!"
+	"\p[4]\s[500]When can I go home?\w8\p[4]\s[504]  I'm hungry... \w8\w8\0\s[0]You can't starve in the antivoid,\w8 idiot.\w8\w8\nThe sense of hunger will follow you forever.\w8\w8\p[4]\s[504]\c.....\w8\w4\p[4]\s[506] \0\s[0]\cand I'm already feeding you chocolate. \p[4]\s[506]\cTh-That's not enough food to stave\noff hunger.\w8\0\s[0]\cIt isn't?\w8\w8\w8\c...Oh, yeah,\w8 I knew that,\w8\w8\nbut since you're on good behavior,\w8 I might as well raid the rest of Abomination Thirteen’s fridge."
+	"\0\s[0]Stop twitching.\w8 I can feel it when you move and it's distracting.\w8\w8\p[4]\s[501]I'm sorry,\w8 I can't help it.\w8\w8\w8\0\s[0]\cWhy the hell not?\w8\w8 \p[4]\s[501]\cIt's really uncomfortable.\w8 Can you please let me out of the strings?\w8 I promise I won't go.\w8\w8 \0\s[0]\cI'm not falling for that."
+    "\p[4]\s[500]I wish you would meet Alphys.\w8\w8 She's really fun,\w8 you'd like her.\w8\w8\w8\0\s[0]Who...-\p[4]\s[501]\c...I told you,\w8 she's the captain of the royal guard-\w8\w8 \0\s[0]\n-asked?\w8\w8\s[9]\cHA\w3HA\w3HA\w3HA\w8\w8\p[4]\s[500]\c\w8.\w8.\w8."
+	"\0\s[0]Shut up.\w8\w8\p[4]\s[501]I didn't say anything!\w8\w8\w8\0\s[0]\cYou're breathing SO loud.\w8 You don't even need to breathe!\p[4]\s[501]\cOkay,\w5 okay!\w8\w8 \nI'm sorry\w8 \nI'll-\w5 I'll try..."
+	"\0\s[0]Dang it.\w8\w8 Dropped another stitch... \w8\w8\w8\w8\w8\p[4]\s[502]Oh! Are you knitting? I know how to fix that without starting over!\w8\w8\0\s[0]\cNo, I don't knit. I crochet.\w8\w8\p[4]\s[505]\cNo issue too great for the Magnificent Sansational Sans to handle!\w8 You can count on me,\w4 Error!\w8 All I need is a bit of wiggle room!\w8\w8\0\s[0]\cOkay.\w8\w8\w8\p[4]\s[501]\c...\w8\w8The uh,\w8 the strings? \w8\w8\w8\w8\n.....\w8\w8\w8\w8\w8\nRight! R-Ready whenever you are, friend!"
 	
-	"\p[4]\s[500]Nice desktop you got here! Could use a few more sunglasses and muscles."
-	"\p[4]\s[500]I’m getting used to hanging around here. My arms hurt a little, though…"
-	"\p[4]\s[500]I wonder if I can get Error to feed me a taco like this... Hmmm, not a bad idea! \0\s[7]Not a chance.\w8\w8" 
-	"\p[4]\s[500]I wonder if I’ll ever see my brother again... \0\s[2]...Should I drag him here too? \p[4]\s[500]No, um, don’t worry about it."
+	"\p[4]\s[500]Nice desktop you got here! \p[4]\s[505]Could use a few more sunglasses and muscles."
+	"\p[4]\s[500]I’m getting used to hanging around here. \p[4]\s[501]My arms hurt a little, though…"
+	"\p[4]\s[500]I wonder if I can get Error to feed me a taco like this... \p[4]\s[505]Hmmm, not a bad idea! \0\s[7]Not a chance.\w8\w8" 
+	"\0\s[0]\p[4]\s[501]I wonder if I’ll ever see my brother again... \w8\w8\w8\0\s[2]...Should I drag him here too? \w8\w8\w8\w4\p[4]\s[506]No, um, don’t worry about it."
 	"\p[4]\s[500]\_q(It seems like hes whispering to you)\_q \n\nHe’s a bit prickly, right? I don’t think he means any of it. \w8\w8 I’m sure I’ll get through to him eventually."
 	"\p[4]\s[500]I miss eating tacos."
 	"\p[4]\s[500]I’m kind of hungry, Error... \w8\w8\w8\0\s[2]Already? I guess I’ll go find you something to eat... \w8\w8\p[4]\s[500]Don't you ever feel hungry as well? \w8\w8\0\s[2]No. I don't remember ever being hungry. I just eat to enjoy the taste of chocolate. \w8\w8\0\s[9]Hmm, does that make me better than you?"
-	"\p[4]\s[500]I hope he will let me go home eventually. I mean, he has to get bored of me somehow, and he wouldn’t... \w8\w8\w8\w8\w8\w8 \n\n\_q(He trails off, muttering to himself. He seems distracted by thoughts you don’t know.)\_q"
-	"\p[4]\s[500]I wonder if Error’s ever had a real friend before. \w8\w8\w8\n\nI can be that for him! If he’d just let me!"
-	"\p[4]\s[500]Never fear, the Magnificent Sans is here!\w8\w8\c.\w3.\w3.\w8\w9\w8\w8  \cThat was kind of a mouthful.\w8\w8 Maybe I should have chosen a different adjective.\w8\w8 \cHmmm...\w8\w8\w8\nI won’t doubt myself!"
-	"\p[4]\s[500]Can you open up a junior jumble or something? I’m kind of bored. \0\s[1]You're bored, huh? Should I put on some more Undernovela?"
+	"\p[4]\s[501]I hope he will let me go home eventually. I mean, he has to get bored of me somehow, and he wouldn’t... \w8\w8\w8\w8\w8\w8 \n\n\_q\p[4]\s[506](He trails off, muttering to himself. He seems distracted by thoughts you don’t know.)\_q"
+	"\p[4]\s[501]I wonder if Error’s ever had a real friend before. \w8\w8\w8\n\n\p[4]\s[502]I can be that for him! If he’d just let me!"
+	"\p[4]\s[505]Never fear, the Magnificent Sans is here!\w8\w8\c.\w3.\w3.\w8\w9\w8\w8  \c\p[4]\s[502]That was kind of a mouthful.\w8\w8 \p[4]\s[501]Maybe I should have chosen a different adjective.\w8\w8 \cHmmm...\w8\w8\w8\n\p[4]\s[505]I won’t doubt myself!"
+	"\p[4]\s[501]Can you open up a junior jumble or something? I’m kind of bored. \0\s[1]You're bored, huh? Should I put on some more Undernovela?"
 	"\p[4]\s[500]What are you listening to?"
 	"\p[4]\s[500]What are you reading?"
-	"\p[4]\s[500]Do you like Error?\n\w8\![*]\q[Uhh..Sure?,OnErrorLiker]\n\w8\![*]\q[Not at all.,OnErrorHater]"
+	"\p[4]\s[502]Do you like Error?\n\w8\![*]\q[Uhh..Sure?,OnErrorLiker]\n\w8\![*]\q[Not at all.,OnErrorHater]"
 	//"\p[4]\s[500]It’s so lonely out there on your own. You can’t touch or hear anyone, but you can see so many other souls. But there’s nothing you can do...\cI’m sorry, that was depressing! Just ignore me, mweheheh. I was thinking out loud."
-	"\p[4]\s[500]I could really use a chair about now."
+	"\p[4]\s[501]I could really use a chair about now."
 	
 }
 
@@ -200,11 +200,11 @@ StringsTooTight
 
 OnErrorHater
 {
-	"\p[4]\s[500]That’s alright, he’s kinda grumpy sometimes. \w8\w8\w8But he’s pretty nice when he wants to be! \w8\w8\w8In those rare moments when he’s not being a jerk!"
+	"\p[4]\s[501]That’s alright, he’s kinda grumpy sometimes. \w8\w8\w8\p[4]\s[502]But he’s pretty nice when he wants to be! \w8\w8\w8\x\c\p[4]\s[504]In those rare moments when he’s not being a jerk!"
 }
 OnErrorLiker
 {
-	"\p[4]\s[500]Me too! I think he’s neat in his own way. \w8\w8Deep down. \w8\w8\w8Deeeeep, \w8\w8\w8\w8deep down, \w8\w8past his prickly mean exterior."
-	"\p[4]\s[500]I think he could be a really great friend! \w8\w8 If you're willing to be patient with him."
+	"\p[4]\s[502]Me too! I think he’s neat in his own way. \p[4]\s[505]\w8\w8Deep down. \p[4]\s[500]\w8\w8\w8Deeeeep, \p[4]\s[501]\w8\w8\w8\w8deep down, \w8\w8past his prickly mean exterior."
+	"\p[4]\s[502]I think he could be a really great friend! \w8\w8 If you're willing to be patient with him."
 
 }

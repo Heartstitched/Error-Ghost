@@ -92,14 +92,14 @@ OnJoke
 {
 	
 	"\0\s[0]Oh! I've got one! What do you call a fish with no eyes? \w8\w8\w8 Blind! \w8Did you see what I did there? \w6Usually the answer to that is ‘fshhh!’ Did I getcha? \0\s[12]Hahaha!"
-	"\0\s[0]What do you call [Blank]? (pause) a write-off!"
+	"\0\s[0]What do you call [Blank]? \w8\w8\n\0\s[6]A write-off!"
 	"\0\s[0]How many Sanses does it take to destroy a timeline? (pause) ONE! Just meee!!!"
 	//[When Blue is summoned] "Hey, why are you looking so blue, Blueberry? I haven't even destroyed your timeline yet. And boy, have I had sooo much practice! Your universe is one of the worst, you know that? I bet even your own creator abandoned you because of how many timelines and variants your abomination of a story spawned. I know I would. I mean, golly! There's gotta be dozens upon dozens of versions of you! You're, like, worthless!"
-	"\0\s[0]1G for your thoughts? \w8Hah! \w4As if I'd pay that high of a price."
-	"\0\s[0]Why did the skeleton flake out from attending the party? \w8\w8\w8Because he had no body to go with. hah. \w8haha… \w8\w8\0\s[0]Actually, it was because he wasn't invited in the first place."
-	"\0\s[0]You just can't trust atoms… (pause) because they make up everything!"
-	"\0\s[0]Why did the chicken cross the road? (pause) to get to the idiot’s house. Knock knock. (pause) it's the chicken!"
-	"\0\s[0]There's nothing to laugh about… except for your face! Hahaha!"
+	"\0\s[0]1G for your thoughts? \w8Hah! \w4\0\s[6]As if I'd pay that high of a price."
+	"\0\s[0]Why did the skeleton flake out from attending the party? \w8\w8\w8\0\s[6]Because he had no body to go with. hah. \w8haha… \w8\w8\0\s[0]Actually, it was because he wasn't invited in the first place."
+	"\0\s[0]You just can't trust atoms… \w8\w8\0\s[6]\cBecause they make up everything!"
+	"\0\s[0]Why did the chicken cross the road? \w8\w8\w8\w8\n\0\s[6]to get to the idiot’s house. \w8\w8\w8\c\0\s[0]Knock knock. \w8\w8\w8\c\0\s[9]It's the chicken!"
+	"\0\s[11]There's nothing to laugh about... \w8\w8\w8\0\s[9]Except for your face! Hahaha!"
 
 }
 
@@ -108,8 +108,8 @@ OnAskMenu : all
 	"\0\s[14] Of course you've got a question for me...\n"
 	"\_q(Ask him about...)\_q\n\n"
 	"\![*]\q[Preferences,OnAskPrefer], \![*]\q[Puppets,OnAskPuppet], \n"	
-	"\![*]\q[AUs,OnAskAU], \![*]\q[Outfits,OnAskOutfit], \n"	
-	"\![*]\q[ask for Blue.,OnBlueVisit], \![*]\q[holding his hand,OnHoldMeHand]"
+	"\![*]\q[AUs,OnAskAU]," //![*]\q[Outfits,OnAskOutfit], \n	
+	"\![*]\q[ask for Blue.,OnBlueVisit], \n\![*]\q[holding his hand,OnHoldMeHand]"
 	
 }
 
@@ -155,37 +155,39 @@ OnAskPuppet : all
 {
 	"(What are his preferences for...)\n\n"
 	"\![*]\q[Blue,OnPuppetBlue], \![*]\q[Ink,OnPuppetInk], \n"	
-	"\![*]\q[Red (Abomination 13),OnPuppetRed], \![*]\q[Classic,OnPuppetClassic]\n"	
+	"\![*]\q[Red (Abomination 13),OnPuppetRed], \n\![*]\q[Classic,OnPuppetClassic]"	
 	
-	OnPuppetBlue
+	
+}
+
+	
+OnPuppetBlue
 	{
-		"\p[3]\s[500]"
+		"\p[3]\s[501]... \p[0]\s[3]Isn't he adorable? Best friend number eleven."
 	}
 	
 	OnPuppetInk
 	{
-		"\p[3]\s[103]"
+		"\p[3]\s[103]... \p[0]\s[9]The perfect pincushion."
 	}
 	
 	OnPuppetRed
 	{
-		"\p[3]\s[101]"
+		"\p[3]\s[101]... \p[0]\s[9]What a rascal."
 	}
 	OnPuppetClassic
 	{
-		"\p[3]\s[100]"
+		"\p[3]\s[100]... \p[0]\s[9]He's my favorite."
 	}
-}
-
-	
-
 OnAskAU : all
 {
 	"\0\s[13] The AUs, huh?\n"
 	"\_q(Ask him about...)\_q\n\n"
-	"\![*]\q[Antivoid,OnAUAntivoid], \![*]\q[Error,OnAUError], \n"	
+	"\![*]\q[Antivoid,OnAUAntivoid]"	
+	//Additional choices to be added in a later date with more dialogue.
+	/*\![*]\q[Error,OnAUError], 
 	"\![*]\q[Papyrus,OnAUPapyr], \![*]\q[Underground,OnAUUnderg], \n"	
-	"\![*]\q[Multiverse,OnAUMultiv], \![*]\q[Guardians,OnAUGuard]"
+	"\![*]\q[Multiverse,OnAUMultiv], \![*]\q[Guardians,OnAUGuard]"*/
 }
 
 OnAUAntivoid
