@@ -65,6 +65,10 @@ group,Blue
 504, Disappointed
 505, Starry-eyed
 506, Horrified
+507, Horrified you
+508, Starry eyed you
+509, Closed eyes happy
+510, Look you
 }
 
 
