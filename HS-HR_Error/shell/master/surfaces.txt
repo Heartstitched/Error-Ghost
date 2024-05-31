@@ -1214,8 +1214,8 @@ animation911.interval,bind
 animation911.pattern0,add,3005,20,0,0
 	
 //Ghost Jam Hat
-animation911.interval,bind
-animation911.pattern0,add,3011,20,0,0	
+animation912.interval,bind
+animation912.pattern0,add,3011,20,0,0	
 
 }
 
