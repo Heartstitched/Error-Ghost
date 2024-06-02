@@ -41,11 +41,11 @@ UndernovellaChitchat
 //%(ErrorTalksToHimself)
 ErrorTalksToHimself
 {
-	"....I didnt ask! Shut up."
-	"...What?\w8 No,\w5 of course not..."
-	"...I dont care.\w8 It's not meant to exist anyway.\w8 Actually...\w8\w8 Where did you say it was?\w8 I'll just destroy the abomination outright."
-	"...Yeah,\w5 what about it?"
-	"...dont touch me."
+	"\0\s[7]...\w8 I didn't ask! Shut up."
+	"\0\s[5]...\w8 What?\w8 No,\w5 of course not..."
+	"\0\s[0]...\w8 I don't care.\w8\0\s[7] It's not meant to exist anyway.\w8 Actually...\w8\w8\0\s[6] Where did you say it was?\w8 I'll just destroy the abomination outright."
+	"\0\s[0]...\w8\0\s[6] Yeah,\w5 what about it?"
+	"\0\s[0]...\w8\0\s[11] Don't touch me."
 }
 
 SomethingToEat
