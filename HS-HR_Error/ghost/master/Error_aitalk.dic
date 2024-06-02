@@ -17,14 +17,17 @@ RandomTalk : nonoverlap_pool
 //"\0\s[22]Oh thanks!\w8\w8\s[21]\w8\w8\w4\s[22]"
 
 //\p[3]\s[ ] to use puppets and pull them up in dialogue. fill s[ ] with the surface number of the puppet you want to use
+
 	"\0\s[8]What do you think you are looking at?\w8\w8\n\n\![*]\q[Uh.. you?,OnLookChoiceYou]\n\w8\![*]\q[I'm not.,OnLookChoiceNada]"
 	"\0\s[0]What are you looking at?\w8\w8\n\n\![*]\q[You,OnLookChoiceYou]\n\w8\![*]\q[Nothing,OnLookChoiceNada]"
 	"\0\s[0]I'm watching you right now, so don't get any funny ideas."
 	"\0\s[0]Hey,\w8\s[6]there's a new Undernovela timeline starting up soon, do you want to watch it with me? \n\w8\w8\s[3]Don't worry, I'll explain everything. I'm an expert."
 //	"\0\s[0]Hey %(username),\w8\s[6]there's a new Undernovela timeline starting up soon, do you want to watch it with me? \n\w8\w8\s[3]Dont worry, I'll explain everything."
+
 	"\0\s[0] It's so.\s[7] \w8\w8\w8Noisy here. \n\w8\s[8]At least in the antivoid I had some peace and quiet."
 	"\0\s[7]Anomaly Thirteen hasn't bought new chocolate in a while... \w8\w8\w8\s[0]Hey you, go get me some."
 //	"\0\s[7]Anomaly 13 hasn't bought new chocolate in a while... \w8\w8\w8\s[0]Hey, %(username), go get me some."
+
 	"\0\s[0]Hey... \w8 \s[7] \w8\w8\w8\w8\s[0]If you're going to make something, see it though to the end. \s[1] Don't just make more trash for me to clean up."
 	"\p[3]\s[100]\0\s[0]Oh, hey Classic....\w8\w8\s[9]\ndon't tell anyone... But \nhe's my favorite.\w8\w8\s[6] \w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8 \p[3]\s[-1]"
 	"\0\s[2]You haven't said anything in a while. I don't know if the silence is better or worse."
@@ -34,10 +37,12 @@ RandomTalk : nonoverlap_pool
 	"\0\s[0]Hey, where did I leave my hooks?\w8\w8 \n\s[13]Did you do something to them?\w8\w8\w8 \c\s[2]You'd think it'd be impossible to lose shit in there.\w8\w8\w8\c\s[11] You'd be wrong."
 	"\0\s[0]Are you making something again??\w8 Ugh."
 //"\0\s[0]a-aa-re you making somethhhing again, %(username)??\w8 ugh."
+
 	"%(BlueDropsIn)"
 	"%(BlueDropsIn)"
 	"%(BlueDropsIn)"
 	"%(BlueDropsIn)"
+	
 	"\0\s[22]There's something so satisfying about eating stolen chocolate.\w8\w8 No one else was eating it,\w5 anyway!"
 	"\0\s[22]I think all food tastes better when stolen."
 	"\0\s[14]You're not even real.\w8\w8 Why do I care what you think?\w8\w8\w8\w8\w8\c\0\s[6]Trick question!\w8 I don't!"
@@ -48,6 +53,16 @@ RandomTalk : nonoverlap_pool
 	"\0\s[13]Sometimes I miss that Ink bastard.\w8\w8 \s[14]He’s annoying,\w8 except for when we’re apart."
 	"\0\s[8]You’ve been sitting here for so long.\w8 When are you going to leave me alone?"
 	"\0\s[2]I wonder when the next season of Undernovela will release. \n\w8\w8\0\s[14]The timeline has been on hold for a while now."
+	
+	"\0\s[3]Ah... peace and quiet... \w8\w8\w8\0\s[0]What are you scheming?\w6 You better not be making anything new."
+	"\0\s[7]Ink's insufferable in the best of times. I just know he won't last. This silly little ‘truce’ will be over before it even truly begun."
+	"\0\s[22]Hahahahaha! \w6Oh,\w5 oh,\w5 gosh, sorry-- \w8\w8\w8\0\cI was just imagining what your soul would look like when torn to pieces."
+	"\0\s[7]Dust is icky, and gets everywhere. \w6Blood is worse, because it stains things brown and smells horrendous.\x\c \0\s[22]I prefer to destroy the entire AU outright <3 \w8\w8It saves me so much mess!"
+	"\0\s[7]I don't get those Dreamtale twins.\w8\x\cThey're not even proper abominations, so I guess they can stick around or whatever,\w6 but each of them insist on having some sort of headquarters. \w8\w8\x\c\0\s[22]Meanwhile, I've got the entire antivoid to me,\w5 myself,\w5 and I! Haha, losers! I'll never share!"
+	"\0\s[3]I want to try to make a sweater. But what color?"
+	"\0\s[7]That stupid half and half soul keeps flickering.\w5 It's giving me an even bigger headache than usual.\w8\w8\w8\c If it wasn't one of the more unique souls in my collection, I would have destroyed it by now."
+	"\0\s[6]Have you seen my entire collection? I have a whole rainbow of souls! \w5Dozens and dozens of them. Papyrus,\w5 Alphys,\w5 Undyne,\w5 Loox,\w5 Froggit,\w5 Mettaton,\w5 Humans-\w8 you name it, I've got it. \w8\w8\w8...\0\s[0]Frisk? \w8\w8... They’re so common. \w8\0\s[2]Why would you want to see another one?"
+
 	"\0\s[4]\_q(Error is staring at his hands and zoning out.) \_q"
 	"\0\s[7]\_q(Error is muttering strange things to himself.) \_q"
 	"\0\s[0]\_q(Error is resisting the urge to pace.) \_q"

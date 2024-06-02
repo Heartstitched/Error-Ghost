@@ -44,6 +44,13 @@ OnBoot
 	{
 		"\0\s[11]WHAT THE HELL WAS THAT FOR?!"
 		"\0\s[11]You're some kind of sicko,\w8 aren't you?"
+		"\0\s[11]Do you think this is a joke?\w8 I felt every moment of that."
+		"\0\s[11]You must think you're better than me for doing that."
+		"\0\s[11]I hate you."
+		"\0\s[11]What did I do to deserve that?"
+		"\0\s[11]Y-Y-You're a \f[italic,true]freak.\f[italic,false]\w8 Do you like seeing me in pain?"
+		"\0\s[1]I hate you.\w5 I hate you.\w5\0\s[11] I hate you.\w5 I hate you.\w5\0\s[20] I hate you.\w5\c I wish you would leave me ALONE.\w8\w8\w8\w8\w8\w8\w8\w8\w8\0\s[1]\c... \w8\w8\w8\w8\w8\w8\0\s[0]Why are you looking at me like that? \w8\w8\w8\0\s[6]\cIt must be because I'm so \f[italic,true]cute!\f[italic,false]"//temporary until hatred var implemented
+		
 		"\0\s[1]Why?"
 		ErrorCrashed = 0
 	}
@@ -53,7 +60,7 @@ OnBoot
 	}
 	elseif _today == "1/1" //You can add whatever cool dates you want with more elseifs here
 	{
-		"\0\s[0]It's new year's day.\w8 Happy %(year)."
+		"\0\s[0]It's new year's day for you, huh?\w8\w8 \0\s[7]Happy %(year), I guess."
 	}
 	
 	else //Normal boot
@@ -61,17 +68,27 @@ OnBoot
 		"\0\s[0]Oh. It's you."
 		"\0\s[0]Are we doing this again??"
 		"\0\s[7]Whatever,\w8 I guess I wasn't doing anything too important."
+		"\0\s[0](sigh) It's you, again."
+		"\0\s[7]Do you think I don't have a life outside of here?"
+		"\0\s[0]Can you leave me alone already?"
+		"\0\s[0]You must be pretty lonely to be calling on \f[italic,true]me\f[italic,false] of all people."
+		"\0\s[6]You must be pretty smart to be calling on \f[italic,true]me\f[italic,false] of all people.\w8\c\0\s[9]I'm great company!"
 		
 	}
 }
 
 OnClose
 {
-	"\0\s[0]Finally."
-	"\0\s[0]...."
+	"\0\s[7]Finally."
+	"\0\s[0]...\w8"
 	"\0\s[0]Time to go back to my beanbag."
 	"\0\s[0]Hmph, see you again."
-	
+	"\0\s[6]Bring me chocolate next time."
+	"\0\s[0]I'd better get a treat next time."
+	"\0\s[6]Byeee~"	
+	"\0\s[7]About time."
+	"\0\s[2]Huh? I thought you liked my company."
+	"\0\s[7]Finally, I thought you'd never let me leave."
 	--
 	"\w8\w8\-" //This is what makes the ghost close (after a short pause), do not remove the \- , and MAKE SURE you don't use a \e before this point or it won't work
 }
