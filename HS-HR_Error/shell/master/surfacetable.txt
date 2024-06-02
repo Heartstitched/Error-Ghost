@@ -47,6 +47,8 @@ group,Dolls
 104, InkYippee
 105, PincushionDoll
 106,PincushionYippee
+107,BlueDoll
+108,FreshDoll
 }
 
 //// Kero normal surface
