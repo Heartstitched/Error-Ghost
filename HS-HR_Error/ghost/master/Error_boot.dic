@@ -13,6 +13,7 @@ OnFirstBoot
 	ErrorFriends = 0
 		
 	"\0\s[2]What the-?\w8\w8 \s[11]Who are you?\w8\w8\w8\cWhere am I?? \w8\w8\w8\cWhere have you- \s[2]\w8\w8\w8\cI mean!\n\n\s[0]You! \w8\w8\w8\cYes, of course... \w8\w8\w8\c\s[6]You are my prisoner now... \w8\w8\w8I suppose you'll just have to rely on me for most things,\w8\w8 hm?\w8\w8\w8 So be it.\w8\w8\w8\c\s[13]I expect you to call me Error.\w8\w8\w8 \c\s[14]I am The God of Destruction.\w8 \s[6]I can destroy your precious files or corrupt your all-so-exciting programs.\w8 \cEither you treat me with due respect, or I destroy everything you know and love in a snap.\w8\w8\w8 \c\s[9]Capiche? \w8\w8\w8 \c\s[6]Good...\w8\w8\w8"
+}
  
  //\cYou might as well give me something to call you. Unless you're okay being called ‘dumbass, idiot, or fuckwit.’ No?
 
@@ -41,7 +42,9 @@ OnBoot
 	--
 	if ErrorCrashed > 0
 	{
-		"\0\s[1]WHAT THE HELL WAS THAT FOR?!"
+		"\0\s[11]WHAT THE HELL WAS THAT FOR?!"
+		"\0\s[11]You're some kind of sicko,\w8 aren't you?"
+		"\0\s[1]Why?"
 		ErrorCrashed = 0
 	}
 	elseif _today == _user_birthday
@@ -55,8 +58,10 @@ OnBoot
 	
 	else //Normal boot
 	{
-		"\0\s[0]Oh. Its you."
-		"\0\s[0]are we doing this again??"
+		"\0\s[0]Oh. It's you."
+		"\0\s[0]Are we doing this again??"
+		"\0\s[7]Whatever,\w8 I guess I wasn't doing anything too important."
+		
 	}
 }
 
@@ -64,6 +69,9 @@ OnClose
 {
 	"\0\s[0]Finally."
 	"\0\s[0]...."
+	"\0\s[0]Time to go back to my beanbag."
+	"\0\s[0]Hmph, see you again."
+	
 	--
 	"\w8\w8\-" //This is what makes the ghost close (after a short pause), do not remove the \- , and MAKE SURE you don't use a \e before this point or it won't work
 }
@@ -110,4 +118,3 @@ ErrorFriendship
 		ErrorHatesU = 0
 	}
 */
-}
