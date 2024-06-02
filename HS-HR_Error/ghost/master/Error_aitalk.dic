@@ -85,7 +85,20 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[104]It's been a while since I've last seen ya, Error. \w8\w8\p[3]\s[103]When are you gonna say hi again? \p[0]\s[6]\w8\w8 Never.\x\p[3]\s[-1]"
 	"\p[3]\s[104]Heyo Error! Let's get together and fight one more time! \w8\w8\p[3]\s[103]But this time, I'll win! \p[0]\s[6]\w8\w8 Yeah right.\x\p[3]\s[-1]"
 
+	//blue puppet
+	"\p[3]\s[107]... \w8\w8\w8\p[0]\s[3]I only had to use fourteen Blueberry Sanses to make this one!\w8 Usually it takes a few more. \w8\w8\w8\p[0]\s[15]\cLook at him! Isn't he adorable?"
+	"\p[3]\s[107]... \w8\w8\w8\p[0]\s[7]Oh, Blueberry...\w6 We're really in it now."
+	"\p[3]\s[107]... \p[0]\s[0]... Should I steal more chocolate?\p[3]\s[107]... Get it. You’ll need the energy for the coming days.\p[0]\s[0]What the hell?"
+	"\p[3]\s[107]Don’t worry, Error! I’ll always be here for you!"
+	"\p[3]\s[107]I wish everybody were as cool and magnificent as you were, Error!\p[0]\s[6]I know."
+	"\p[3]\s[107]... \_q(The toy is being squeezed.)\_q\w8\w8\w8\p[0]\s[6]Squish. Squish. Squish."
 
+	"\p[3]\s[107]It's me, I'm the Marvelous Stupid Sans, I'm sooo nice and sweet and not annoying!\w8\w8\w8\p[0]\s[6]...\w8\w8 \p[3]\s[107]\cI \f[italic,true]deeefinitely\f[italic,false] want to be your friend,\w8 and not betray your trust at all! \w8\w8\w8\c... \w8\w8\w8\w8\cI'm so hungry, Error, please feed me. \p[0]\s[0]\c... \w8\w8\w8\w8\p[3]\s[107]\cI miss my friends, please let me go.\w8\w8\w8\w8 \p[0]\s[7]\c... \p[3]\s[107]\cI'm so tired, I'm tired all the time, why can't I ever sleep enough?\w8\w8\w8\w8 \p[0]\s[0]\c... \w8\w8\p[3]\s[107]\cI hate you, I HATE YOU, \f[italic,true]I H A T E Y O U.\f[italic,false]\w8\w8\w8\w8\w8\p[0]\s[7]...Hm. On second thought, I don't think he would say any of that."
+
+	//"Ugh. His eye is falling off. I wonder if I can find star shaped buttons in Pajamatale…" (highlight Pajamatale and link to your choice.)
+
+	"\p[3]\s[107]Please let me go home. \w8\w8\w6\p[0]\s[7]Shut up."
+	"\p[3]\s[107]I’m really sleepy, can you read me a bedtime story? \w8\w8\w8\w8\p[0]\s[9]Once upon a time, there was an annoying little monster..."
 	
 //if wearing his normal glasses 
  if WearingDressup("Circle Glasses")
