@@ -1,0 +1,62 @@
+charset,Shift_JIS
+version,1
+option,DisableNoDefineSurfaces
+
+group,__disabled
+{
+
+//21,__parts
+
+}
+
+
+// Sakura normal surface
+group,Error
+{
+scope,0
+0, Neutral
+1, AngryCrash
+2, Surprise
+3, Content
+4, Blank Eyes
+5, Blank crash
+6, Wry
+7, Angry but I closed his eyes 
+8, Secret
+9, Smug Secret
+11, Pissed off Glitch
+12, Smile
+13, 'Splainin
+14, Angy 'Splainin
+15, Look at this!
+16,
+17,
+18,
+19,
+20,ErrorCrashed
+}
+
+group,Dolls
+{
+100, ClassicDoll
+101, FellDoll
+102, FellYipee
+103, InkDoll
+104, InkYippee
+105, PincushionDoll
+106,PincushionYippee
+}
+
+//// Kero normal surface
+group,Soul
+{
+10, Default
+}
+
+
+group,Blue
+{
+500, Default
+}
+
+

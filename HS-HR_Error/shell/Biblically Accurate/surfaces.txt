@@ -314,6 +314,7 @@ surface9
     element2,overlay,surface50.png,0,0
 	element3,overlay,surface1300.png,0,0
 
+
 //	--- Default Blink---
 	animation0.interval,random,4
 	animation0.pattern0,overlay,70,0,0,0
@@ -607,13 +608,13 @@ surface22
 surface.append0-9,11-24
 {	  
     animation2000.interval,always
-	animation2000.pattern0,overlay,1100,350,0,0
-	animation2000.pattern1,overlay,1101,350,0,0
-	animation2000.pattern2,overlay,1100,350,0,0
-	animation2000.pattern3,overlay,1102,350,0,0
-	animation2000.pattern4,overlay,1100,350,0,0
-	animation2000.pattern5,overlay,1101,350,0,0
-	animation2000.pattern6,overlay,1102,350,0,0
+	animation2000.pattern0,overlay,1100,1050,0,0
+	animation2000.pattern1,overlay,1101,1050,0,0
+	animation2000.pattern2,overlay,1100,1050,0,0
+	animation2000.pattern3,overlay,1102,1050,0,0
+	animation2000.pattern4,overlay,1100,1050,0,0
+	animation2000.pattern5,overlay,1101,1050,0,0
+	animation2000.pattern6,overlay,1102,1050,0,0
     animation2000.option,shared-index
 }
 	
@@ -656,11 +657,11 @@ surface101
     element0,overlay,surface4001.png,0,0
 }
 
-//Fell Arms raised
-surface102
-{
-    element0,overlay,surface4002.png,0,0
-}
+// //Fell Arms raised
+// surface102
+// {
+    // element0,overlay,surface4002.png,0,0
+// }
 
 //Ink Chillin
 surface103
@@ -668,11 +669,11 @@ surface103
     element0,overlay,surface4003.png,0,0
 }
 
-//Ink Arms raised
-surface104
-{
-    element0,overlay,surface4004.png,0,0
-}
+// //Ink Arms raised
+// surface104
+// {
+    // element0,overlay,surface4004.png,0,0
+// }
 
 //Pin Cushion Ink Chillin
 surface105
@@ -680,23 +681,11 @@ surface105
     element0,overlay,surface4005.png,0,0
 }
 
-//Pin Cushion Ink Arms raised
-surface106
-{
-    element0,overlay,surface4006.png,0,0
-}
-
-//Blue Chillin
-surface107
-{
-    element0,overlay,surface4007.png,0,0
-}
-
-//Fresh Chillin
-surface108
-{
-    element0,overlay,surface4008.png,0,0
-}
+// //Pin Cushion Ink Arms raised
+// surface106
+// {
+    // element0,overlay,surface4006.png,0,0
+// }
 
 
 //—————————————————————————————— Kero ——————————————————————————————
@@ -720,23 +709,22 @@ surface10
    
 }
 
-//—————————————————————————————— Blue Neutral ——————————————————————————————
+//—————————————————————————————— Blue Nervous ——————————————————————————————
 	
 surface500
 {
 	
 	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5030.png,0,0 //eye styles
-	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element4,overlay,surface5021.png,0,0 //brows (smirk)
-
+	element1,overlay,surface5030.png,0,0
+	element2,overlay,surface5040.png,0,0
+	element3,overlay,surface5060.png,0,0
+	
 	
 //	--- Default Blink---
 	animation0.interval,random,4
 	animation0.pattern0,overlay,5070,0,0,0
 	animation0.pattern1,overlay,5035,100,0,0
 	animation0.pattern2,overlay,-1,50,0,0
-
 
 
 //	--- Frowny Talk---
@@ -757,393 +745,15 @@ surface500
 	 animation4.pattern1,overlay,5042,200,0,0
 	 animation4.pattern2,overlay,-1,200,0,0
 }
-
-// Blue Sheepish 
-surface501
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5030.png,0,0 //eye styles
-	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element3,overlay,surface5060.png,0,0 //sweatdrop (smirk)
-	element4,overlay,surface5020.png,0,0 //brows (smirk)
-
-	
-//	--- Default Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5070,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0
-
-
-
-//    --- Smiley Talk---
-     animation1.interval,talk,4
-     animation1.pattern0,alternativestart,(2,3,4)
-
-     animation2.interval,never
-     animation2.pattern0,overlay,5041,0,0,0
-     animation2.pattern1,overlay,5043,200,0,0
-     animation2.pattern2,overlay,-1,200,0,0
-
-     animation3.interval,never
-     animation3.pattern0,overlay,5041,0,0,0
-     animation3.pattern1,overlay,-1,200,0,0
-
-     animation4.interval,never
-     animation4.pattern0,overlay,5043,0,0,0
-     animation4.pattern1,overlay,5042,200,0,0
-     animation4.pattern2,overlay,-1,200,0,0
-}
-// Blue Hopeful
-surface502
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5037.png,0,0 //eye styles
-	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element3,overlay,surface5064.png,0,0 //brows (smirk)
-	element4,overlay,surface5020.png,0,0 //brows (smirk)
-
-	
-//	--- Starry Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5074,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0
-
-
-
-//    --- Smiley Talk---
-     animation1.interval,talk,4
-     animation1.pattern0,alternativestart,(2,3,4)
-
-     animation2.interval,never
-     animation2.pattern0,overlay,5041,0,0,0
-     animation2.pattern1,overlay,5043,200,0,0
-     animation2.pattern2,overlay,-1,200,0,0
-
-     animation3.interval,never
-     animation3.pattern0,overlay,5041,0,0,0
-     animation3.pattern1,overlay,-1,200,0,0
-
-     animation4.interval,never
-     animation4.pattern0,overlay,5043,0,0,0
-     animation4.pattern1,overlay,5042,200,0,0
-     animation4.pattern2,overlay,-1,200,0,0
-}
-
-// Blue Angry
-surface503
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5030.png,0,0 //eye styles
-	element2,overlay,surface5045.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element3,overlay,surface5061.png,0,0 
-	element4,overlay,surface5022.png,0,0 //brows (smirk)
-	element5,overlay,surface5062.png,0,0 
-
-
-	
-//	--- Default Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5070,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0
-
-
-
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,5045,0,0,0
-	 animation2.pattern1,overlay,5048,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,5046,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,5048,0,0,0
-	 animation4.pattern1,overlay,5047,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
-}
-
-// Blue Disappointed
-surface504
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5070.png,0,0 //eye styles
-	element2,overlay,surface5045.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element4,overlay,surface5022.png,0,0 //brows (smirk)
-
-	
-//	--- Default Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5070,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0
-
-
-
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,5041,0,0,0
-	 animation2.pattern1,overlay,5043,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,5041,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,5043,0,0,0
-	 animation4.pattern1,overlay,5042,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
-}
-
-// Blue Starry-eyed
-surface505
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5037.png,0,0 //eye styles
-	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element4,overlay,surface5021.png,0,0 //brows (smirk)
-
-	
-//	--- Default Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5074,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0
-
-
-
-//    --- Smiley Talk---
-     animation1.interval,talk,4
-     animation1.pattern0,alternativestart,(2,3,4)
-
-     animation2.interval,never
-     animation2.pattern0,overlay,5041,0,0,0
-     animation2.pattern1,overlay,5043,200,0,0
-     animation2.pattern2,overlay,-1,200,0,0
-
-     animation3.interval,never
-     animation3.pattern0,overlay,5041,0,0,0
-     animation3.pattern1,overlay,-1,200,0,0
-
-     animation4.interval,never
-     animation4.pattern0,overlay,5043,0,0,0
-     animation4.pattern1,overlay,5042,200,0,0
-     animation4.pattern2,overlay,-1,200,0,0
-}
-
-
-
-// Blue Horrified
-surface506
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5032.png,0,0 //eye styles
-	element2,overlay,surface5049.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element3,overlay,surface5061.png,0,0 //shadow over eyes
-	element4,overlay,surface5060.png,0,0 //sweatdrop
-	element5,overlay,surface5020.png,0,0 //brows (smirk)
-	element6,overlay,surface5063.png,0,0 
-
-
-	
-//	--- Default Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5072,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0	
-
-
-
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,5045,0,0,0
-	 animation2.pattern1,overlay,5048,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,5045,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,5048,0,0,0
-	 animation4.pattern1,overlay,5047,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
-}
-
-// Blue Horrified to you
-surface507
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5033.png,0,0 //eye styles
-	element2,overlay,surface5049.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element3,overlay,surface5061.png,0,0 //shadow over eyes
-	element4,overlay,surface5060.png,0,0 //sweatdrop
-	element5,overlay,surface5020.png,0,0 //brows (smirk)
-	element6,overlay,surface5063.png,0,0 
-
-
-	
-//	--- Default Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5073,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0	
-
-
-
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,5045,0,0,0
-	 animation2.pattern1,overlay,5048,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,5045,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,5048,0,0,0
-	 animation4.pattern1,overlay,5047,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
-}
-
-// Blue Starry-eyed you
-surface508
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5038.png,0,0 //eye styles
-	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element4,overlay,surface5021.png,0,0 //brows (smirk)
-
-	
-//	--- Default Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5075,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0
-
-
-
-//    --- Smiley Talk---
-     animation1.interval,talk,4
-     animation1.pattern0,alternativestart,(2,3,4)
-
-     animation2.interval,never
-     animation2.pattern0,overlay,5041,0,0,0
-     animation2.pattern1,overlay,5043,200,0,0
-     animation2.pattern2,overlay,-1,200,0,0
-
-     animation3.interval,never
-     animation3.pattern0,overlay,5041,0,0,0
-     animation3.pattern1,overlay,-1,200,0,0
-
-     animation4.interval,never
-     animation4.pattern0,overlay,5043,0,0,0
-     animation4.pattern1,overlay,5042,200,0,0
-     animation4.pattern2,overlay,-1,200,0,0
-}
-
-// Blue closed eyes happy
-surface509
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5078.png,0,0 //eye styles
-	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element3,overlay,surface5064.png,0,0 //brows (smirk)
-	element4,overlay,surface5020.png,0,0 //brows (smirk)
-
-
-//    --- Smiley Talk---
-     animation1.interval,talk,4
-     animation1.pattern0,alternativestart,(2,3,4)
-
-     animation2.interval,never
-     animation2.pattern0,overlay,5041,0,0,0
-     animation2.pattern1,overlay,5043,200,0,0
-     animation2.pattern2,overlay,-1,200,0,0
-
-     animation3.interval,never
-     animation3.pattern0,overlay,5041,0,0,0
-     animation3.pattern1,overlay,-1,200,0,0
-
-     animation4.interval,never
-     animation4.pattern0,overlay,5043,0,0,0
-     animation4.pattern1,overlay,5042,200,0,0
-     animation4.pattern2,overlay,-1,200,0,0
-}
-
-// Blue look you
-surface510
-{
-	
-	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5031.png,0,0 //eye styles
-	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
-	element4,overlay,surface5021.png,0,0 //brows (smirk)
-
-	
-//	--- Default Blink---
-	animation0.interval,random,4
-	animation0.pattern0,overlay,5071,0,0,0
-	animation0.pattern1,overlay,5035,100,0,0
-	animation0.pattern2,overlay,-1,50,0,0
-
-
-
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,5041,0,0,0
-	 animation2.pattern1,overlay,5043,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,5041,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,5043,0,0,0
-	 animation4.pattern1,overlay,5042,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
-}
-
 
 
 //—————————————————————————————— Base Collision ——————————————————————————————
 surface.append0-9,11-22
 {
 	collisionex0,Head,region,collisionbody.png,255,30,0
-	collisionex1,Strings,region,collisionbody.png,206,0,255
-	collisionex2,Scarf,region,collisionbody.png,3,5,206
-	collisionex3,Hands,region,collisionbody.png,255,255,0
+	collisionex1,Strings,region,collisionbody.png,207,0,255
+	collisionex2,Scarf,region,collisionbody.png,3,4,206
+	collisionex3,Hands,region,collisionbody.png,255,254,1
 //	collisionex4,Nose,region,collisionbody.png,174,2,199
 	
 }
@@ -1156,34 +766,28 @@ surface.append500
 
 //--Clothes---------------------------
 
-//Whisper Hand
-surface.append8,9
-{
-//Fancy Boa
-animation910.interval,bind
-animation910.pattern0,add,3002,20,0,0	
-}
-//Explaining Hand
-surface.append13-15
-{
-//Fancy Boa
-animation910.interval,bind
-animation910.pattern0,add,3004,20,0,0	
-}
-//Base Body
-surface.append0-7,11,12,16-20,22-25
-{
-//Fancy Boa
-animation910.interval,bind
-animation910.pattern0,add,3003,20,0,0
-}
-//Chocolate Eater
-surface.append21
-{
-//Fancy Boa
-animation910.interval,bind
-animation910.pattern0,add,3010,20,0,0
-}
+// //Whisper Hand
+// surface.append8,9
+// {
+// //Fancy Boa
+// animation910.interval,bind
+// animation910.pattern0,add,3002,20,0,0	
+// }
+// //Explaining Hand
+// surface.append13-15
+// {
+// //Fancy Boa
+// animation910.interval,bind
+// animation910.pattern0,add,3004,20,0,0	
+// }
+// //Base Body
+// surface.append0-7,11,12,16-25
+// {
+// //Fancy Boa
+// animation910.interval,bind
+// animation910.pattern0,add,3003,20,0,0
+
+// }
 
 //--Accessories-----------------------
 surface.append0-9,11-25
@@ -1192,33 +796,29 @@ surface.append0-9,11-25
 animation900.interval,bind
 animation900.pattern0,add,3000,20,0,0
 
-//Heart Shades
-animation901.interval,bind
-animation901.pattern0,add,3001,20,0,0
+// //Heart Shades
+// animation901.interval,bind
+// animation901.pattern0,add,3001,20,0,0
 
-//parasite
-animation902.interval,bind
-animation902.pattern0,add,3006,20,0,0
+// //parasite
+// animation902.interval,bind
+// animation902.pattern0,add,3006,20,0,0
 
-//Thieved Shades
-animation903.interval,bind
-animation903.pattern0,add,3007,20,0,0
+// //Thieved Shades
+// animation903.interval,bind
+// animation903.pattern0,add,3007,20,0,0
 
-//Pencil
-animation904.interval,bind
-animation904.pattern0,add,3008,20,0,0
+// //Pencil
+// animation904.interval,bind
+// animation904.pattern0,add,3008,20,0,0
 
-//Cat Ears
-animation905.interval,bind
-animation905.pattern0,add,3009,20,0,0
+// //Cat Ears
+// animation905.interval,bind
+// animation905.pattern0,add,3009,20,0,0
 
 //Spinky
 animation911.interval,bind
 animation911.pattern0,add,3005,20,0,0
-	
-//Ghost Jam Hat
-animation912.interval,bind
-animation912.pattern0,add,3011,20,0,0	
 
 }
 
