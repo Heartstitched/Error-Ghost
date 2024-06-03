@@ -91,7 +91,7 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[101]Grrr, you took all my chocolate again! \w8\w8\0\s[6]Mwahaha! It wasn’t like you’d enjoy it as much as I do, anyway!\w8\w8\w6\cI’m going to throw my wrappers back into your room now! \w8\p[3]\s[101]\cNooo! \w8\w8\0\s[6]\cYesss!\x\p[3]Arggh!\s[101]\s[-1]"
 	
 	//ink
-	"\p[3]\s[103]... Error... ... \x\p[3]\s[-1]"
+	"\p[3]\s[103]... Error...\x\p[3]\s[-1]"
 	"\p[3]\s[103]Been working on that for a while now, pal!\x\p[3]\s[103]"
 	"\p[3]\s[103]So, Error... \p[0]\s[0]\w8\w8\w8What? \p[3]\s[103]\w8\w8How's your most recent crochet project?\p[0]\s[6]\w8\w8Well, it's about time that you asked. Here,\w8 take a look. \p[3]\s[104]\c\w8Wow, it looks great Error!\p[0]\s[12]\w8\w8\c... Thanks. Of course it does!\w8\w8"
 	
@@ -108,22 +108,24 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[107]Don’t worry, Error! I’ll always be here for you!"
 	"\p[3]\s[107]I wish everybody were as cool and magnificent as you were, Error!\p[0]\s[6]I know."
 	"\p[3]\s[107]... \_q(The toy is being squeezed.)\_q\w8\w8\w8\p[0]\s[6]Squish. Squish. Squish."
-
-	"\p[3]\s[107]It's me, I'm the Marvelous Stupid Sans, I'm sooo nice and sweet and not annoying!\w8\w8\w8\p[0]\s[6]...\w8\w8 \p[3]\s[107]\cI \f[italic,true]deeefinitely\f[italic,false] want to be your friend,\w8 and not betray your trust at all! \w8\w8\w8\c... \w8\w8\w8\w8\cI'm so hungry, Error, please feed me. \p[0]\s[0]\c... \w8\w8\w8\w8\p[3]\s[107]\cI miss my friends, please let me go.\w8\w8\w8\w8 \p[0]\s[7]\c... \p[3]\s[107]\cI'm so tired, I'm tired all the time, why can't I ever sleep enough?\w8\w8\w8\w8 \p[0]\s[0]\c... \w8\w8\p[3]\s[107]\cI hate you, I HATE YOU, \f[italic,true]I H A T E Y O U.\f[italic,false]\w8\w8\w8\w8\w8\p[0]\s[7]...Hm. On second thought, I don't think he would say any of that."
-
+	
+	if BlueIsHere == 0 
+	{
+		"\p[3]\s[107]It's me, I'm the Marvelous Stupid Sans, I'm sooo nice and sweet and not annoying!\w8\w8\w8\p[0]\s[6]...\w8\w8 \p[3]\s[107]\cI \f[italic,true]deeefinitely\f[italic,false] want to be your friend,\w8 and not betray your trust at all! \w8\w8\w8\c... \w8\w8\w8\w8\cI'm so hungry, Error, please feed me. \p[0]\s[0]\c... \w8\w8\w8\w8\p[3]\s[107]\cI miss my friends, please let me go.\w8\w8\w8\w8 \p[0]\s[7]\c... \p[3]\s[107]\cI'm so tired, I'm tired all the time, why can't I ever sleep enough?\w8\w8\w8\w8 \p[0]\s[0]\c... \w8\w8\p[3]\s[107]\cI hate you, I HATE YOU, \f[italic,true]I H A T E Y O U.\f[italic,false]\w8\w8\w8\w8\w8\p[0]\s[7]...Hm. On second thought, I don't think he would say any of that."
+	}
 	//"Ugh. His eye is falling off. I wonder if I can find star shaped buttons in Pajamatale…" (highlight Pajamatale and link to your choice.)
 
 	"\p[3]\s[107]Please let me go home. \w8\w8\w6\p[0]\s[7]Shut up."
 	"\p[3]\s[107]I’m really sleepy, can you read me a bedtime story? \w8\w8\w8\w8\p[0]\s[9]Once upon a time, there was an annoying little monster..."
 
 	//fresh puppet
-	"\p[3]\s[108]... \p[0]\s[7]Do you know how difficult it is to get this stupid retro printed fabric? (pause) I had to raid at least seven different AU's before I found the perfect match."
+	"\p[3]\s[108]... \p[0]\s[7]Do you know how difficult it is to get this stupid retro printed fabric? \w8\w8I had to raid at least seven different AU's before I found the perfect match."
 	"\p[3]\s[108]... \p[0]\s[7]I hope he never sees this thing, he’d never shut up about it."
-	"\p[3]\s[108]... \p[0]\s[7]Maybe I should add a bug to his skull. He is ultimately nothing but a parasite, after all. (pause) And a thorn in my side. Why hasn't he annoyed me lately? \p[3]\s[108]Aww, don't worry, I'm sure I'll stop by soon! I could never get enough of you! \p[0]\s[6]Of course not. I am endlessly fascinating."
-	"\p[3]\s[108]Walk, walk, fashion baby, work it, move that bitch cuhrazy-\w8\w8\w6\p[0]\s[0] No, no, he wouldn't curse. He has that weird censor ability... move that... *quack*!"
+	"\p[3]\s[108]... \p[0]\s[7]Maybe I should add a bug to his skull. He is ultimately nothing but a parasite, after all. \w8\w8 And a thorn in my side. Why hasn't he annoyed me lately? \w8\p[3]\s[108]Aww, don't worry, I'm sure I'll stop by soon! I could never get enough of you! \w8\w8\w8\p[0]\s[6]Of course not. I am endlessly fascinating."
+	"\p[3]\s[108]Walk, walk, fashion baby, work it, move that bitch cuhrazy-\w8\w8\w6\p[0]\s[0] No, no, he wouldn't curse. He has that weird censor ability... \w6move that...\w6 *quack*!"
 	"\p[3]\s[108]You're the best! I love your feather boa, you're the epitome of style! \w8\w8\w6\p[0]\s[6]Why, thank you! That means so much coming from you! \w8\w8\w6Your gauche patterns and garish colors have infuriated me.\x\c \p[0]\s[22]Nice to know you're coming around."
 	"\p[3]\s[108]You look like you could use a hug. \w6I'm always available for snuggles! \w8\w8\p[0]\s[0]If you touch me I will tear you to shreds. \w8\w8\w8\w8\p[3]\s[108]You've never been able to catch me before! What makes you think this would be different, buddy? \w8\w8\w8\p[0]\s[6]Shut up! \w8\w8\c\p[3]\s[108]Bweeehhhh!"
-	"\p[3]\s[108]Woah homie, have you had any water to drink lately? \w8\w8\w6\p[0]\s[0]I don’t need any water. I can't feel thirst. \w8\w8\w6\p[3]\s[108]\_q(The puppet turns to look directly at you.)\_q \x\c\p[3]\s[108]\_q(Somehow, the puppet is judgmental. You get the feeling it’d raise a thick brow if it could.)\_q"
+	"\p[3]\s[108]Woah homie, have you had any water to drink lately? \w8\w8\w6\p[0]\s[0]I don’t need any water. I can't feel thirst. \x\c\w6\p[3]\s[108]\_q(The puppet turns to look directly at you.)\_q \x\c\p[3]\s[108]\_q(Somehow, the puppet is judgmental. You get the feeling it’d raise a thick brow if it could.)\_q"
 	"\p[3]\s[108]This place ain’t too shabbyyyy!"
 	"\p[3]\s[108]Could use some more color around here, don’tcha think? \w8\w8\p[0]\s[0]You think that about everything."
 
@@ -208,7 +210,7 @@ BlueDropsIn
 	"\p[4]\s[500]I’m getting used to hanging around here. \p[4]\s[501]My arms hurt a little, though…"
 	"\p[4]\s[500]I wonder if I can get Error to feed me a taco like this... \p[4]\s[505]Hmmm, not a bad idea! \0\s[7]Not a chance.\w8\w8" 
 	"\0\s[0]\p[4]\s[501]I wonder if I’ll ever see my brother again... \w8\w8\w8\0\s[2]...Should I drag him here too? \w8\w8\w8\w4\p[4]\s[506]No, um, don’t worry about it."
-	"\p[4]\s[500]\_q(It seems like hes whispering to you)\_q \n\nHe’s a bit prickly, right? I don’t think he means any of it. \w8\w8 I’m sure I’ll get through to him eventually."
+	"\0\s[3]\_q(He's preoccupied with his crochet, ignoring everything else.)\_q\p[4]\s[510]\_q(Whispering to you)\_q\nHe’s a bit prickly, right?\x\c\p[4]\s[509]I don’t think he means any of it. \w8\w8\p[4]\s[500]I’m sure I’ll get through to him eventually... \x\c\p[4]\s[501]Even if he says some awful things in the mean time."
 	"\p[4]\s[500]I miss eating tacos."
 	"\p[4]\s[500]I’m kind of hungry, Error... \w8\w8\w8\0\s[2]Already? I guess I’ll go find you something to eat... \w8\w8\p[4]\s[500]Don't you ever feel hungry as well? \w8\w8\0\s[2]No. I don't remember ever being hungry. I just eat to enjoy the taste of chocolate. \w8\w8\0\s[9]Hmm, does that make me better than you?"
 	"\p[4]\s[501]I hope he will let me go home eventually. I mean, he has to get bored of me somehow, and he wouldn’t... \w8\w8\w8\w8\w8\w8 \n\n\_q\p[4]\s[506](He trails off, muttering to himself. He seems distracted by thoughts you don’t know.)\_q"
