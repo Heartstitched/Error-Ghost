@@ -14,7 +14,7 @@ OnAiTalk
 RandomTalk : nonoverlap_pool
 {
 	//givin the guy chocolate
-	//"\0\s[22]Oh thanks!\w8\w8\s[21]\w8\w8\w4\s[22]"
+//"\0\s[22]Oh thanks!\w8\w8\s[21]\w8\w8\w4\s[22]"
 
 //\p[3]\s[ ] to use puppets and pull them up in dialogue. fill s[ ] with the surface number of the puppet you want to use
 
@@ -63,6 +63,7 @@ RandomTalk : nonoverlap_pool
 	"\0\s[7]That stupid half and half soul keeps flickering.\w5 It's giving me an even bigger headache than usual.\w8\w8\w8\c If it wasn't one of the more unique souls in my collection, I would have destroyed it by now."
 	"\0\s[6]Have you seen my entire collection? I have a whole rainbow of souls! \w5Dozens and dozens of them. Papyrus,\w5 Alphys,\w5 Undyne,\w5 Loox,\w5 Froggit,\w5 Mettaton,\w5 Humans-\w8 you name it, I've got it. \w8\w8\w8...\0\s[0]Frisk? \w8\w8... They’re so common. \w8\0\s[2]Why would you want to see another one?"
 
+	
 	"\0\s[4]\_q(Error is staring at his hands and zoning out.) \_q"
 	"\0\s[7]\_q(Error is muttering strange things to himself.) \_q"
 	"\0\s[0]\_q(Error is resisting the urge to pace.) \_q"
@@ -80,7 +81,7 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[100]... \x\p[3]\s[-1]"
 	"\p[3]\s[100]... \w8\w8\w8\p[0]\s[3]Why yes,\w8 Classic,\w8 I do know everything that happened in Undernovela season one.\w8\p[0]\s[15] I can recite it all off the top of my head to you right now. \w8\w8\p[3]\s[100]Error, you're so cool. \w8\p[0]\s[3]"
 	"\p[3]\s[100]How long have you been sitting here? \w6Let's go look at the stars! \w8\w8\p[0]\s[6]\w8\w8 Huh, not a bad idea.\x\p[3]\s[-1]"
-	""
+	
 
 	"\p[3]\s[100]... \x\p[3]\s[-1]"
 
@@ -108,12 +109,13 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[107]I wish everybody were as cool and magnificent as you were, Error!\p[0]\s[6]I know."
 	"\p[3]\s[107]... \_q(The toy is being squeezed.)\_q\w8\w8\w8\p[0]\s[6]Squish. Squish. Squish."
 
-	"\p[3]\s[107]It's me, I'm the Marvelous Stupid Sans, I'm sooo nice and sweet and not annoying!\w8\w8\w8\p[0]\s[6]...\w8\w8 \p[3]\s[107]\cI \f[italic,true]deeefinitely\f[italic,false] want to be your friend,\w8 and not betray your trust at all! \w8\w8\w8\c... \w8\w8\w8\w8\cI'm so hungry, Error, please feed me. \p[0]\s[0]\c... \w8\w8\w8\w8\p[3]\s[107]\cI miss my friends, please let me go.\w8\w8\w8\w8 \p[0]\s[7]\c... \p[3]\s[107]\cI'm so tired, I'm tired all the time, why can't I ever sleep enough?\w8\w8\w8\w8 \p[0]\s[0]\c... \w8\w8\p[3]\s[107]\cI hate you, I HATE YOU, \n\f[italic,true]I   H A T E   Y O U.\f[italic,false]\w8\w8\w8\w8\w8\p[0]\s[7]...Hm. On second thought, I don't think he would say any of that."
+	"\p[3]\s[107]It's me, I'm the Marvelous Stupid Sans, I'm sooo nice and sweet and not annoying!\w8\w8\w8\p[0]\s[6]...\w8\w8 \p[3]\s[107]\cI \f[italic,true]deeefinitely\f[italic,false] want to be your friend,\w8 and not betray your trust at all! \w8\w8\w8\c... \w8\w8\w8\w8\cI'm so hungry, Error, please feed me. \p[0]\s[0]\c... \w8\w8\w8\w8\p[3]\s[107]\cI miss my friends, please let me go.\w8\w8\w8\w8 \p[0]\s[7]\c... \p[3]\s[107]\cI'm so tired, I'm tired all the time, why can't I ever sleep enough?\w8\w8\w8\w8 \p[0]\s[0]\c... \w8\w8\p[3]\s[107]\cI hate you, I HATE YOU, \f[italic,true]I H A T E Y O U.\f[italic,false]\w8\w8\w8\w8\w8\p[0]\s[7]...Hm. On second thought, I don't think he would say any of that."
+
 	//"Ugh. His eye is falling off. I wonder if I can find star shaped buttons in Pajamatale…" (highlight Pajamatale and link to your choice.)
+
 	"\p[3]\s[107]Please let me go home. \w8\w8\w6\p[0]\s[7]Shut up."
 	"\p[3]\s[107]I’m really sleepy, can you read me a bedtime story? \w8\w8\w8\w8\p[0]\s[9]Once upon a time, there was an annoying little monster..."
-	
-	
+
 	//fresh puppet
 	"\p[3]\s[108]... \p[0]\s[7]Do you know how difficult it is to get this stupid retro printed fabric? (pause) I had to raid at least seven different AU's before I found the perfect match."
 	"\p[3]\s[108]... \p[0]\s[7]I hope he never sees this thing, he’d never shut up about it."
@@ -131,6 +133,9 @@ RandomTalk : nonoverlap_pool
 	{ 
 		"\0\s[0] What are you staring at."
 		"\0\s[0]I didn't notice before but... \w8\w8\s[2] Your place is a mess! \w8\n\s[0]Clean up your files or I'll do it for you."
+		"\0\s[0]You have tons of files all over the place. \w8\w8You should reorganize."
+		"\0\s[0]I feel a lot better being able to actually see around myself."
+		"\0\s[3]I thought I broke this pair a while ago..."
 		"\0\s[0]I thought I lost these glasses a long time ago, actually."
 		"\0\s[3]Wearing these makes me wonder if I can find my lost crochet hooks..."
 		"\0\s[0]Hmm, interesting. \w8\w8 \s[2]Huh? I'm trying to read along. \w8\w8 \s[6]Of course you'd be excited to have my company."
