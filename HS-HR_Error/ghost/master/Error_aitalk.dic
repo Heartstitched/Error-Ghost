@@ -63,7 +63,6 @@ RandomTalk : nonoverlap_pool
 	"\0\s[7]That stupid half and half soul keeps flickering.\w5 It's giving me an even bigger headache than usual.\w8\w8\w8\c If it wasn't one of the more unique souls in my collection, I would have destroyed it by now."
 	"\0\s[6]Have you seen my entire collection? I have a whole rainbow of souls! \w5Dozens and dozens of them. Papyrus,\w5 Alphys,\w5 Undyne,\w5 Loox,\w5 Froggit,\w5 Mettaton,\w5 Humans-\w8 you name it, I've got it. \w8\w8\w8...\0\s[0]Frisk? \w8\w8... They’re so common. \w8\0\s[2]Why would you want to see another one?"
 
-	//this could get sorted into word.dic as a %(ErrorIdleStatement) but i'm lazy
 	"\0\s[4]\_q(Error is staring at his hands and zoning out.) \_q"
 	"\0\s[7]\_q(Error is muttering strange things to himself.) \_q"
 	"\0\s[0]\_q(Error is resisting the urge to pace.) \_q"
@@ -127,7 +126,6 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[108]Could use some more color around here, don’tcha think? \w8\w8\p[0]\s[0]You think that about everything."
 
 	
-//_________________separator__________________ 
 //if wearing his normal glasses 
  if WearingDressup("Circle Glasses")
 	{ 
