@@ -276,7 +276,6 @@ surface8
     element0,overlay,surface3.png,0,0
     element1,overlay,surface30.png,0,0
     element2,overlay,surface40.png,0,0
-	element3,overlay,surface1300.png,0,0
 	
 
 //	--- Default Blink---
@@ -312,7 +311,6 @@ surface9
     element0,overlay,surface3.png,0,0
     element1,overlay,surface30.png,0,0
     element2,overlay,surface50.png,0,0
-	element3,overlay,surface1300.png,0,0
 
 //	--- Default Blink---
 	animation0.interval,random,4
