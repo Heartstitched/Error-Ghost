@@ -1,208 +1,336 @@
-ghost/master/BatAcid.png4aa02a1528553f9ba02bd84c84f81babsize=8240date=2024-05-28T00:46:45charset=OSNative
-ghost/master/Blanket.png4f6fa52903407eb19da7092bb2a2e697size=5873date=2024-05-28T00:45:48
-ghost/master/Choco.png03dc8e98c9be3c1f8055d609eabc5371size=5768date=2024-05-27T01:58:13
-ghost/master/CrochetHook.png0280b43404e1ba0507c8499d7ce4aa3asize=6399date=2024-05-27T02:00:59
-ghost/master/Error_Blue_menu.dic7647a0f344e98f14706b958ebfb67f11size=2163date=2024-05-27T20:33:05
-ghost/master/Error_aitalk.dic7394737d31496db313096b1b2570d3b9size=12583date=2024-05-28T06:58:10
-ghost/master/Error_boot.dic345813ab2b80aa93d71e68a4fad16372size=3664date=2024-05-27T23:45:32
-ghost/master/Error_emerg.dicc7cb6eacd3262003fef909c382a6fefesize=351date=2023-04-14T14:45:50
-ghost/master/Error_kero_menu.dic8ed124c0eb6bfb7cb570eb4bf9f99314size=1089date=2023-05-06T15:47:14
-ghost/master/Error_meta.dic2b5b74ccc7d3808709475f1570d927b9size=6010date=2024-03-05T21:42:27
-ghost/master/Error_mouse.dic53e8147a7ae0053e982bba8482964f7bsize=7970date=2024-05-28T06:45:12
-ghost/master/Error_other.dic22d96891a4b854fd6ac58b5bffa2fae7size=9600date=2024-05-28T06:23:32
-ghost/master/Error_sakura_menu.dic68ebbbd3ab940c0ac04bd92d4c88ad10size=2593date=2024-05-28T06:58:44
-ghost/master/Error_word.dic296a75e593d0faae5ce93b8ede7f944csize=19136date=2024-05-28T01:33:27
-ghost/master/Icon.png92fd6e8a6756c5efe6b7f82e3e5f3c57size=376date=2024-05-24T20:44:52
-ghost/master/KnitNeedles.png5326fbdfe476e0f5da4492204fc2cd76size=8784date=2024-05-27T02:09:36
-ghost/master/Milkshaaaake.png4f5dc7a520f2e038b56745f852cca08bsize=5761date=2024-05-27T01:59:58
-ghost/master/Milkshake.png930cb182a7d5d1f669a43c0cf55aeabesize=5572date=2024-05-27T02:09:01
-ghost/master/PapScarf.png27c7cdaec0a14dc7744531efe9c07f16size=7604date=2024-05-28T00:44:59
-ghost/master/Popcorn.png71fcb50fe6d55e74390a1ef3f4b3cfcfsize=9512date=2024-05-27T02:05:34
-ghost/master/Salad.png35d7b36bdd4ce2d22f09fd864a225098size=6981date=2024-05-27T02:04:42
-ghost/master/SewNeedles.pngb7c6e05930bb49704d36ff36e75e3fcasize=7169date=2024-05-27T02:08:17
-ghost/master/Sunglasses.pngf205a48da1105d9c39985921a0dc709asize=4252date=2024-05-27T01:59:01
-ghost/master/Yarn.png8c8c9b386a4a3c055d2dd1e6f09cdac8size=10895date=2024-05-27T02:01:26
-ghost/master/descript.txt056130cd37bb68deb7d3ec5b50b674c1size=275date=2024-05-23T23:44:56
-ghost/master/icon.icoac424fb372d90b50d0d9076247582dddsize=15086date=2024-05-24T21:18:45
-ghost/master/yaya.dllfa8bac5d6d7346524317f731dc63803dsize=880640date=2024-02-04T01:07:55
-ghost/master/yaya.txtf1b947a47759b46c83888f3b2435c85dsize=801date=2024-05-27T02:36:38
-ghost/master/yaya_base/_loading_order.txt9c350c2c9c08f635bff5eaae149af8c8size=103date=2023-04-02T09:34:13
-ghost/master/yaya_base/compatible.dic4f8b1e8c8c08dc44e70b1bd4f52a1affsize=4297date=2023-04-02T09:34:13
-ghost/master/yaya_base/config.dic9dae7f666d2a30ddede6093c7d2a5750size=2627date=2023-04-14T15:03:05
-ghost/master/yaya_base/optional.dicff4da728a656a8aa6a38939e654c51f2size=9953date=2023-04-02T09:34:13
-ghost/master/yaya_base/shiori3.dicac4750d7081a6607ac1c26184677020asize=55020date=2024-02-04T01:16:24
-ghost/master/yaya_emerg.txtdb373a173f5cb6a132252a70ad0db496size=613date=2024-05-24T06:02:51
-install.txta6b89fc59e4e050bfa33eb754eb6c015size=62date=2024-05-23T23:46:04
-readme.txt0b17f880345d42804f09ac2064dbc16asize=1649date=2024-05-28T01:55:48
-shell/Biblically Accurate/CollisionBlue.png30dd9aa10e7d2253c94180531aa78cb5size=14344date=2024-05-27T20:41:15
-shell/Biblically Accurate/CollisionBody.pngfb30c359a06e181b724159e833409ae2size=37223date=2024-05-27T20:41:42
-shell/Biblically Accurate/descript.txtd68b5b59e9c0837230e248d73614547csize=3027date=2024-05-27T20:25:14
-shell/Biblically Accurate/menu_background.png2e445bd0fc9a29bdff741948f0393685size=23921date=2024-05-27T20:59:51
-shell/Biblically Accurate/menu_foreground.png2a1eb17038c35fb9918de1cb93ce4b82size=20787date=2024-05-27T21:00:45
-shell/Biblically Accurate/menu_sidebar.pngbeac276b66d036062f8e7a2a2d24ac89size=19150date=2024-05-27T21:01:20
-shell/Biblically Accurate/surface0.png91e555c750deb8aaed3cba6284c5943esize=66143date=2024-05-27T20:45:20
-shell/Biblically Accurate/surface1.pngeceefafcd0fee178543f6e6b151ea377size=68626date=2024-05-27T20:44:44
-shell/Biblically Accurate/surface10.pngb45e77f1a004ec1ba09a3e159a378e33size=19192date=2024-05-27T17:42:54
-shell/Biblically Accurate/surface1000.png4b19392e1119da93a3410984fdff0ed7size=107845date=2024-05-27T18:22:31
-shell/Biblically Accurate/surface1001.png5d667ac00146780c8fcf2e5e324adb16size=102294date=2024-05-27T18:23:24
-shell/Biblically Accurate/surface1002.png5d667ac00146780c8fcf2e5e324adb16size=102294date=2024-05-27T18:24:08
-shell/Biblically Accurate/surface1100.png0f1c88f5554dba1ee64c784e58d2871fsize=17971date=2024-05-27T18:28:43
-shell/Biblically Accurate/surface1101.png13626cde524576bbf09e11aa5a887a26size=17874date=2024-05-27T18:28:57
-shell/Biblically Accurate/surface1102.png8d68838c7a3c6695b3059cad3e6e2c94size=17904date=2024-05-27T18:32:20
-shell/Biblically Accurate/surface1201.png711662d6f526914b444590c53642491esize=66434date=2024-05-27T18:36:15
-shell/Biblically Accurate/surface1202.png2a8f14e7a3839823ce461714ddd04c47size=66475date=2024-05-27T18:37:15
-shell/Biblically Accurate/surface1203.png93687cd23922f7c25806d6dbe04f86f8size=68507date=2024-05-27T18:37:38
-shell/Biblically Accurate/surface1204.png6018ff1f18246a3ed556950d8a18786fsize=69968date=2024-05-27T18:40:54
-shell/Biblically Accurate/surface1205.pngf4abe48c8e97ae0ec8785ee25af52882size=71392date=2024-05-27T18:40:26
-shell/Biblically Accurate/surface1206.pngb943c25c46990a94ba059e7072c3ec06size=70799date=2024-05-27T18:40:03
-shell/Biblically Accurate/surface1207.png2e40572cc720d141a8b4935e5bee0594size=67237date=2024-05-27T18:41:49
-shell/Biblically Accurate/surface1300.png0af26cda45da4e902f76c0a0307ad5b7size=12579date=2024-05-27T21:26:42
-shell/Biblically Accurate/surface2000.pngc811f370da34a3bd01b0ae14df8b3f1csize=2068date=2024-05-27T18:58:19
-shell/Biblically Accurate/surface2001.pngc811f370da34a3bd01b0ae14df8b3f1csize=2068date=2024-05-27T18:58:19
-shell/Biblically Accurate/surface2002.pngc811f370da34a3bd01b0ae14df8b3f1csize=2068date=2024-05-27T18:58:19
-shell/Biblically Accurate/surface2003.pngc811f370da34a3bd01b0ae14df8b3f1csize=2068date=2024-05-27T18:58:19
-shell/Biblically Accurate/surface2010.png83bad69cd6d5fe9da3bcb5fa7604dd5csize=9994date=2024-05-27T17:46:06
-shell/Biblically Accurate/surface2011.pngd161002179a70a31d7a36daa6e94478asize=11162date=2024-05-27T17:46:24
-shell/Biblically Accurate/surface2012.png86b2576bcdfa989ab9fd1131cfa84350size=11825date=2024-05-27T17:46:41
-shell/Biblically Accurate/surface2013.png88def8496b32e62ed5858e3653eb1f1bsize=12193date=2024-05-27T17:46:58
-shell/Biblically Accurate/surface3.png006fef842657a071bf8a3a39d7903b10size=66030date=2024-05-27T20:44:14
-shell/Biblically Accurate/surface30.png4058ae1a5be674113191d460c7e18ca1size=5246date=2024-05-27T21:16:30
-shell/Biblically Accurate/surface3000.png897be6507b3850b9f8f9c65ec63dfa22size=5553date=2024-05-27T18:43:21
-shell/Biblically Accurate/surface3005.png897be6507b3850b9f8f9c65ec63dfa22size=5553date=2024-05-27T18:43:43
-shell/Biblically Accurate/surface31.png23d39b15008261ecb2a9603b88565741size=5434date=2024-05-27T21:17:05
-shell/Biblically Accurate/surface32.png901f8e0111dbec359ccc3225c49666fesize=4914date=2024-05-27T21:17:17
-shell/Biblically Accurate/surface33.png00aa681740a0a13c92a49c7a5b5fe526size=5489date=2024-05-27T21:17:30
-shell/Biblically Accurate/surface34.png85472487a5882b6c41ed53e6c68e7a99size=5992date=2024-05-27T21:17:40
-shell/Biblically Accurate/surface35.png27690934407ac9aec732df4be3d5b59esize=4588date=2024-05-27T21:17:50
-shell/Biblically Accurate/surface36.png93a31a10a5c8ebac1bb1830d0820df5asize=4628date=2024-05-27T21:18:00
-shell/Biblically Accurate/surface37.pnga3e0fd4325920da67e5b0db54a1f95d2size=5582date=2024-05-27T21:18:10
-shell/Biblically Accurate/surface38.pngc1e3125dd85492df181784d1094aa9f4size=6066date=2024-05-27T21:18:30
-shell/Biblically Accurate/surface40.pngc26ebd08ca3e14a008fe2e6b131b01f2size=2907date=2024-05-27T21:18:49
-shell/Biblically Accurate/surface4000.pngc12b81b19ae7c012af0ca2c5e30755fcsize=16810date=2024-05-27T18:44:52
-shell/Biblically Accurate/surface4001.pnge86c351feab7bbc999e5f8b5e3e05c0bsize=15728date=2024-05-27T18:45:22
-shell/Biblically Accurate/surface4002.pnge86c351feab7bbc999e5f8b5e3e05c0bsize=15728date=2024-05-27T18:45:33
-shell/Biblically Accurate/surface4003.png17ff75739e1fd109ce94dd52991bc28esize=22323date=2024-05-27T18:46:02
-shell/Biblically Accurate/surface4005.png1307f1c47835c66951c146740ece240esize=24136date=2024-05-27T18:46:26
-shell/Biblically Accurate/surface41.png6f631895261fc5e17ca0d47e14dacc4dsize=3186date=2024-05-27T21:18:59
-shell/Biblically Accurate/surface4100.pngaf7251ce40e97d5dab0cddc6e0bbfd94size=33136date=2024-05-27T18:47:49
-shell/Biblically Accurate/surface42.pngc26ebd08ca3e14a008fe2e6b131b01f2size=2907date=2024-05-27T21:19:14
-shell/Biblically Accurate/surface4200.png3fc36663445a09d461166641489e7ea6size=19071date=2024-05-27T18:48:15
-shell/Biblically Accurate/surface4201.pngce9e5cf6126301a3776988b0227d9ae9size=19211date=2024-05-27T18:48:43
-shell/Biblically Accurate/surface4202.pnga7eaaaec09448772691ac8e13931eceasize=19263date=2024-05-27T18:49:06
-shell/Biblically Accurate/surface4203.png9817617c32748c891fa8214d0ea43150size=19217date=2024-05-27T18:49:25
-shell/Biblically Accurate/surface4204.png50c77fbabd801a688f88766e852d8960size=19158date=2024-05-27T18:50:15
-shell/Biblically Accurate/surface4205.pngf18fbc5459aae19e41f77e6d5a9a271asize=19155date=2024-05-27T18:52:37
-shell/Biblically Accurate/surface4206.pngc2e169fbea9a34e8bd9a6026bfdf424asize=19340date=2024-05-27T18:53:07
-shell/Biblically Accurate/surface4207.pnga4ac2f7c1b45b8f0b5347cc36430134asize=18994date=2024-05-27T18:53:47
-shell/Biblically Accurate/surface4208.pnga855cc7f14ada21b9684cf28fc7e8214size=19362date=2024-05-27T18:53:34
-shell/Biblically Accurate/surface43.png6f631895261fc5e17ca0d47e14dacc4dsize=3186date=2024-05-27T21:19:25
-shell/Biblically Accurate/surface50.png1bff6a71ba4cf91bd0e1ea2877aee0d1size=3415date=2024-05-27T21:19:36
-shell/Biblically Accurate/surface5000.png13ca5570842ce7106a3a17926753ef2csize=50397date=2024-05-27T18:56:12
-shell/Biblically Accurate/surface5030.png86f69552652e3ea43d4354a8528e8f57size=4450date=2024-05-27T19:03:48
-shell/Biblically Accurate/surface5035.png53c3aa174a3f805b7886989fb4215271size=3558date=2024-05-27T19:04:39
-shell/Biblically Accurate/surface5040.pnge002b765c8d351cb94e57ec44ef72303size=4216date=2024-05-27T19:02:07
-shell/Biblically Accurate/surface5041.pnge002b765c8d351cb94e57ec44ef72303size=4216date=2024-05-27T19:02:22
-shell/Biblically Accurate/surface5042.pnge002b765c8d351cb94e57ec44ef72303size=4216date=2024-05-27T19:02:36
-shell/Biblically Accurate/surface5043.pnge002b765c8d351cb94e57ec44ef72303size=4216date=2024-05-27T19:02:52
-shell/Biblically Accurate/surface5060.pngf68ad8363e8cf658a9744d9384d78a2csize=2219date=2024-05-27T19:01:28
-shell/Biblically Accurate/surface5070.pnge9134933cb80d23e0f67bf90caaacabfsize=4297date=2024-05-27T19:05:57
-shell/Biblically Accurate/surface51.png51d5d24a4bdeb9771a36859e9267759esize=3477date=2024-05-27T21:19:46
-shell/Biblically Accurate/surface52.png1bff6a71ba4cf91bd0e1ea2877aee0d1size=3415date=2024-05-27T21:20:02
-shell/Biblically Accurate/surface53.png51d5d24a4bdeb9771a36859e9267759esize=3477date=2024-05-27T21:20:17
-shell/Biblically Accurate/surface70.png7d1e13ad102a25ddc9ff8990020f4f55size=4800date=2024-05-27T21:20:34
-shell/Biblically Accurate/surface71.png4ec25c7d35ce7105fe0e93de7142254dsize=4552date=2024-05-27T21:20:46
-shell/Biblically Accurate/surface72.png3d55e83b6df3d5075a2131b07670c7aesize=4945date=2024-05-27T21:20:54
-shell/Biblically Accurate/surfaces.txt4c0583feaeaf4f2acbf1b36ef901a138size=27442date=2024-05-27T20:42:28
-shell/Biblically Accurate/surfacetable.txtadfe9f419b70e912d592a815affc06b2size=682date=2024-05-26T16:56:59
-shell/master/Body Base/surface0.png918eb8b3693bf9a45143bedf62d053acsize=70717date=2024-05-24T02:24:28
-shell/master/CollisionBlue.png032ca7cafe0b1d3b6672a22b7301f341size=20443date=2024-05-27T03:20:56
-shell/master/CollisionBody.png86e57140fbc1284e4234fbacf1572e6csize=38039date=2024-05-24T00:14:21
-shell/master/descript.txt11557a7a2ea0832641a401a44f913bb0size=2918date=2024-05-27T20:32:56
-shell/master/menu_background.png2e445bd0fc9a29bdff741948f0393685size=23921date=2024-05-27T20:59:51
-shell/master/menu_foreground.png2a1eb17038c35fb9918de1cb93ce4b82size=20787date=2024-05-27T21:00:45
-shell/master/menu_sidebar.pngbeac276b66d036062f8e7a2a2d24ac89size=19150date=2024-05-27T21:01:20
-shell/master/surface0.pnga3673b299fe7dbf2993cba032d8988a0size=107310date=2024-05-24T02:00:18
-shell/master/surface1.png4eb09be9775913e4e632fcd3484a63e6size=107439date=2024-05-24T15:18:31
-shell/master/surface10.png79871c9c18940a53d8843f42db28f005size=26798date=2024-05-24T14:46:49
-shell/master/surface1000.png4a9f59828ea9da8b0d959ed16002f005size=225800date=2024-05-24T01:47:34
-shell/master/surface1001.png4577441c6ff84f3c21939cb207bc3f58size=229681date=2024-05-24T01:47:55
-shell/master/surface1002.pngcae19e63a2014bd80b28b79db1266d42size=253480date=2024-05-24T01:48:10
-shell/master/surface1100.pngcd029c67bd73f11db5140fd3ff2fb387size=4869date=2024-05-24T01:56:06
-shell/master/surface1101.png01ab5a0e3cc285b8a30fa41ba8345a46size=4041date=2024-05-24T01:56:21
-shell/master/surface1102.png03eea915081239176726ec1b227552eesize=4776date=2024-05-24T22:26:02
-shell/master/surface1201.png62baa3d69ce0fb4625e709bf72efc389size=104973date=2024-05-24T22:37:15
-shell/master/surface1202.png4992aafb063032cd750a65f54ee1e9b9size=105714date=2024-05-24T22:36:32
-shell/master/surface1203.png717d6cb7898433e97503897f98b3eb3csize=105926date=2024-05-24T22:36:21
-shell/master/surface1204.pngbfbe8c2e27e53d3136d6214e14d8d53csize=106729date=2024-05-24T22:36:03
-shell/master/surface1205.pngc120c824819570c1ac05e4bffe731e8csize=105715date=2024-05-24T22:35:49
-shell/master/surface1206.pngc443144df443f461679ffd73a9b66231size=105163date=2024-05-24T22:53:28
-shell/master/surface1207.pngd0a7d6394910a4b591cf2b8a7200044fsize=104791date=2024-05-24T22:53:43
-shell/master/surface2000.png65059a0ac29164b8699a990af653b3fasize=44710date=2024-05-24T20:42:52
-shell/master/surface2001.png759f496b606fe666658b77e1277dcc5dsize=44689date=2024-05-24T20:43:08
-shell/master/surface2002.png2a84c4fafb72cb6ca30cd1e67e629738size=49320date=2024-05-24T20:43:20
-shell/master/surface2003.png187cf8131bdf0e67ded551f88e8f25ccsize=44988date=2024-05-24T20:43:32
-shell/master/surface2010.png0f77c00d64da3e91e36cf72f2f72fbaesize=44489date=2024-05-24T20:46:46
-shell/master/surface2011.png0391dbdfc7a329d2b66c2e2ce95ef72dsize=42231date=2024-05-24T20:46:57
-shell/master/surface2012.pngd2da00c27421ddd999a6634db05f37ffsize=42118date=2024-05-24T20:47:09
-shell/master/surface2013.png39c7fcbfe10e78d04951c173e2e9c72bsize=42459date=2024-05-24T20:47:30
-shell/master/surface3.pnge0b7a78f4654afcccebef9ee70f73b0bsize=102428date=2024-05-24T15:14:37
-shell/master/surface30.png283474d9ce3dad2eeebe672d63bbaacesize=3950date=2024-05-24T02:01:28
-shell/master/surface3000.png401e1cd28bf23cb97258e591779e3054size=4788date=2024-05-24T02:08:02
-shell/master/surface3001.pngb21b545eb5c2d07a7a124fcb21b80710size=6424date=2024-05-24T02:23:51
-shell/master/surface3002.png11aae270e7f31ef4915fe9367218dd4esize=63864date=2024-05-24T19:55:25
-shell/master/surface3003.pngeeeb7395950ccd64b6f3abd0fdb517ebsize=66209date=2024-05-24T19:55:52
-shell/master/surface3004.png323141368491ddfcb2a6f40e9b6692d0size=66144date=2024-05-24T20:07:51
-shell/master/surface3005.png8b56e00e07b3f0728dd082ddf5fef82bsize=7451date=2024-05-24T23:26:36
-shell/master/surface3006.pngaaf65487c22c560a1101ade35fd19191size=14018date=2024-05-26T21:51:00
-shell/master/surface3007.png69b6127d6f893a9a84585eb83ec5aaaasize=5843date=2024-05-26T21:51:15
-shell/master/surface3008.png5daed9666c5bded61814e2906cb557cdsize=3401date=2024-05-26T21:51:28
-shell/master/surface3009.pngdd084545782e68dcac0a45d7d970b0c4size=11613date=2024-05-26T21:51:41
-shell/master/surface31.png2dade27fa088ade7bdd457d78245c456size=5700date=2024-05-24T02:46:06
-shell/master/surface32.png1e125a1cc470e1981430a4a40a5aab4esize=5723date=2024-05-24T02:46:18
-shell/master/surface33.png2c75b0dfd0484d9cbe07e0f90d3d8fbfsize=6402date=2024-05-24T03:32:53
-shell/master/surface34.png6e11afbe0b7d379139873b268f7d9825size=6371date=2024-05-24T03:32:37
-shell/master/surface35.png02533a368a2e3baa8d78c040a0b3d3e6size=5526date=2024-05-24T02:44:55
-shell/master/surface36.png47f7e4151b808269e8dbfc7aaab26807size=5666date=2024-05-24T02:56:43
-shell/master/surface37.png071a81147e959281cf7aeda0ea13a1e8size=5217date=2024-05-24T15:55:13
-shell/master/surface38.png67601985740a7db5d00518cf6bec5998size=3523date=2024-05-24T22:15:03
-shell/master/surface40.pngff38f298592da1dab408deb40d011d29size=2116date=2024-05-24T02:01:42
-shell/master/surface4000.pngad3e51c30e9a8ea94ea60828b76b8571size=16680date=2024-05-24T15:15:23
-shell/master/surface4001.png61e1232cd1d367fb22afab078403b99fsize=16569date=2024-05-24T15:15:41
-shell/master/surface4002.pngf6642745a29783da6d65bbb342d55522size=16358date=2024-05-24T15:15:55
-shell/master/surface4003.png6177e860d76f005aa9752a80abcc5f71size=19034date=2024-05-24T15:16:16
-shell/master/surface4004.png36e67212fd1df0fbfe26fcbf05f767ccsize=18147date=2024-05-24T15:17:22
-shell/master/surface4005.png0dfe1db4b125047ffaaf30057e090607size=19939date=2024-05-24T15:17:41
-shell/master/surface4006.pngd039400225742627499091943ac9f57bsize=19040date=2024-05-24T15:17:57
-shell/master/surface41.png598c06a77fda24895f1df9e1a6dcb421size=3074date=2024-05-24T02:41:50
-shell/master/surface4100.png3c2efedd6e07867d38ff03049d572cf3size=29725date=2024-05-24T16:06:59
-shell/master/surface42.png0771e3a06bb53a4b778d67ec22645b3asize=3009date=2024-05-24T02:42:02
-shell/master/surface4200.png6192414121e1bbf16c309f1788a8925csize=26852date=2024-05-24T16:10:58
-shell/master/surface4201.png6638bb2a2d5c1521179ad797a24a3c24size=25744date=2024-05-24T16:11:09
-shell/master/surface4202.png0cff5bcf9e9c972a25cda9bf393d6474size=27331date=2024-05-24T16:11:27
-shell/master/surface4203.pngd92392b298144873190f19f7714b0859size=25824date=2024-05-24T16:12:19
-shell/master/surface4204.png7f50789c618e3569b74b242738553f9esize=27276date=2024-05-24T16:15:09
-shell/master/surface4205.pngd4f60b692630a390e34e87e222e16f33size=25353date=2024-05-24T16:15:36
-shell/master/surface4206.png0e6d96c89c4077346d265f0264ea9ccesize=27286date=2024-05-24T16:16:55
-shell/master/surface4207.png0ecc5c6f8771c3b24f4ef027010ce574size=28266date=2024-05-24T16:17:11
-shell/master/surface4208.png1fe5dd9cfecd8d8701b661ab3dd4a4ddsize=27079date=2024-05-24T16:19:56
-shell/master/surface43.pnga7f789e2625002a91a4d5893af0fa6d9size=3064date=2024-05-24T02:42:15
-shell/master/surface50.pngdce0013d8a09735f3c2b5d7ab9ad2241size=2287date=2024-05-24T02:12:55
-shell/master/surface5000.png4b84bed1b041564aad8d6caa59286bccsize=99648date=2024-05-26T21:12:23
-shell/master/surface5030.png9416ef86d708b69b4ea2f48446f5b0dfsize=3964date=2024-05-26T16:25:01
-shell/master/surface5035.png26c8f6941c31c6378f7c758d2da5d4e6size=3890date=2024-05-26T16:59:21
-shell/master/surface5040.png7aeeae23db584cf725a747949c6c6204size=2638date=2024-05-26T16:51:14
-shell/master/surface5041.pngd7ee802be37da9d4485a87d9c40c4762size=3170date=2024-05-26T16:52:14
-shell/master/surface5042.png4a6e0e58cd23b4c6caacebf1aa73e86bsize=2513date=2024-05-26T16:52:45
-shell/master/surface5043.png625429b8a797d690a55d57e45de8a6e6size=2892date=2024-05-26T16:53:16
-shell/master/surface5060.pngc07fa33f637abf658d22c6cbd25ca4fdsize=2366date=2024-05-26T17:04:52
-shell/master/surface5070.png31902bd9fb3f48f6acd04e106e041fa4size=3728date=2024-05-26T17:00:42
-shell/master/surface51.pngfaf9520cc93a14e22bbd5089d3a0a70asize=3128date=2024-05-24T02:42:28
-shell/master/surface52.png0771e3a06bb53a4b778d67ec22645b3asize=3009date=2024-05-24T02:42:40
-shell/master/surface53.png77a58b526b0e7678e6311cbf104dce36size=3125date=2024-05-24T02:42:50
-shell/master/surface70.pngf6a60067e672c997fb161551a61ad048size=5827date=2024-05-24T02:25:32
-shell/master/surface71.pnge8e02084d6f93d767e0030cd27c46289size=5810date=2024-05-24T02:46:46
-shell/master/surface72.pngad1f195297163f6da5d7e99797c23f5fsize=5697date=2024-05-24T02:47:40
-shell/master/surfaces.txt272ecb5b98204469bd7741193a41b72bsize=27282date=2024-05-27T23:03:56
-shell/master/surfacetable.txtadfe9f419b70e912d592a815affc06b2size=682date=2024-05-26T16:56:59
-thumbnail.pna79a4e9f1bd549aee2fb74886037779d1size=1050date=2024-05-24T19:39:45
-thumbnail.pnga42b0461471daf1f064a4d4fb9b9d1dasize=45199date=2024-05-25T01:50:58
+ERROR404/KernelPanicNbp-LyG3.ttf95c1e5e76dfcfbf167dfcc0edd85ea21size=11196date=2024-05-24T21:49:14charset=OSNative
+ERROR404/arrow0.pngd7d7ccb18679eadf007bfebcba155835size=237date=2024-05-29T20:27:55
+ERROR404/arrow1.png3ad6ab161b7dfe052d92fdd141951397size=238date=2024-05-29T20:28:32
+ERROR404/balloonc0.png83ac0f86125d17f82a1f60d3285e931csize=939date=2024-05-30T01:26:41
+ERROR404/balloonc1.pngf724562d506d0e09b028459b13f2f14fsize=1493date=2024-05-30T01:26:52
+ERROR404/balloonc2.png0a17b4cbe4ad6763eaf3a207b10b8edbsize=987date=2024-05-30T01:26:14
+ERROR404/balloonc3.pngab5baddc06145a91d4091f00dc629f25size=879date=2024-05-30T01:26:31
+ERROR404/balloonk0.pngb8bdade9ad364d03943e4774564f7564size=472date=2024-05-27T00:26:28
+ERROR404/balloonk0s.txtd68a8d81a73eec5877fa4f97f6b21934size=314date=2024-05-27T02:25:54
+ERROR404/balloonk1.pngb8bdade9ad364d03943e4774564f7564size=472date=2024-05-27T00:26:35
+ERROR404/balloonk1s.txtad1c1609ce394690b91f7523f1e0b7c3size=304date=2024-05-27T02:26:07
+ERROR404/balloonk2.png2652160f3216281af578457e08fe10d2size=709date=2024-05-27T00:29:05
+ERROR404/balloonk2s.txt477ac7af60e6b617c479c0d84840cd3dsize=248date=2024-05-27T02:26:16
+ERROR404/balloonk3.png2652160f3216281af578457e08fe10d2size=709date=2024-05-27T00:29:12
+ERROR404/balloonk3s.txtad1c1609ce394690b91f7523f1e0b7c3size=304date=2024-05-27T02:26:25
+ERROR404/balloons0.png69f1a16c7e216446755fd1dc4f64a0d7size=32961date=2024-05-27T04:32:37
+ERROR404/balloons0s.txtddde83241fa0d3b6b5b4f99b27c285f7size=133date=2024-05-24T21:32:16
+ERROR404/balloons1.png69f1a16c7e216446755fd1dc4f64a0d7size=32961date=2024-05-27T04:32:46
+ERROR404/balloons1s.txt9c120bb84a2c65e830a0ac5f90957163size=314date=2002-11-04T23:17:00
+ERROR404/balloons2.png8afcb0e8c3b2a901737d52daa3d033c5size=67395date=2024-05-27T04:31:05
+ERROR404/balloons2s.txtf3a32ff203f1702f031ba07f54f00b6dsize=110date=2002-11-04T12:13:10
+ERROR404/balloons3.png8afcb0e8c3b2a901737d52daa3d033c5size=67395date=2024-05-27T04:31:13
+ERROR404/balloons3s.txt9c120bb84a2c65e830a0ac5f90957163size=314date=2002-11-04T23:17:20
+ERROR404/descript.txtf4bd355a21d6fbd24e873c49097c4545size=1518date=2024-06-02T18:31:28
+ERROR404/install.txt0b2e1dd6038061e1cb9c2843b6cbd3casize=163date=2024-06-03T08:12:36
+ERROR404/online.pngcc5884f33d0e9f6aeefc11765e951c61size=223date=2024-05-29T20:29:11
+ERROR404/online0.png7eabe2a22e6b2914e3801d84c7bd0310size=223date=2024-05-29T20:29:35
+ERROR404/online1.png356672d5912ab92c668b3c47cc31dfdasize=238date=2024-05-29T20:27:27
+ERROR404/online2.png36c092534d7a1fc4624ae68f5103c1c0size=228date=2024-05-29T20:28:47
+ERROR404/online3.pngcc5884f33d0e9f6aeefc11765e951c61size=223date=2024-05-29T20:28:59
+ERROR404/pixel-comic-sans-undertale-sans-font.ttfdfaef4abddbbd10d94cf5f4fa83d72c0size=17340date=2024-05-27T02:23:29
+ERROR404/readme.txt87dda3a33a42c6c570ea19eef644ac8dsize=121date=2024-06-02T19:07:28
+ERROR404/sstp.pngf288c3a4fd7ed705b8ce6051a62cdbecsize=243date=2024-05-29T20:31:10
+Error goals.dicd4067600eec80c84ce60bc755c63bb45size=875date=2024-05-26T22:32:05
+ghost/master/BatAcid.png4aa02a1528553f9ba02bd84c84f81babsize=8240date=2024-05-28T02:59:36
+ghost/master/Blanket.png4f6fa52903407eb19da7092bb2a2e697size=5873date=2024-05-28T02:59:36
+ghost/master/Choco.png03dc8e98c9be3c1f8055d609eabc5371size=5768date=2024-05-28T02:59:36
+ghost/master/CrochetHook.png0280b43404e1ba0507c8499d7ce4aa3asize=6399date=2024-05-28T02:59:36
+ghost/master/ERROR404/KernelPanicNbp-LyG3.ttf95c1e5e76dfcfbf167dfcc0edd85ea21size=11196date=2024-05-30T01:59:17
+ghost/master/ERROR404/arrow0.pngd7d7ccb18679eadf007bfebcba155835size=237date=2024-05-30T01:59:17
+ghost/master/ERROR404/arrow1.png3ad6ab161b7dfe052d92fdd141951397size=238date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonc0.pngdd6cb7b62dd5be035c743f47bb520df0size=958date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonc1.png2f02dd86db6b4bf1ce0278191df37e1asize=1510date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonc2.pnga06e2b97de6537fb56dc370e3b8d96cfsize=1002date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonc3.pngef79a6929b32f17f19bb3da128ead774size=879date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonk0.pngb8bdade9ad364d03943e4774564f7564size=472date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonk0s.txtd68a8d81a73eec5877fa4f97f6b21934size=314date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonk1.pngb8bdade9ad364d03943e4774564f7564size=472date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonk1s.txtad1c1609ce394690b91f7523f1e0b7c3size=304date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonk2.png2652160f3216281af578457e08fe10d2size=709date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonk2s.txt477ac7af60e6b617c479c0d84840cd3dsize=248date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonk3.png2652160f3216281af578457e08fe10d2size=709date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloonk3s.txtad1c1609ce394690b91f7523f1e0b7c3size=304date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloons0.png69f1a16c7e216446755fd1dc4f64a0d7size=32961date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloons0s.txtddde83241fa0d3b6b5b4f99b27c285f7size=133date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloons1.png69f1a16c7e216446755fd1dc4f64a0d7size=32961date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloons1s.txt9c120bb84a2c65e830a0ac5f90957163size=314date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloons2.png8afcb0e8c3b2a901737d52daa3d033c5size=67395date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloons2s.txtf3a32ff203f1702f031ba07f54f00b6dsize=110date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloons3.png8afcb0e8c3b2a901737d52daa3d033c5size=67395date=2024-05-30T01:59:17
+ghost/master/ERROR404/balloons3s.txt9c120bb84a2c65e830a0ac5f90957163size=314date=2024-05-30T01:59:17
+ghost/master/ERROR404/descript.txtf810aed5f5452866948d2b135d38bd0asize=1561date=2024-06-02T19:03:55
+ghost/master/ERROR404/install.txt0b2e1dd6038061e1cb9c2843b6cbd3casize=163date=2024-06-03T08:12:50
+ghost/master/ERROR404/online.pngcc5884f33d0e9f6aeefc11765e951c61size=223date=2024-05-30T01:59:17
+ghost/master/ERROR404/online0.png7eabe2a22e6b2914e3801d84c7bd0310size=223date=2024-05-30T01:59:17
+ghost/master/ERROR404/online1.png356672d5912ab92c668b3c47cc31dfdasize=238date=2024-05-30T01:59:17
+ghost/master/ERROR404/online2.png36c092534d7a1fc4624ae68f5103c1c0size=228date=2024-05-30T01:59:17
+ghost/master/ERROR404/online3.pngcc5884f33d0e9f6aeefc11765e951c61size=223date=2024-05-30T01:59:17
+ghost/master/ERROR404/pixel-comic-sans-undertale-sans-font.ttfdfaef4abddbbd10d94cf5f4fa83d72c0size=17340date=2024-05-30T01:59:17
+ghost/master/ERROR404/readme.txt87dda3a33a42c6c570ea19eef644ac8dsize=121date=2024-06-02T19:07:36
+ghost/master/ERROR404/sstp.pngf288c3a4fd7ed705b8ce6051a62cdbecsize=243date=2024-05-30T01:59:17
+ghost/master/Error_Blue_menu.dic7647a0f344e98f14706b958ebfb67f11size=2163date=2024-05-27T20:59:30
+ghost/master/Error_aitalk.dic431f0641590d96d57063744f74355049size=22935date=2024-06-03T12:17:29
+ghost/master/Error_boot.dicd039c41744cfff8dc22f8729db3069edsize=5938date=2024-06-03T09:23:56
+ghost/master/Error_emerg.dicc7cb6eacd3262003fef909c382a6fefesize=351date=2024-05-27T20:59:30
+ghost/master/Error_kero_menu.dic8ed124c0eb6bfb7cb570eb4bf9f99314size=1089date=2024-05-27T20:59:30
+ghost/master/Error_meta.dic2b5b74ccc7d3808709475f1570d927b9size=6010date=2024-05-27T20:59:30
+ghost/master/Error_mouse.dic53e8147a7ae0053e982bba8482964f7bsize=7970date=2024-05-28T18:54:02
+ghost/master/Error_other.dic9d28d36b5a47e1e50e4f8f6535fc66b1size=9789date=2024-05-30T20:42:01
+ghost/master/Error_sakura_menu.dic4407918870f51a20a1e4d1adf7879343size=12867date=2024-06-03T11:24:01
+ghost/master/Error_word.dic5fedc09efdc03d72654230512a7ab395size=20326date=2024-06-02T01:33:12
+ghost/master/Icon.png92fd6e8a6756c5efe6b7f82e3e5f3c57size=376date=2024-05-27T20:59:30
+ghost/master/KnitNeedles.png5326fbdfe476e0f5da4492204fc2cd76size=8784date=2024-05-28T02:59:36
+ghost/master/Milkshaaaake.png4f5dc7a520f2e038b56745f852cca08bsize=5761date=2024-05-28T02:59:36
+ghost/master/Milkshake.png930cb182a7d5d1f669a43c0cf55aeabesize=5572date=2024-05-28T02:59:36
+ghost/master/PapScarf.png27c7cdaec0a14dc7744531efe9c07f16size=7604date=2024-05-28T02:59:36
+ghost/master/Popcorn.png71fcb50fe6d55e74390a1ef3f4b3cfcfsize=9512date=2024-05-28T02:59:36
+ghost/master/Salad.png35d7b36bdd4ce2d22f09fd864a225098size=6981date=2024-05-28T02:59:36
+ghost/master/SewNeedles.pngb7c6e05930bb49704d36ff36e75e3fcasize=7169date=2024-05-28T02:59:36
+ghost/master/Sunglasses.pngf205a48da1105d9c39985921a0dc709asize=4252date=2024-05-28T02:59:36
+ghost/master/Yarn.png8c8c9b386a4a3c055d2dd1e6f09cdac8size=10895date=2024-05-28T02:59:36
+ghost/master/descript.txtecafb6e910090aac9ecabd0dc194280csize=342date=2024-06-03T08:25:25
+ghost/master/icon.icoac424fb372d90b50d0d9076247582dddsize=15086date=2024-05-27T20:59:30
+ghost/master/yaya.dllfa8bac5d6d7346524317f731dc63803dsize=880640date=2024-05-27T20:59:30
+ghost/master/yaya.txtf1b947a47759b46c83888f3b2435c85dsize=801date=2024-05-27T20:59:30
+ghost/master/yaya_base/_loading_order.txt8276351bea49240949d7fb45febe0728size=107date=2024-05-27T20:59:30
+ghost/master/yaya_base/compatible.dic90cdd7e2afcacb1cc74e455802253585size=4513date=2024-05-27T20:59:30
+ghost/master/yaya_base/config.dic616c7c2e23d57c06b8faafcd9b7fa37dsize=2691date=2024-05-27T20:59:30
+ghost/master/yaya_base/optional.dic6d145faf699b791eee13a56b451011c6size=10304date=2024-05-27T20:59:30
+ghost/master/yaya_base/shiori3.dicc9e371280c18aea578e13b56ed75ef93size=57125date=2024-05-27T20:59:30
+ghost/master/yaya_emerg.txtdb373a173f5cb6a132252a70ad0db496size=613date=2024-05-27T20:59:30
+install.txt36d5e2b46691e1e9f28b2350cfe9097bsize=92date=2024-05-30T01:04:26
+readme.txt0a7542e5e1dbec73872aa591a6420935size=1934date=2024-06-03T11:49:03
+shell/Biblically Accurate/CollisionBlue.png30dd9aa10e7d2253c94180531aa78cb5size=14344date=2024-05-27T20:59:30
+shell/Biblically Accurate/CollisionBody.pngfb30c359a06e181b724159e833409ae2size=37223date=2024-05-27T20:59:30
+shell/Biblically Accurate/descript.txtd68b5b59e9c0837230e248d73614547csize=3027date=2024-05-27T20:59:30
+shell/Biblically Accurate/menu_background.png2e445bd0fc9a29bdff741948f0393685size=23921date=2024-05-27T23:06:43
+shell/Biblically Accurate/menu_foreground.png2a1eb17038c35fb9918de1cb93ce4b82size=20787date=2024-05-27T23:06:43
+shell/Biblically Accurate/menu_sidebar.pngbeac276b66d036062f8e7a2a2d24ac89size=19150date=2024-05-27T23:06:43
+shell/Biblically Accurate/readme.txt3d8ee63be9f1cfced28f00cb05003e3esize=72date=2024-06-03T08:44:48
+shell/Biblically Accurate/surface0.png91e555c750deb8aaed3cba6284c5943esize=66143date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1.pngeceefafcd0fee178543f6e6b151ea377size=68626date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface10.pngb45e77f1a004ec1ba09a3e159a378e33size=19192date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1000.png4b19392e1119da93a3410984fdff0ed7size=107845date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1001.png5d667ac00146780c8fcf2e5e324adb16size=102294date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1002.png5d667ac00146780c8fcf2e5e324adb16size=102294date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1100.png0f1c88f5554dba1ee64c784e58d2871fsize=17971date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1101.png13626cde524576bbf09e11aa5a887a26size=17874date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1102.png8d68838c7a3c6695b3059cad3e6e2c94size=17904date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1201.png711662d6f526914b444590c53642491esize=66434date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1202.png2a8f14e7a3839823ce461714ddd04c47size=66475date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1203.png93687cd23922f7c25806d6dbe04f86f8size=68507date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1204.png6018ff1f18246a3ed556950d8a18786fsize=69968date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1205.pngf4abe48c8e97ae0ec8785ee25af52882size=71392date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1206.pngb943c25c46990a94ba059e7072c3ec06size=70799date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1207.png2e40572cc720d141a8b4935e5bee0594size=67237date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface1300.png0af26cda45da4e902f76c0a0307ad5b7size=12579date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface2000.pngc811f370da34a3bd01b0ae14df8b3f1csize=2068date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface2001.pngc811f370da34a3bd01b0ae14df8b3f1csize=2068date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface2002.pngc811f370da34a3bd01b0ae14df8b3f1csize=2068date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface2003.pngc811f370da34a3bd01b0ae14df8b3f1csize=2068date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface2010.png83bad69cd6d5fe9da3bcb5fa7604dd5csize=9994date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface2011.pngd161002179a70a31d7a36daa6e94478asize=11162date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface2012.png86b2576bcdfa989ab9fd1131cfa84350size=11825date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface2013.png88def8496b32e62ed5858e3653eb1f1bsize=12193date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface3.png006fef842657a071bf8a3a39d7903b10size=66030date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface30.png4058ae1a5be674113191d460c7e18ca1size=5246date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface3000.png897be6507b3850b9f8f9c65ec63dfa22size=5553date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface3005.pngb504b9eeb5a82b525c9fec0548c80bfbsize=6908date=2024-06-02T01:42:04
+shell/Biblically Accurate/surface31.png23d39b15008261ecb2a9603b88565741size=5434date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface32.png901f8e0111dbec359ccc3225c49666fesize=4914date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface33.png00aa681740a0a13c92a49c7a5b5fe526size=5489date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface34.png85472487a5882b6c41ed53e6c68e7a99size=5992date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface35.png27690934407ac9aec732df4be3d5b59esize=4588date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface36.png93a31a10a5c8ebac1bb1830d0820df5asize=4628date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface37.pnga3e0fd4325920da67e5b0db54a1f95d2size=5582date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface38.pngc1e3125dd85492df181784d1094aa9f4size=6066date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface40.pngc26ebd08ca3e14a008fe2e6b131b01f2size=2907date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface4000.pngc12b81b19ae7c012af0ca2c5e30755fcsize=16810date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4001.pnge86c351feab7bbc999e5f8b5e3e05c0bsize=15728date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4002.pnge86c351feab7bbc999e5f8b5e3e05c0bsize=15728date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4003.png17ff75739e1fd109ce94dd52991bc28esize=22323date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4005.png1307f1c47835c66951c146740ece240esize=24136date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface41.png6f631895261fc5e17ca0d47e14dacc4dsize=3186date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface4100.pngaf7251ce40e97d5dab0cddc6e0bbfd94size=33136date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface42.pngc26ebd08ca3e14a008fe2e6b131b01f2size=2907date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface4200.png3fc36663445a09d461166641489e7ea6size=19071date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4201.pngce9e5cf6126301a3776988b0227d9ae9size=19211date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4202.pnga7eaaaec09448772691ac8e13931eceasize=19263date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4203.png9817617c32748c891fa8214d0ea43150size=19217date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4204.png50c77fbabd801a688f88766e852d8960size=19158date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4205.pngf18fbc5459aae19e41f77e6d5a9a271asize=19155date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4206.pngc2e169fbea9a34e8bd9a6026bfdf424asize=19340date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4207.pnga4ac2f7c1b45b8f0b5347cc36430134asize=18994date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface4208.pnga855cc7f14ada21b9684cf28fc7e8214size=19362date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface43.png6f631895261fc5e17ca0d47e14dacc4dsize=3186date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface50.png1bff6a71ba4cf91bd0e1ea2877aee0d1size=3415date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface5000.png13ca5570842ce7106a3a17926753ef2csize=50397date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface5030.png86f69552652e3ea43d4354a8528e8f57size=4450date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface5035.png53c3aa174a3f805b7886989fb4215271size=3558date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface5040.pnge002b765c8d351cb94e57ec44ef72303size=4216date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface5041.pnge002b765c8d351cb94e57ec44ef72303size=4216date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface5042.pnge002b765c8d351cb94e57ec44ef72303size=4216date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface5043.pnge002b765c8d351cb94e57ec44ef72303size=4216date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface5060.pngf68ad8363e8cf658a9744d9384d78a2csize=2219date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface5070.pnge9134933cb80d23e0f67bf90caaacabfsize=4297date=2024-05-27T20:59:30
+shell/Biblically Accurate/surface51.png51d5d24a4bdeb9771a36859e9267759esize=3477date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface52.png1bff6a71ba4cf91bd0e1ea2877aee0d1size=3415date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface53.png51d5d24a4bdeb9771a36859e9267759esize=3477date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface70.png7d1e13ad102a25ddc9ff8990020f4f55size=4800date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface71.png4ec25c7d35ce7105fe0e93de7142254dsize=4552date=2024-05-27T23:06:43
+shell/Biblically Accurate/surface72.png3d55e83b6df3d5075a2131b07670c7aesize=4945date=2024-05-27T23:06:43
+shell/Biblically Accurate/surfaces.txte8cc94621a961b15432d108e0bca5892size=27525date=2024-06-02T00:29:07
+shell/Biblically Accurate/surfacetable.txtadfe9f419b70e912d592a815affc06b2size=682date=2024-05-27T20:59:30
+shell/master/Body Base/surface0.png918eb8b3693bf9a45143bedf62d053acsize=70717date=2024-05-27T20:59:30
+shell/master/CollisionBlue.png032ca7cafe0b1d3b6672a22b7301f341size=20443date=2024-05-27T20:59:30
+shell/master/CollisionBody.pngc95252599a782b673cd1d4bbb0ab4c9csize=50694date=2024-06-03T08:27:37
+shell/master/blue/surface5000.png4b84bed1b041564aad8d6caa59286bccsize=99648date=2024-05-28T15:25:09
+shell/master/blue/surface5020.png55426fdcc64358fcff358e77024ee57dsize=2368date=2024-05-29T15:57:22
+shell/master/blue/surface5021.pngabf87728aebec4191057b7b9bacaf5acsize=2522date=2024-05-29T15:59:34
+shell/master/blue/surface5022.png8b27fe85a2940655f5ba824d1292e6c7size=2531date=2024-05-29T15:59:53
+shell/master/blue/surface5030.pnge805c712139e793724bc3315c4ae8b4asize=3665date=2024-05-29T21:57:25
+shell/master/blue/surface5031.pngc6fe3e80df740a3f3395c56c19b4a4f3size=3682date=2024-05-29T17:38:05
+shell/master/blue/surface5032.png2bab1e6066d00d9d6b956a9ffbf57780size=3498date=2024-05-29T17:38:50
+shell/master/blue/surface5033.pngf02500bf4a441f1d21a07fabde5386d6size=3516date=2024-05-29T17:39:44
+shell/master/blue/surface5035.png26c8f6941c31c6378f7c758d2da5d4e6size=3890date=2024-05-28T15:25:09
+shell/master/blue/surface5037.png86d7c258decd398bbbca345c93f04ba3size=3801date=2024-05-29T17:48:58
+shell/master/blue/surface5038.png04f13c29c59dc7d3116ae915179e027fsize=3999date=2024-05-29T17:49:47
+shell/master/blue/surface5040.png7aeeae23db584cf725a747949c6c6204size=2638date=2024-05-28T15:25:09
+shell/master/blue/surface5041.pngd7ee802be37da9d4485a87d9c40c4762size=3170date=2024-05-28T15:25:09
+shell/master/blue/surface5042.png4a6e0e58cd23b4c6caacebf1aa73e86bsize=2513date=2024-05-28T15:25:09
+shell/master/blue/surface5043.png625429b8a797d690a55d57e45de8a6e6size=2892date=2024-05-28T15:25:09
+shell/master/blue/surface5045.png53e057a9acf2b5c582148db3a39e4726size=2453date=2024-05-29T16:05:40
+shell/master/blue/surface5046.png5aa430859e3cb401ad89cb4d967e4ce4size=2656date=2024-05-29T22:59:19
+shell/master/blue/surface5047.pngdc49f366f3722c9abdb53137129b01b5size=2843date=2024-05-29T22:59:56
+shell/master/blue/surface5048.png7bcd542e70f22347ffba96cef4340991size=2550date=2024-05-29T23:00:15
+shell/master/blue/surface5049.pngbf24d70a8ad28446eb9aee0554654e22size=2835date=2024-05-30T00:10:23
+shell/master/blue/surface5060.pngc07fa33f637abf658d22c6cbd25ca4fdsize=2366date=2024-05-28T15:25:09
+shell/master/blue/surface5061.pngd204b79626ed171821870f03e7a13dedsize=2982date=2024-05-29T17:53:06
+shell/master/blue/surface5062.png376fd7c61281b8355da68833d736213esize=2423date=2024-05-29T17:53:48
+shell/master/blue/surface5063.pngf3645399ad801ada00fca310b86cafd1size=2509date=2024-05-29T21:56:28
+shell/master/blue/surface5064.png646a69224a5ed84253b09bc0736807c9size=3393date=2024-05-29T22:01:45
+shell/master/blue/surface5070.png31902bd9fb3f48f6acd04e106e041fa4size=3728date=2024-05-28T15:25:09
+shell/master/blue/surface5071.png4f12b56927d40d85eb1d97bbfee38ad8size=3746date=2024-05-29T17:40:31
+shell/master/blue/surface5072.png61a2be46a12e4df6af69648151ded92fsize=3493date=2024-05-29T17:41:10
+shell/master/blue/surface5073.png4d4345c30da5d53bbe977399459c14c6size=3498date=2024-05-29T17:42:34
+shell/master/blue/surface5074.png8c05302a99666b324de6bc11806f492dsize=3731date=2024-05-29T17:43:34
+shell/master/blue/surface5075.png712a7f62568ff3a45207949b25d2631bsize=3820date=2024-05-29T17:44:55
+shell/master/blue/surface5078.pngc6c4d6f20121435ab15b27ac3df53d10size=4167date=2024-05-29T23:34:15
+shell/master/descript.txtb254428a0ba132ad02e27425c0c48b96size=3025date=2024-06-02T17:21:15
+shell/master/menu_background.png2e445bd0fc9a29bdff741948f0393685size=23921date=2024-05-27T23:06:43
+shell/master/menu_foreground.png2a1eb17038c35fb9918de1cb93ce4b82size=20787date=2024-05-27T23:06:43
+shell/master/menu_sidebar.pngbeac276b66d036062f8e7a2a2d24ac89size=19150date=2024-05-27T23:06:43
+shell/master/readme.txt3d8ee63be9f1cfced28f00cb05003e3esize=72date=2024-06-03T08:44:48
+shell/master/surface0.pnga3673b299fe7dbf2993cba032d8988a0size=107310date=2024-05-27T20:59:30
+shell/master/surface1.png4eb09be9775913e4e632fcd3484a63e6size=107439date=2024-05-27T20:59:30
+shell/master/surface10.png79871c9c18940a53d8843f42db28f005size=26798date=2024-05-27T20:59:30
+shell/master/surface1000.png4a9f59828ea9da8b0d959ed16002f005size=225800date=2024-05-27T20:59:30
+shell/master/surface1001.png4577441c6ff84f3c21939cb207bc3f58size=229681date=2024-05-27T20:59:30
+shell/master/surface1002.pngcae19e63a2014bd80b28b79db1266d42size=253480date=2024-05-27T20:59:30
+shell/master/surface1100.pngcd029c67bd73f11db5140fd3ff2fb387size=4869date=2024-05-27T20:59:30
+shell/master/surface1101.png01ab5a0e3cc285b8a30fa41ba8345a46size=4041date=2024-05-27T20:59:30
+shell/master/surface1102.png03eea915081239176726ec1b227552eesize=4776date=2024-05-27T20:59:30
+shell/master/surface1201.png1c48daf3557e1b5bdeed3699d10c9ec1size=156029date=2024-05-29T18:57:31
+shell/master/surface1202.png0634b97ca618c380cda08c3f96c48314size=156719date=2024-05-29T18:57:57
+shell/master/surface1203.png21b5e880954bf3f21c7faf2dbc5ae771size=156892date=2024-05-29T18:57:02
+shell/master/surface1204.png98d7986c3e9948d96a33065c260d9953size=157623date=2024-05-29T18:57:38
+shell/master/surface1205.pngd7991761ff2de267bb15c5a7182f7e12size=156759date=2024-05-29T18:58:05
+shell/master/surface1206.png40ee74aa53165e6ceaf0a31c22a5df6dsize=156224date=2024-05-29T18:57:17
+shell/master/surface1207.png19651377270a53db4c3b1edaa8279e47size=155839date=2024-05-29T18:57:49
+shell/master/surface2000.png65059a0ac29164b8699a990af653b3fasize=44710date=2024-05-27T20:59:30
+shell/master/surface2001.png759f496b606fe666658b77e1277dcc5dsize=44689date=2024-05-27T20:59:30
+shell/master/surface2002.png2a84c4fafb72cb6ca30cd1e67e629738size=49320date=2024-05-27T20:59:30
+shell/master/surface2003.png187cf8131bdf0e67ded551f88e8f25ccsize=44988date=2024-05-27T20:59:30
+shell/master/surface2010.png0f77c00d64da3e91e36cf72f2f72fbaesize=44489date=2024-05-27T20:59:30
+shell/master/surface2011.png0391dbdfc7a329d2b66c2e2ce95ef72dsize=42231date=2024-05-27T20:59:30
+shell/master/surface2012.pngd2da00c27421ddd999a6634db05f37ffsize=42118date=2024-05-27T20:59:30
+shell/master/surface2013.png39c7fcbfe10e78d04951c173e2e9c72bsize=42459date=2024-05-27T20:59:30
+shell/master/surface3.pnge0b7a78f4654afcccebef9ee70f73b0bsize=102428date=2024-05-27T20:59:30
+shell/master/surface30.png283474d9ce3dad2eeebe672d63bbaacesize=3950date=2024-05-27T20:59:30
+shell/master/surface3000.png401e1cd28bf23cb97258e591779e3054size=4788date=2024-05-27T20:59:30
+shell/master/surface3001.pngb21b545eb5c2d07a7a124fcb21b80710size=6424date=2024-05-27T20:59:30
+shell/master/surface3002.png11aae270e7f31ef4915fe9367218dd4esize=63864date=2024-05-27T20:59:30
+shell/master/surface3003.pngeeeb7395950ccd64b6f3abd0fdb517ebsize=66209date=2024-05-27T20:59:30
+shell/master/surface3004.png323141368491ddfcb2a6f40e9b6692d0size=66144date=2024-05-27T20:59:30
+shell/master/surface3005.png8b56e00e07b3f0728dd082ddf5fef82bsize=7451date=2024-05-27T20:59:30
+shell/master/surface3006.pngaaf65487c22c560a1101ade35fd19191size=14018date=2024-05-27T20:59:30
+shell/master/surface3007.png69b6127d6f893a9a84585eb83ec5aaaasize=5843date=2024-05-27T20:59:30
+shell/master/surface3008.png5daed9666c5bded61814e2906cb557cdsize=3401date=2024-05-27T20:59:30
+shell/master/surface3009.pngdd084545782e68dcac0a45d7d970b0c4size=11613date=2024-05-27T20:59:30
+shell/master/surface3010.png54812f260bdceab71e6e97d58bb02cd1size=69632date=2024-05-29T18:23:24
+shell/master/surface3011.pngc2130f24f9fb97646f9edb514b128d8asize=11503date=2024-05-29T23:01:25
+shell/master/surface31.png2dade27fa088ade7bdd457d78245c456size=5700date=2024-05-27T20:59:30
+shell/master/surface32.png1e125a1cc470e1981430a4a40a5aab4esize=5723date=2024-05-27T20:59:30
+shell/master/surface33.png2c75b0dfd0484d9cbe07e0f90d3d8fbfsize=6402date=2024-05-27T20:59:30
+shell/master/surface34.png6e11afbe0b7d379139873b268f7d9825size=6371date=2024-05-27T20:59:30
+shell/master/surface35.png02533a368a2e3baa8d78c040a0b3d3e6size=5526date=2024-05-27T20:59:30
+shell/master/surface36.png47f7e4151b808269e8dbfc7aaab26807size=5666date=2024-05-27T20:59:30
+shell/master/surface37.png071a81147e959281cf7aeda0ea13a1e8size=5217date=2024-05-27T20:59:30
+shell/master/surface38.png67601985740a7db5d00518cf6bec5998size=3523date=2024-05-27T20:59:30
+shell/master/surface40.pngff38f298592da1dab408deb40d011d29size=2116date=2024-05-27T20:59:30
+shell/master/surface4000.pngad3e51c30e9a8ea94ea60828b76b8571size=16680date=2024-05-27T20:59:30
+shell/master/surface4001.png61e1232cd1d367fb22afab078403b99fsize=16569date=2024-05-27T20:59:30
+shell/master/surface4002.pngf6642745a29783da6d65bbb342d55522size=16358date=2024-05-27T20:59:30
+shell/master/surface4003.png6177e860d76f005aa9752a80abcc5f71size=19034date=2024-05-27T20:59:30
+shell/master/surface4004.png36e67212fd1df0fbfe26fcbf05f767ccsize=18147date=2024-05-27T20:59:30
+shell/master/surface4005.png0dfe1db4b125047ffaaf30057e090607size=19939date=2024-05-27T20:59:30
+shell/master/surface4006.pngd039400225742627499091943ac9f57bsize=19040date=2024-05-27T20:59:30
+shell/master/surface4007.pngec6008ba764ae4a5a9e2c9d9b55dc2e7size=16577date=2024-05-30T21:28:10
+shell/master/surface4008.png7663e5054621dc2f316e278a12334aeesize=17889date=2024-05-30T21:28:52
+shell/master/surface41.png598c06a77fda24895f1df9e1a6dcb421size=3074date=2024-05-27T20:59:30
+shell/master/surface4100.png3c2efedd6e07867d38ff03049d572cf3size=29725date=2024-05-27T20:59:30
+shell/master/surface42.png0771e3a06bb53a4b778d67ec22645b3asize=3009date=2024-05-27T20:59:30
+shell/master/surface4200.png6192414121e1bbf16c309f1788a8925csize=26852date=2024-05-27T20:59:30
+shell/master/surface4201.png6638bb2a2d5c1521179ad797a24a3c24size=25744date=2024-05-27T20:59:30
+shell/master/surface4202.png0cff5bcf9e9c972a25cda9bf393d6474size=27331date=2024-05-27T20:59:30
+shell/master/surface4203.pngd92392b298144873190f19f7714b0859size=25824date=2024-05-27T20:59:30
+shell/master/surface4204.png7f50789c618e3569b74b242738553f9esize=27276date=2024-05-27T20:59:30
+shell/master/surface4205.pngd4f60b692630a390e34e87e222e16f33size=25353date=2024-05-27T20:59:30
+shell/master/surface4206.png0e6d96c89c4077346d265f0264ea9ccesize=27286date=2024-05-27T20:59:30
+shell/master/surface4207.png0ecc5c6f8771c3b24f4ef027010ce574size=28266date=2024-05-27T20:59:30
+shell/master/surface4208.png1fe5dd9cfecd8d8701b661ab3dd4a4ddsize=27079date=2024-05-27T20:59:30
+shell/master/surface43.pnga7f789e2625002a91a4d5893af0fa6d9size=3064date=2024-05-27T20:59:30
+shell/master/surface50.pngdce0013d8a09735f3c2b5d7ab9ad2241size=2287date=2024-05-27T20:59:30
+shell/master/surface5000.png4b84bed1b041564aad8d6caa59286bccsize=99648date=2024-05-28T15:25:09
+shell/master/surface5020.png55426fdcc64358fcff358e77024ee57dsize=2368date=2024-05-29T15:57:22
+shell/master/surface5021.pngabf87728aebec4191057b7b9bacaf5acsize=2522date=2024-05-29T15:59:34
+shell/master/surface5022.png8b27fe85a2940655f5ba824d1292e6c7size=2531date=2024-05-29T15:59:53
+shell/master/surface5030.pnge805c712139e793724bc3315c4ae8b4asize=3665date=2024-05-29T21:57:25
+shell/master/surface5031.pngc6fe3e80df740a3f3395c56c19b4a4f3size=3682date=2024-05-29T17:38:05
+shell/master/surface5032.png2bab1e6066d00d9d6b956a9ffbf57780size=3498date=2024-05-29T17:38:50
+shell/master/surface5033.pngf02500bf4a441f1d21a07fabde5386d6size=3516date=2024-05-29T17:39:44
+shell/master/surface5035.png26c8f6941c31c6378f7c758d2da5d4e6size=3890date=2024-05-28T15:25:09
+shell/master/surface5037.png86d7c258decd398bbbca345c93f04ba3size=3801date=2024-05-29T17:48:58
+shell/master/surface5038.png04f13c29c59dc7d3116ae915179e027fsize=3999date=2024-05-29T17:49:47
+shell/master/surface5040.png7aeeae23db584cf725a747949c6c6204size=2638date=2024-05-28T15:25:09
+shell/master/surface5041.pngd7ee802be37da9d4485a87d9c40c4762size=3170date=2024-05-28T15:25:09
+shell/master/surface5042.png4a6e0e58cd23b4c6caacebf1aa73e86bsize=2513date=2024-05-28T15:25:09
+shell/master/surface5043.png625429b8a797d690a55d57e45de8a6e6size=2892date=2024-05-28T15:25:09
+shell/master/surface5045.png53e057a9acf2b5c582148db3a39e4726size=2453date=2024-05-29T16:05:40
+shell/master/surface5046.png5aa430859e3cb401ad89cb4d967e4ce4size=2656date=2024-05-29T22:59:19
+shell/master/surface5047.pngdc49f366f3722c9abdb53137129b01b5size=2843date=2024-05-29T22:59:56
+shell/master/surface5048.png7bcd542e70f22347ffba96cef4340991size=2550date=2024-05-29T23:00:15
+shell/master/surface5049.pngbf24d70a8ad28446eb9aee0554654e22size=2835date=2024-05-30T00:10:23
+shell/master/surface5060.pngc07fa33f637abf658d22c6cbd25ca4fdsize=2366date=2024-05-28T15:25:09
+shell/master/surface5061.pngd204b79626ed171821870f03e7a13dedsize=2982date=2024-05-29T17:53:06
+shell/master/surface5062.png376fd7c61281b8355da68833d736213esize=2423date=2024-05-29T17:53:48
+shell/master/surface5063.pngf3645399ad801ada00fca310b86cafd1size=2509date=2024-05-29T21:56:28
+shell/master/surface5064.png646a69224a5ed84253b09bc0736807c9size=3393date=2024-05-29T22:01:45
+shell/master/surface5070.png31902bd9fb3f48f6acd04e106e041fa4size=3728date=2024-05-28T15:25:09
+shell/master/surface5071.png4f12b56927d40d85eb1d97bbfee38ad8size=3746date=2024-05-29T17:40:31
+shell/master/surface5072.png61a2be46a12e4df6af69648151ded92fsize=3493date=2024-05-29T17:41:10
+shell/master/surface5073.png4d4345c30da5d53bbe977399459c14c6size=3498date=2024-05-29T17:42:34
+shell/master/surface5074.png8c05302a99666b324de6bc11806f492dsize=3731date=2024-05-29T17:43:34
+shell/master/surface5075.png712a7f62568ff3a45207949b25d2631bsize=3820date=2024-05-29T17:44:55
+shell/master/surface5078.pngc6c4d6f20121435ab15b27ac3df53d10size=4167date=2024-05-29T23:34:15
+shell/master/surface51.pngfaf9520cc93a14e22bbd5089d3a0a70asize=3128date=2024-05-27T20:59:30
+shell/master/surface52.png0771e3a06bb53a4b778d67ec22645b3asize=3009date=2024-05-27T20:59:30
+shell/master/surface53.png77a58b526b0e7678e6311cbf104dce36size=3125date=2024-05-27T20:59:30
+shell/master/surface70.pngf6a60067e672c997fb161551a61ad048size=5827date=2024-05-27T20:59:30
+shell/master/surface71.pnge8e02084d6f93d767e0030cd27c46289size=5810date=2024-05-27T20:59:30
+shell/master/surface72.pngad1f195297163f6da5d7e99797c23f5fsize=5697date=2024-05-27T20:59:30
+shell/master/surfaces.txt1a3574565ecdfb9e8052475d9352b20fsize=38372date=2024-06-03T12:20:49
+shell/master/surfacetable.txt82c5bf7072834e6dc381700b2d2c73e1size=927date=2024-06-02T00:38:27
+thumbnail.pna79a4e9f1bd549aee2fb74886037779d1size=1050date=2024-05-27T20:59:30
+thumbnail.pngdc889bc570c874b90b9c61b9f95344a9size=43763date=2024-05-28T18:54:02
