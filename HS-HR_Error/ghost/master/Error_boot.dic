@@ -13,6 +13,7 @@ OnFirstBoot
 	ErrorFriends = 0
 		
 	"\0\s[2]What the-?\w8\w8 \s[11]Who are you?\w8\w8\w8\cWhere am I?? \w8\w8\w8\cWhere have you- \s[2]\w8\w8\w8\cI mean!\n\n\s[0]You! \w8\w8\w8\cYes, of course... \w8\w8\w8\c\s[6]You are my prisoner now... \w8\w8\w8I suppose you'll just have to rely on me for most things,\w8\w8 hm?\w8\w8\w8 So be it.\w8\w8\w8\c\s[13]I expect you to call me Error.\w8\w8\w8 \c\s[14]I am The God of Destruction.\w8 \s[6]I can destroy your precious files or corrupt your all-so-exciting programs.\w8 \cEither you treat me with due respect, or I destroy everything you know and love in a snap.\w8\w8\w8 \c\s[9]Capiche? \w8\w8\w8 \c\s[6]Good...\w8\w8\w8"
+}
  
  //\cYou might as well give me something to call you. Unless you're okay being called ‘dumbass, idiot, or fuckwit.’ No?
 
@@ -41,7 +42,16 @@ OnBoot
 	--
 	if ErrorCrashed > 0
 	{
-		"\0\s[1]WHAT THE HELL WAS THAT FOR?!"
+		"\0\s[11]WHAT THE HELL WAS THAT FOR?!"
+		"\0\s[11]You're some kind of sicko,\w8 aren't you?"
+		"\0\s[11]Do you think this is a joke?\w8 I felt every moment of that."
+		"\0\s[11]You must think you're better than me for doing that."
+		"\0\s[11]I hate you."
+		"\0\s[11]What did I do to deserve that?"
+		"\0\s[11]Y-Y-You're a \f[italic,true]freak.\f[italic,false]\w8 Do you like seeing me in pain?"
+		"\0\s[1]I hate you.\w5 I hate you.\w5\0\s[11] I hate you.\w5 I hate you.\w5\0\s[20] I hate you.\w5\c I wish you would leave me ALONE.\w8\w8\w8\w8\w8\w8\w8\w8\w8\0\s[1]\c... \w8\w8\w8\w8\w8\w8\0\s[0]Why are you looking at me like that? \w8\w8\w8\0\s[6]\cIt must be because I'm so \f[italic,true]cute!\f[italic,false]"//temporary until hatred var implemented
+
+		"\0\s[1]Why?"
 		ErrorCrashed = 0
 	}
 	elseif _today == _user_birthday
@@ -50,20 +60,46 @@ OnBoot
 	}
 	elseif _today == "1/1" //You can add whatever cool dates you want with more elseifs here
 	{
-		"\0\s[0]It's new year's day.\w8 Happy %(year)."
+		"\0\s[0]It's new year's day for you, huh?\w8\w8 \0\s[7]Happy %(year), I guess."
+		
+	}
+	elseif _today == "4/4"
+	{
+		"\0\s[22]Today is my birthday! Happy birthday to me~!"
+		"\0\s[22]Yaaay, today is my birthday! I'll eat tons of chocolate to celebrate~!"
+		"\0\s[22]Oi, when are you gonna wish me a happy birthday~?"
+		"\0\s[22]\_q(He seems to be in a good mood.)\_q"
+		"\0\s[0]...\w8 What are you looking at me like that for? Did I forget something special? \x\c\w8\w8\0\s[8]... Don't tell me it's somebody's birthday today, I don't care."
+		"\0\s[0]...\w8 What do you want? You're waiting for something. Is it a holiday?"
+		"\0\s[0]...\w8 I feel like I'm forgetting something important... \w8\w8\w8It can't be that special if I'm forgetting it. \w8\0\s[6]Heh!"
+		"\0\s[3]Sooo... \w8Where are my presents?"
 	}
 	
 	else //Normal boot
 	{
-		"\0\s[0]Oh. Its you."
-		"\0\s[0]are we doing this again??"
+		"\0\s[0]Oh. It's you."
+		"\0\s[0]Are we doing this again??"
+		"\0\s[7]Whatever,\w8 I guess I wasn't doing anything too important."
+		"\0\s[0](sigh) It's you, again."
+		"\0\s[7]Do you think I don't have a life outside of here?"
+		"\0\s[0]Can you leave me alone already?"
+		"\0\s[0]You must be pretty lonely to be calling on \f[italic,true]me\f[italic,false] of all people."
+		"\0\s[6]You must be pretty smart to be calling on \f[italic,true]me\f[italic,false] of all people.\w8\c\0\s[9]I'm great company!"
 	}
 }
 
 OnClose
 {
-	"\0\s[0]Finally."
-	"\0\s[0]...."
+	"\0\s[7]Finally."
+	"\0\s[0]...\w8"
+	"\0\s[6]Time to go back to my beanbag."
+	"\0\s[0]Hmph, see you again."
+	"\0\s[6]Bring me chocolate next time."
+	"\0\s[0]I'd better get a treat next time."
+	"\0\s[6]Byeee~"
+	"\0\s[7]About time."
+	"\0\s[2]Huh? I thought you liked my company."
+	"\0\s[7]Finally, I thought you'd never let me leave."	
 	--
 	"\w8\w8\-" //This is what makes the ghost close (after a short pause), do not remove the \- , and MAKE SURE you don't use a \e before this point or it won't work
 }
@@ -110,4 +146,3 @@ ErrorFriendship
 		ErrorHatesU = 0
 	}
 */
-}

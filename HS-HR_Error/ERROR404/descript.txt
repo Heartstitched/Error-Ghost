@@ -13,6 +13,7 @@ origin.y,30
 wordwrappoint.x,70
 wordwrappoint.y,0
 
+//default font color 
 font.height,20
 font.name,Kernel Panic NBP
 font.color.r,254
@@ -23,6 +24,7 @@ font.color.b,10
 //font.shadowcolor.g,195
 //font.shadowcolor.b,239
 
+//idk wtf this is but it's not the highlight selection
 anchor.font.color.r,77
 anchor.font.color.g,82
 anchor.font.color.b,194
@@ -76,11 +78,11 @@ communicatebox.y,18
 communicatebox.width,301
 communicatebox.height,18
 
-
 craftmanw,Heartstitched
 craftmanurl,https://www.tumblr.com/inks-inbox
 
 homeurl,https://raw.githubusercontent.com/Heartstitched/Error-Ghost/develop/HS-HR_Error/ERROR404/
+
 
 
 
