@@ -7,10 +7,8 @@ Double-click on his body to open his interaction menu. You can perform an ACTion
 Error's hostage/friend, Blue (Underswap Sans) is also here to hang out! He's a lot nicer than Error and could really use some friendly company. He will appear randomly and can be asked to go away after being summoned. 
 
 ___
-VERSIONS & UPDATES:
-(v.1.0) - Initial Release
-(v.1.4) - Current Version
-
+CURRENT VERSION:
+(v.1.5)
 ___
 CREDITS:
 
