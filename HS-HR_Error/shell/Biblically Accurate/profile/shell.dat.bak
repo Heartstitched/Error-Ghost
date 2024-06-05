@@ -1,21 +1,17 @@
 Charset,UTF-8
 __system_settings_version__,2
-char0.bind.savearray,911=1 900=1
+char0.bind.savearray,911=1 900=0
 Char1.balloon.isleft,1
-Char4.balloon.isleft,1
-balloon0.offset,71.408
-scriptbox.left,640
+balloon0.offset,-228.123
+balloon3.offset,152.122
 Char0.centery,620
-Char4.centery,620
 Char0.balloon.isleft,1
-Char3.center,731
+Char3.center,733
 Char3.balloon.isleft,1
-Char.VirtualDesktop,85fcefac-971a-4ace-b8c8-1dd276c2138b
-Char4.center,633
-Char0.center,1043
-scriptbox.top,378
-Char1.centery,623
+Char.VirtualDesktop,9c5294b6-86da-403c-9385-70ea7a66b926
+Char0.center,1096
+Char1.centery,622
 Char3.centery,620
+char1.bind.savearray,700=0 801=0 802=0 803=0 804=0 805=0 806=0 807=0 808=0
 Char1.center,938
-char1.bind.savearray,700=0 801=0 802=0 803=0 804=1 805=0 806=0 807=0 808=0
 __system_written_flag_do_not_remove__,written

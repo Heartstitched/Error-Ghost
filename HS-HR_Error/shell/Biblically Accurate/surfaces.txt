@@ -687,6 +687,12 @@ surface105
     // element0,overlay,surface4006.png,0,0
 // }
 
+//Blue Chillin
+surface107
+{
+	element0,overlay,surface4007.png,0,0
+}
+
 
 //—————————————————————————————— Kero ——————————————————————————————
 

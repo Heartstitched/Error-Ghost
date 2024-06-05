@@ -88,7 +88,6 @@ kero.bindgroup700.default,0
 //sakura.bindgroup901.name,Puppets,
 //sakura.bindgroup901.default,0
 
-
 //--Colors----------------------------------------------------
 kero.bindoption2.group,Souls
 

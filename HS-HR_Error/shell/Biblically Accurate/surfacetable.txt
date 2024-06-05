@@ -34,6 +34,8 @@ scope,0
 18,
 19,
 20,ErrorCrashed
+21,Chocolate Eaterrrrr
+22,SmileyBoi
 }
 
 group,Dolls
@@ -45,6 +47,7 @@ group,Dolls
 104, InkYippee
 105, PincushionDoll
 106,PincushionYippee
+107, BlueDoll
 }
 
 //// Kero normal surface
