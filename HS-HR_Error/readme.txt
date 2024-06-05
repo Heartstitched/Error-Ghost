@@ -4,13 +4,16 @@ Yo! Thanks for downloading! Error is a ghost designed to interact with the user.
 
 Pet his head, scarf, or hands to get a response from him. You can also dress him up with various accessories and give him items to interact with. 
 
-Double-click on his body to open his interaction menu. You can perform an ACTion or ask him a question to chat.
+Double-click on his body to open his interaction menu. You can perform an ACTion or ask him a question to chat. 
+
+If you've already read something, you can hold CTRL to fast forward his dialogue. Double-click on a dialogue bubble to dismiss the whole conversation. If the balloon is too small to hold all the text, then you can scroll over it to read the previous lines.
 
 Error's hostage/friend, Blue (Underswap Sans) is also here to hang out! He's a lot nicer than Error and could really use some friendly company. He will appear randomly and can be asked to go away after being summoned. 
 
 ___
 VERSIONS & UPDATES:
 (v.1.0) - Initial Release
+(v.1.2) - General Update
 
 ___
 CREDITS:
