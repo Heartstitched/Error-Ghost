@@ -9,7 +9,7 @@ Error's hostage/friend, Blue (Underswap Sans) is also here to hang out! He's a l
 ___
 VERSIONS & UPDATES:
 (v.1.0) - Initial Release
-(v.1.4)
+(v.1.4) - Current Version
 
 ___
 CREDITS:
