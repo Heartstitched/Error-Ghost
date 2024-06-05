@@ -1,0 +1,16 @@
+origin.x,14
+origin.y,14
+
+windowposition.x,0
+windowposition.y,0
+
+wordwrappoint.x,-30
+wordwrappoint.y,0
+
+
+font.height,18
+font.name,Pixel Comic Sans (Undertale Sans Font)
+font.height,15
+font.color.r,255
+font.color.g,255
+font.color.b,255
