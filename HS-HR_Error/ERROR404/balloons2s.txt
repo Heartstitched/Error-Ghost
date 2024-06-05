@@ -6,4 +6,3 @@ windowposition.y,0
 
 wordwrappoint.x,-30
 wordwrappoint.y,0
-
