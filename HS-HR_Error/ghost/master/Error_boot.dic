@@ -61,18 +61,6 @@ OnBoot
 	elseif _today == "1/1" //You can add whatever cool dates you want with more elseifs here
 	{
 		"\0\s[0]It's new year's day for you, huh?\w8\w8 \0\s[7]Happy %(year), I guess."
-		
-	}
-	elseif _today == "4/4"
-	{
-		"\0\s[22]Today is my birthday! Happy birthday to me~!"
-		"\0\s[22]Yaaay, today is my birthday! I'll eat tons of chocolate to celebrate~!"
-		"\0\s[22]Oi, when are you gonna wish me a happy birthday~?"
-		"\0\s[22]\_q(He seems to be in a good mood.)\_q"
-		"\0\s[0]...\w8 What are you looking at me like that for? Did I forget something special? \x\c\w8\w8\0\s[8]... Don't tell me it's somebody's birthday today, I don't care."
-		"\0\s[0]...\w8 What do you want? You're waiting for something. Is it a holiday?"
-		"\0\s[0]...\w8 I feel like I'm forgetting something important... \w8\w8\w8It can't be that special if I'm forgetting it. \w8\0\s[6]Heh!"
-		"\0\s[3]Sooo... \w8Where are my presents?"
 	}
 	
 	else //Normal boot
@@ -90,14 +78,13 @@ OnBoot
 
 OnClose
 {
-	"\0\s[7]Finally."
-	"\0\s[0]...\w8"
+	"\0\s[0]Finally."
+	"\0\s[0]...."
 	"\0\s[6]Time to go back to my beanbag."
 	"\0\s[0]Hmph, see you again."
 	"\0\s[6]Bring me chocolate next time."
 	"\0\s[0]I'd better get a treat next time."
 	"\0\s[6]Byeee~"
-	"\0\s[7]About time."
 	"\0\s[2]Huh? I thought you liked my company."
 	"\0\s[7]Finally, I thought you'd never let me leave."	
 	--

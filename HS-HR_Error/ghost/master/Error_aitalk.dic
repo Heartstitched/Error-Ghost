@@ -109,10 +109,7 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[107]I wish everybody were as cool and magnificent as you were, Error!\p[0]\s[6]I know."
 	"\p[3]\s[107]... \_q(The toy is being squeezed.)\_q\w8\w8\w8\p[0]\s[6]Squish. Squish. Squish."
 
-	if BlueIsHere == 0
-	{
-		"\p[3]\s[107]It's me, I'm the Marvelous Stupid Sans, I'm sooo nice and sweet and not annoying!\w8\w8\w8\p[0]\s[6]...\w8\w8 \p[3]\s[107]\cI \f[italic,true]deeefinitely\f[italic,false] want to be your friend,\w8 and not betray your trust at all! \w8\w8\w8\c... \w8\w8\w8\w8\cI'm so hungry, Error, please feed me. \p[0]\s[0]\c... \w8\w8\w8\w8\p[3]\s[107]\cI miss my friends, please let me go.\w8\w8\w8\w8 \p[0]\s[7]\c... \p[3]\s[107]\cI'm so tired, I'm tired all the time, why can't I ever sleep enough?\w8\w8\w8\w8 \p[0]\s[0]\c... \w8\w8\p[3]\s[107]\cI hate you, I HATE YOU, \f[italic,true]I H A T E Y O U.\f[italic,false]\w8\w8\w8\w8\w8\p[0]\s[7]...Hm. On second thought, I don't think he would say any of that. "
-	}
+	"\p[3]\s[107]It's me, I'm the Marvelous Stupid Sans, I'm sooo nice and sweet and not annoying!\w8\w8\w8\p[0]\s[6]...\w8\w8 \p[3]\s[107]\cI \f[italic,true]deeefinitely\f[italic,false] want to be your friend,\w8 and not betray your trust at all! \w8\w8\w8\c... \w8\w8\w8\w8\cI'm so hungry, Error, please feed me. \p[0]\s[0]\c... \w8\w8\w8\w8\p[3]\s[107]\cI miss my friends, please let me go.\w8\w8\w8\w8 \p[0]\s[7]\c... \p[3]\s[107]\cI'm so tired, I'm tired all the time, why can't I ever sleep enough?\w8\w8\w8\w8 \p[0]\s[0]\c... \w8\w8\p[3]\s[107]\cI hate you, I HATE YOU, \f[italic,true]I H A T E Y O U.\f[italic,false]\w8\w8\w8\w8\w8\p[0]\s[7]...Hm. On second thought, I don't think he would say any of that."
 
 	//"Ugh. His eye is falling off. I wonder if I can find star shaped buttons in Pajamatale…" (highlight Pajamatale and link to your choice.)
 
@@ -120,10 +117,10 @@ RandomTalk : nonoverlap_pool
 	"\p[3]\s[107]I’m really sleepy, can you read me a bedtime story? \w8\w8\w8\w8\p[0]\s[9]Once upon a time, there was an annoying little monster..."
 
 	//fresh puppet
-	"\p[3]\s[108]... \p[0]\s[7]Do you know how difficult it is to get this stupid retro printed fabric? \xI had to raid at least seven different AU's before I found the perfect match."
+	"\p[3]\s[108]... \p[0]\s[7]Do you know how difficult it is to get this stupid retro printed fabric? (pause) I had to raid at least seven different AU's before I found the perfect match."
 	"\p[3]\s[108]... \p[0]\s[7]I hope he never sees this thing, he’d never shut up about it."
-	"\p[3]\s[108]... \p[0]\s[7]Maybe I should add a bug to his skull. He is ultimately nothing but a parasite, after all. \w8\w8 And a thorn in my side. Why hasn't he annoyed me lately? \w8\p[3]\s[108]Aww, don't worry, I'm sure I'll stop by soon! I could never get enough of you! \w8\w8\w8\p[0]\s[6]Of course not. I am endlessly fascinating."
-	"\p[3]\s[108]Walk, walk, fashion baby, work it, move that bitch cuhrazy-\w8\w8\w6\p[0]\s[0] No, no, he wouldn't curse. He has that weird censor ability... \w6move that...\w6 *quack*!"
+	"\p[3]\s[108]... \p[0]\s[7]Maybe I should add a bug to his skull. He is ultimately nothing but a parasite, after all. (pause) And a thorn in my side. Why hasn't he annoyed me lately? \p[3]\s[108]Aww, don't worry, I'm sure I'll stop by soon! I could never get enough of you! \p[0]\s[6]Of course not. I am endlessly fascinating."
+	"\p[3]\s[108]Walk, walk, fashion baby, work it, move that bitch cuhrazy-\w8\w8\w6\p[0]\s[0] No, no, he wouldn't curse. He has that weird censor ability... move that... *quack*!"
 	"\p[3]\s[108]You're the best! I love your feather boa, you're the epitome of style! \w8\w8\w6\p[0]\s[6]Why, thank you! That means so much coming from you! \w8\w8\w6Your gauche patterns and garish colors have infuriated me.\x\c \p[0]\s[22]Nice to know you're coming around."
 	"\p[3]\s[108]You look like you could use a hug. \w6I'm always available for snuggles! \w8\w8\p[0]\s[0]If you touch me I will tear you to shreds. \w8\w8\w8\w8\p[3]\s[108]You've never been able to catch me before! What makes you think this would be different, buddy? \w8\w8\w8\p[0]\s[6]Shut up! \w8\w8\c\p[3]\s[108]Bweeehhhh!"
 	"\p[3]\s[108]Woah homie, have you had any water to drink lately? \w8\w8\w6\p[0]\s[0]I don’t need any water. I can't feel thirst. \w8\w8\w6\p[3]\s[108]\_q(The puppet turns to look directly at you.)\_q \x\c\p[3]\s[108]\_q(Somehow, the puppet is judgmental. You get the feeling it’d raise a thick brow if it could.)\_q"
@@ -136,9 +133,6 @@ RandomTalk : nonoverlap_pool
 	{ 
 		"\0\s[0] What are you staring at."
 		"\0\s[0]I didn't notice before but... \w8\w8\s[2] Your place is a mess! \w8\n\s[0]Clean up your files or I'll do it for you."
-		"\0\s[0]You have tons of files all over the place. \w8\w8You should reorganize."
-		"\0\s[0]I feel a lot better being able to actually see around myself."
-		"\0\s[3]I thought I broke this pair a while ago..."
 		"\0\s[0]I thought I lost these glasses a long time ago, actually."
 		"\0\s[3]Wearing these makes me wonder if I can find my lost crochet hooks..."
 		"\0\s[0]Hmm, interesting. \w8\w8 \s[2]Huh? I'm trying to read along. \w8\w8 \s[6]Of course you'd be excited to have my company."
@@ -207,23 +201,22 @@ BlueDropsIn
 	"\0\s[0]Shut up.\w8\w8\p[4]\s[501]I didn't say anything!\w8\w8\w8\0\s[0]\cYou're breathing SO loud.\w8 You don't even need to breathe!\p[4]\s[501]\cOkay,\w5 okay!\w8\w8 \nI'm sorry\w8 \nI'll-\w5 I'll try..."
 	"\0\s[0]Dang it.\w8\w8 Dropped another stitch... \w8\w8\w8\w8\w8\p[4]\s[502]Oh! Are you knitting? I know how to fix that without starting over!\w8\w8\0\s[0]\cNo, I don't knit. I crochet.\w8\w8\p[4]\s[505]\cNo issue too great for the Magnificent Sansational Sans to handle!\w8 You can count on me,\w4 Error!\w8 All I need is a bit of wiggle room!\w8\w8\0\s[0]\cOkay.\w8\w8\w8\p[4]\s[501]\c...\w8\w8The uh,\w8 the strings? \w8\w8\w8\w8\n.....\w8\w8\w8\w8\w8\nRight! R-Ready whenever you are, friend!"
 	
-	"\p[4]\s[510]Nice desktop you got here! \p[4]\s[508]You should add a few more sunglasses and muscles."
-	"\p[4]\s[510]I’m getting used to hanging around here. \p[4]\s[501]My arms hurt a little, though…"
-	"\p[4]\s[510]I wonder if I can get Error to feed me a taco like this... \p[4]\s[505]Hmmm, not a bad idea! \0\s[7]Not a chance.\w8\w8" 
+	"\p[4]\s[500]Nice desktop you got here! \p[4]\s[505]Could use a few more sunglasses and muscles."
+	"\p[4]\s[500]I’m getting used to hanging around here. \p[4]\s[501]My arms hurt a little, though…"
+	"\p[4]\s[500]I wonder if I can get Error to feed me a taco like this... \p[4]\s[505]Hmmm, not a bad idea! \0\s[7]Not a chance.\w8\w8" 
 	"\0\s[0]\p[4]\s[501]I wonder if I’ll ever see my brother again... \w8\w8\w8\0\s[2]...Should I drag him here too? \w8\w8\w8\w4\p[4]\s[506]No, um, don’t worry about it."
-	"\0\s[3]\_q(He's preoccupied with his crochet, ignoring everything else.)\_q\p[4]\s[510]\_q(Whispering to you)\_q\nHe’s a bit prickly, right?\x\c\p[4]\s[509]I don’t think he means any of it. \w8\w8\p[4]\s[500]I’m sure I’ll get through to him eventually... \x\c\p[4]\s[501]Even if he says some awful things in the mean time."
-	"\p[4]\s[501]I miss eating tacos."
-	"\p[4]\s[501]I’m kind of hungry, Error... \w8\w8\w8\0\s[2]Already? I guess I’ll go find you something to eat... \w8\w8\p[4]\s[500]Don't you ever feel hungry as well? \w8\w8\0\s[2]No. I don't remember ever being hungry. I just eat to enjoy the taste of chocolate. \w8\w8\0\s[9]Hmm, does that make me better than you?"
+	"\p[4]\s[500]\_q(It seems like hes whispering to you)\_q \n\nHe’s a bit prickly, right? I don’t think he means any of it. \w8\w8 I’m sure I’ll get through to him eventually."
+	"\p[4]\s[500]I miss eating tacos."
+	"\p[4]\s[500]I’m kind of hungry, Error... \w8\w8\w8\0\s[2]Already? I guess I’ll go find you something to eat... \w8\w8\p[4]\s[500]Don't you ever feel hungry as well? \w8\w8\0\s[2]No. I don't remember ever being hungry. I just eat to enjoy the taste of chocolate. \w8\w8\0\s[9]Hmm, does that make me better than you?"
 	"\p[4]\s[501]I hope he will let me go home eventually. I mean, he has to get bored of me somehow, and he wouldn’t... \w8\w8\w8\w8\w8\w8 \n\n\_q\p[4]\s[506](He trails off, muttering to himself. He seems distracted by thoughts you don’t know.)\_q"
 	"\p[4]\s[501]I wonder if Error’s ever had a real friend before. \w8\w8\w8\n\n\p[4]\s[502]I can be that for him! If he’d just let me!"
-	"\p[4]\s[505]Never fear, the Magnificent Sans is here!\w8\w8\c.\w3.\w3.\w8\w9\w8\w8  \c\p[4]\s[502]That was kind of a mouthful.\w8\w8 \p[4]\s[501]Maybe I should have chosen a different adjective.\w8\w8 \cHmmm...\w8\w8\w8\n\p[4]\s[505]I won’t doubt myself! Mweh heh heh!"
+	"\p[4]\s[505]Never fear, the Magnificent Sans is here!\w8\w8\c.\w3.\w3.\w8\w9\w8\w8  \c\p[4]\s[502]That was kind of a mouthful.\w8\w8 \p[4]\s[501]Maybe I should have chosen a different adjective.\w8\w8 \cHmmm...\w8\w8\w8\n\p[4]\s[505]I won’t doubt myself!"
 	"\p[4]\s[501]Can you open up a junior jumble or something? I’m kind of bored. \0\s[1]You're bored, huh? Should I put on some more Undernovela?"
-	"\p[4]\s[510]What are you listening to?"
-	"\p[4]\s[510]What are you reading?"
-	"\p[4]\s[510]Thanks for letting hang around out here. \x\c\p[4]\s[501]It gets pretty...\w5 um, lonely. On my own. \x\c\p[4]\s[510]Sometimes... he'll just leave me up there, with the others... \x\c\p[4]\s[509]...\w6 Until he feels like seeing me again. \x\n\w8\![*]\q[How often?,OnBlueIsolated]\n\w8\![*]\q[Is it lonely?,OnBlueLonely]"
+	"\p[4]\s[500]What are you listening to?"
+	"\p[4]\s[500]What are you reading?"
 	"\p[4]\s[502]Do you like Error?\n\w8\![*]\q[Uhh..Sure?,OnErrorLiker]\n\w8\![*]\q[Not at all.,OnErrorHater]"
 	//"\p[4]\s[500]It’s so lonely out there on your own. You can’t touch or hear anyone, but you can see so many other souls. But there’s nothing you can do...\cI’m sorry, that was depressing! Just ignore me, mweheheh. I was thinking out loud."
-	"\p[4]\s[501]Wowie, I could really use a chair about now. My shoulders hurt!\x\c\p[4]\s[510]On the plus side, I can do some crazy pull-ups like this! ...\w5\p[4]\s[500]Sorta."
+	"\p[4]\s[501]I could really use a chair about now."
 	
 }
 
@@ -237,42 +230,12 @@ BlueLeave
 BlueYoinked
 {
 
-	"\0\s[0]I'm bored.\w8\w8\w8 \p[4]\s[505]Hi Bored, I'm Sans!\w8\w8 \0\s[0]\c\w8\_q(He squints, the strings get tighter.)\_q\w8\w8\p[4]\s[501]\cOh no- The..the strings... \w8\w8\w8\w8\w8\w8\w8\w8%(StringsTooTight)"	
+	"\0\s[0]I'm bored.\w8\w8\w8 \p[4]\s[500]Hi Bored, I'm Sans!\w8\w8 \0\s[0]\c\w8\_q(He squints, the strings get tighter.)\_q\w8\w8\p[4]\s[500]\cOh no- The..the strings... \w8\w8\w8\w8\w8\w8\w8\w8%(StringsTooTight)"	
 	
 }
 StringsTooTight
 {
-	"\0\s[0]\cYou’re still boring.\w8\w8 Do something already.\w8 \p[4]\s[501]What do you want me to do? \w8\w8\0\s[0]\cLiterally anything.\w8\w8\p[4]\s[509]\c\_q(He wiggles his hips.)\_q\w8\w8\p[4]\s[500]\n\n...How was that? \0\s[7]\cDon’t......\w8\w8 do that again."
-	
-}
-
-OnBlueIsolated
-{
-	"\p[4]\s[510]... \w8\w8\_q(He grits his teeth in a smile.)\_q"
-	"\p[4]\s[510]... \w8\w8\_q(He shakes his head discreetly.)\_q"
-	"\p[4]\s[500]... \w8\w8What did you say? I was distracted by the sound of Error's needles."
-	"\p[4]\s[500]... \w8\w8Error can be nice sometimes, right?"
-	"\p[4]\s[500]... \w8\w8You know, where he goes, I'm always there. Just out of sight."
-	"\p[4]\s[500]... \w8\p[4]\s[510]What do you think, friend?"
-	"\p[4]\s[510]I don't remember."
-	"\p[4]\s[509]Golly, what were we talking about? \p[4]\s[502]I can be so ditzy sometimes!"
-	"\p[4]\s[509]Sorry, friend, I didn't hear you! \p[4]\s[502]The Magnificent Sans is a bit tired today!"
-
-}
-
-OnBlueLonely
-{
-	"\p[4]\s[510]..."
-	"\p[4]\s[510]Mweheheh, that's kind of you to ask!"
-	"\p[4]\s[510]I had everyone's souls around to talk to! \p[4]\s[500]/w6One-sidedly!\p[4]\s[510]/w6 In long monologues!"
-	"\p[4]\s[510]I'm not lonely anymore, don't worry about me! Mweh heh!"
-	"\p[4]\s[510]I manage on my own!"
-	"\p[4]\s[510]He talks to me sometimes, it's fine. \p[4]\s[500]He can be nice sometimes."
-	"\p[4]\s[500]..."
-	"\p[4]\s[510]It's not that bad up there."
-	"\p[4]\s[500]How would you do up there? \w8On your own?\w8 Where time doesn't exist?\x\w8\w8\c\p[4]\s[508]Mweh heh! It's no big deal for the Magnificent Sans!"
-	"\p[4]\s[510]It's fine."
-	"\p[4]\s[510]It's better, now that you're here! \p[4]\s[509]Mweh heh heh!"
+	"\0\s[0]\cYou’re still boring.\w8\w8 Do something already\w8 \p[4]\s[500]What do you want me to do? \w8\w8\0\s[0]\cLiterally anything.\w8\w8\p[4]\s[500]\c\_q(He wiggles his hips.)\_q\w8\w8\n\n...How was that? \0\s[0]\cDon’t......\w8\w8 do that again."
 	
 }
 

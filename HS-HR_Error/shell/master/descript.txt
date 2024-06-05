@@ -2,9 +2,9 @@ charset,UTF-8
 type,shell
 
 name,Default Shell
-craftman,Hazerun3
-craftmanw,Hazerun3
-craftmanurl,https://www.tumblr.com/hazerun3
+craftman,
+craftmanw,
+craftmanurl,
 
 seriko.alignmenttodesktop,top
 seriko.use_self_alpha,1

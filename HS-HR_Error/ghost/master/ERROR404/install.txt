@@ -1,7 +1,0 @@
-charset,Shift_JIS
-type,balloon
-name,ERROR404
-directory,ERROR404
-refresh,1
-font.name,Kernel Panic NPB
-font.name,Pixel Comic Sans (Undertale Sans Font) Regular

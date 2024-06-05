@@ -91,19 +91,15 @@ OnFlirt
 OnJoke
 {
 	
-	"\0\s[6]Oh! I've got one! What do you call a fish with no eyes? \w8\w8\w8 Blind! \w8Did you see what I did there? \w6Usually the answer to that is ‘fshhh!’ Did I getcha? \0\s[12]Hahaha!"
-	"\0\s[3]What do you call [Blank]? \w8\w8\n\0\s[6]A write-off!"
-	"\0\s[3]How many Sanses does it take to destroy a timeline? \0\s[6]\w8\w8\w8... ONE!\w6\0\s[22] Just meee!!!"
-	
-	if BlueIsHere==1
-		{
-			"\p[4]\s[503]... \0\s[6]Hey, why so blue, Blueberry? \x\w8\w8\p[4]\s[504] \_q(He's withholding a blunt comment.)\_q \w8\w8\w8\0\s[6]I haven't even destroyed your timeline yet. \w8\w8\w8\p[4]\s[506]\c\_q(Blue's body tenses.)\_q \0\s[3]\xAnd boy, have I had sooo much practice! \w8\w8\p[4]\s[506]\0\s[9]\x\cYour universe is one of the worst, you know that? \w8\w8\p[4]\s[506]\w8\w8\0\s[9]\x\cI bet even your \f[italic,true]own creator\f[italic,false] \w5\p[4]\s[507]\0\s[9]abandoned you because of how many timelines and variants your \p[4]\s[506]\0\s[9]abomination of a story spawned. \w8\w8\0\s[3]I know I would.\x \w8\w8\p[4]\s[507]\0\s[3]I mean, golly! \w8\w8\0\s[6]There's gotta be dozens \w4\p[4]\s[506]\0\s[9]upon dozens of versions of you! \x\c\0\s[22]You're, like, worthless! \w8\w6\p[4]\s[503]I'm not. \x\p[4]\s[503]I'm the only me there is. \x\p[4]\s[503]\cI don't care what you say about me. \x\c\0\s[6]HA! \w6\0\s[22]HA\w4 HA\w4 HA! You're funny! \w8\0\s[6]\x\cKeep telling yourself that, Abomination Eleven. You're just as worthless as the others.\x\c\w8What do you think separates you from anyone else? \x\c\0\s[6]\w5Your title? \0\s[0]\w5Your brother? \0\s[11]\w5Your \f[italic,true]kindness\f[italic,false]? \w8\nLet me guess...\x\c\w8\w8\0\s[22]It's because you're the Magnificent Sans! \n\0\s[6]Heheh, that's the biggest joke I've ever heard."
-		}
-	"\0\s[0]1G for your thoughts? \w8\0\s[3]Hah! \w4\0\s[6]As if I'd pay that high of a price."
-	"\0\s[0]Why did the skeleton flake out from attending the party? \w8\w8\w8\0\s[6]Because he had no \f[italic,true]body\f[italic,false] to go with. hah. \w8Haha... \x\c\w8\w8\0\s[0]Actually, it was because he wasn't invited in the first place."
-	"\0\s[0]You just can't trust atoms... \w8\w8\0\s[6]\x\cBecause they make up everything!"
-	"\0\s[0]Why did the chicken cross the road? \x\w8\w8\w8\w8\n\0\s[6]to get to the idiot’s house. \x\w8\w8\w8\c\0\s[0]Knock knock. \x\w8\w8\w8\c\0\s[9]It's the chicken!"
-	"\0\s[11]There's nothing to laugh about... \w8\w8\w8\0\s[9]Except for your face! \w6\0\s[6]Hahaha!"
+	"\0\s[0]Oh! I've got one! What do you call a fish with no eyes? \w8\w8\w8 Blind! \w8Did you see what I did there? \w6Usually the answer to that is ‘fshhh!’ Did I getcha? \0\s[12]Hahaha!"
+	"\0\s[0]What do you call [Blank]? \w8\w8\n\0\s[6]A write-off!"
+	"\0\s[0]How many Sanses does it take to destroy a timeline? (pause) ONE! Just meee!!!"
+	//[When Blue is summoned] "Hey, why are you looking so blue, Blueberry? I haven't even destroyed your timeline yet. And boy, have I had sooo much practice! Your universe is one of the worst, you know that? I bet even your own creator abandoned you because of how many timelines and variants your abomination of a story spawned. I know I would. I mean, golly! There's gotta be dozens upon dozens of versions of you! You're, like, worthless!"
+	"\0\s[0]1G for your thoughts? \w8Hah! \w4\0\s[6]As if I'd pay that high of a price."
+	"\0\s[0]Why did the skeleton flake out from attending the party? \w8\w8\w8\0\s[6]Because he had no body to go with. hah. \w8haha… \w8\w8\0\s[0]Actually, it was because he wasn't invited in the first place."
+	"\0\s[0]You just can't trust atoms… \w8\w8\0\s[6]\cBecause they make up everything!"
+	"\0\s[0]Why did the chicken cross the road? \w8\w8\w8\w8\n\0\s[6]to get to the idiot’s house. \w8\w8\w8\c\0\s[0]Knock knock. \w8\w8\w8\c\0\s[9]It's the chicken!"
+	"\0\s[11]There's nothing to laugh about... \w8\w8\w8\0\s[9]Except for your face! Hahaha!"
 
 }
 
