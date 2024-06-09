@@ -57,6 +57,17 @@ group,Soul
 group,Blue
 {
 500, Default
+501, Sheepish
+502, Hopeful
+503, Angry
+504, Disappointed
+505, Starry-eyed
+506, Horrified
+507, Horrified you
+508, Starry eyed you
+509, Closed eyes happy
+510, Look you
+
 }
 
 
