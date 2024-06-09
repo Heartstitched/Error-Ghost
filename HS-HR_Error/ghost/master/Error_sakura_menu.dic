@@ -167,7 +167,7 @@ OnAskPuppet : all
 	
 OnPuppetBlue
 	{
-		"\p[3]\s[507]... \p[0]\s[3]Isn't he adorable? Best friend number eleven."
+		"\p[3]\s[107]... \p[0]\s[3]Isn't he adorable? Best friend number eleven."
 	}
 	
 	OnPuppetInk

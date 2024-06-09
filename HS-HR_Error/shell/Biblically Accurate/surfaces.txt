@@ -29,23 +29,7 @@ surface0
 	animation0.pattern2,overlay,-1,50,0,0
 
 
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,41,0,0,0
-	 animation2.pattern1,overlay,43,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,41,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,43,0,0,0
-	 animation4.pattern1,overlay,42,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 
 
@@ -62,23 +46,7 @@ surface1
 
 
 
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,41,0,0,0
-	 animation2.pattern1,overlay,43,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,41,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,43,0,0,0
-	 animation4.pattern1,overlay,42,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 //—————————————————————————————— Surprise ——————————————————————————————
 
@@ -97,23 +65,7 @@ surface2
 	animation0.pattern2,overlay,-1,50,0,0
 
 
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,41,0,0,0
-	 animation2.pattern1,overlay,43,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,41,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,43,0,0,0
-	 animation4.pattern1,overlay,42,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 //—————————————————————————————— Content ——————————————————————————————
 
@@ -124,23 +76,7 @@ surface3
 	element2,overlay,surface50.png,0,0
 	
 
-//	--- Happy Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,51,0,0,0
-	 animation2.pattern1,overlay,53,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,51,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,53,0,0,0
-	 animation4.pattern1,overlay,52,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 
 //—————————————————————————————— Blank Eyes ——————————————————————————————
@@ -158,23 +94,7 @@ surface4
 	animation0.pattern1,overlay,36,100,0,0
 	animation0.pattern2,overlay,-1,50,0,0
 
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,41,0,0,0
-	 animation2.pattern1,overlay,43,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,41,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,43,0,0,0
-	 animation4.pattern1,overlay,42,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 
 //—————————————————————————————— Blank crash ——————————————————————————————
@@ -192,23 +112,6 @@ surface5
 	animation0.pattern1,overlay,36,100,0,0
 	animation0.pattern2,overlay,-1,50,0,0
 
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,41,0,0,0
-	 animation2.pattern1,overlay,43,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,41,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,43,0,0,0
-	 animation4.pattern1,overlay,42,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
 }
 
 //—————————————————————————————— Wry ——————————————————————————————
@@ -221,23 +124,7 @@ surface6
 	element2,overlay,surface50.png,0,0
 	
 
-//	--- Happy Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,51,0,0,0
-	 animation2.pattern1,overlay,53,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,51,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,53,0,0,0
-	 animation4.pattern1,overlay,52,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 
 //—————————————————————————————— Angry but I closed his eyes ——————————————————————————————
@@ -251,23 +138,7 @@ surface7
 
 
 
-//    --- Frowny Talk---
-     animation1.interval,talk,4
-     animation1.pattern0,alternativestart,(2,3,4)
 
-     animation2.interval,never
-     animation2.pattern0,overlay,41,0,0,0
-     animation2.pattern1,overlay,43,200,0,0
-     animation2.pattern2,overlay,-1,200,0,0
-
-     animation3.interval,never
-     animation3.pattern0,overlay,41,0,0,0
-     animation3.pattern1,overlay,-1,200,0,0
-
-     animation4.interval,never
-     animation4.pattern0,overlay,43,0,0,0
-     animation4.pattern1,overlay,42,200,0,0
-     animation4.pattern2,overlay,-1,200,0,0
 } 
 //—————————————————————————————— Secret ——————————————————————————————
 
@@ -286,23 +157,7 @@ surface8
 	animation0.pattern2,overlay,-1,50,0,0
 
 
-//    --- Frowny Talk---
-     animation1.interval,talk,4
-     animation1.pattern0,alternativestart,(2,3,4)
 
-     animation2.interval,never
-     animation2.pattern0,overlay,41,0,0,0
-     animation2.pattern1,overlay,43,200,0,0
-     animation2.pattern2,overlay,-1,200,0,0
-
-     animation3.interval,never
-     animation3.pattern0,overlay,41,0,0,0
-     animation3.pattern1,overlay,-1,200,0,0
-
-     animation4.interval,never
-     animation4.pattern0,overlay,43,0,0,0
-     animation4.pattern1,overlay,42,200,0,0
-     animation4.pattern2,overlay,-1,200,0,0
 } 
 
 //—————————————————————————————— Smug Secret ——————————————————————————————
@@ -322,23 +177,7 @@ surface9
 	animation0.pattern2,overlay,-1,50,0,0
 
 
-//	--- Happy Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,51,0,0,0
-	 animation2.pattern1,overlay,53,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,51,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,53,0,0,0
-	 animation4.pattern1,overlay,52,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 } 
 
 //—————————————————————————————— Pissed off Glitch ——————————————————————————————
@@ -352,23 +191,7 @@ surface11
 
 
 
-//    --- Frowny Talk---
-     animation1.interval,talk,4
-     animation1.pattern0,alternativestart,(2,3,4)
 
-     animation2.interval,never
-     animation2.pattern0,overlay,41,0,0,0
-     animation2.pattern1,overlay,43,200,0,0
-     animation2.pattern2,overlay,-1,200,0,0
-
-     animation3.interval,never
-     animation3.pattern0,overlay,41,0,0,0
-     animation3.pattern1,overlay,-1,200,0,0
-
-     animation4.interval,never
-     animation4.pattern0,overlay,43,0,0,0
-     animation4.pattern1,overlay,42,200,0,0
-     animation4.pattern2,overlay,-1,200,0,0
 } 
 
 //—————————————————————————————— Smile ——————————————————————————————
@@ -387,23 +210,7 @@ surface12
 	animation0.pattern2,overlay,-1,50,0,0
 
 
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,51,0,0,0
-	 animation2.pattern1,overlay,53,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,51,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,53,0,0,0
-	 animation4.pattern1,overlay,52,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 
 //—————————————————————————————— Showoff ——————————————————————————————
@@ -422,23 +229,7 @@ surface13
 	animation0.pattern2,overlay,-1,50,0,0
 
 
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,41,0,0,0
-	 animation2.pattern1,overlay,43,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,41,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,43,0,0,0
-	 animation4.pattern1,overlay,42,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 
 //—————————————————————————————— Showoff Eyes Closed ——————————————————————————————
@@ -450,23 +241,7 @@ surface14
 	element2,overlay,surface40.png,0,0
 	
 	
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,41,0,0,0
-	 animation2.pattern1,overlay,43,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,41,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,43,0,0,0
-	 animation4.pattern1,overlay,42,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 
 //——————————————————————————————Smiley Showoff ——————————————————————————————
@@ -485,23 +260,7 @@ surface15
 	animation0.pattern2,overlay,-1,50,0,0
 
 
-//	--- Happy Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,51,0,0,0
-	 animation2.pattern1,overlay,53,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,51,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,53,0,0,0
-	 animation4.pattern1,overlay,52,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 //—————————————————————————————— CrashReport ——————————————————————————————
 surface20
@@ -566,23 +325,7 @@ surface22
 	element2,overlay,surface50.png,0,0
 	
 
-//	--- Happy Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,51,0,0,0
-	 animation2.pattern1,overlay,53,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,51,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,53,0,0,0
-	 animation4.pattern1,overlay,52,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
+
 }
 
 //—————————————————————————————— Appended Animations ——————————————————————————————
@@ -709,16 +452,73 @@ surface10
    
 }
 
-//—————————————————————————————— Blue Nervous ——————————————————————————————
+//—————————————————————————————— Blue Neutral ——————————————————————————————
 	
 surface500
 {
 	
 	element0,overlay,surface5000.png,0,0
-	element1,overlay,surface5030.png,0,0
+	element1,overlay,surface5030.png,0,0 //eye styles
 	element2,overlay,surface5040.png,0,0
-	element3,overlay,surface5060.png,0,0
+	element4,overlay,surface5021.png,0,0 //brows (smirk)
+ 
 	
+//	--- Default Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5070,0,0,0
+	animation0.pattern1,overlay,5035,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0
+}
+
+// Blue Sheepish 
+surface501
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5030.png,0,0 //eye styles
+	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element3,overlay,surface5060.png,0,0 //sweatdrop (smirk)
+	element4,overlay,surface5020.png,0,0 //brows (smirk)
+
+	
+//	--- Default Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5070,0,0,0
+	animation0.pattern1,overlay,5035,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0
+		
+}
+// Blue Hopeful
+surface502
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5037.png,0,0 //eye styles
+	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element3,overlay,surface5064.png,0,0 //brows (smirk)
+	element4,overlay,surface5020.png,0,0 //brows (smirk)
+
+	
+//	--- Starry Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5074,0,0,0
+	animation0.pattern1,overlay,5035,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0
+
+}
+
+// Blue Angry
+surface503
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5030.png,0,0 //eye styles
+	element2,overlay,surface5045.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element3,overlay,surface5061.png,0,0 
+	element4,overlay,surface5022.png,0,0 //brows (smirk)
+	element5,overlay,surface5062.png,0,0 
+
+
 	
 //	--- Default Blink---
 	animation0.interval,random,4
@@ -726,25 +526,140 @@ surface500
 	animation0.pattern1,overlay,5035,100,0,0
 	animation0.pattern2,overlay,-1,50,0,0
 
-
-//	--- Frowny Talk---
-	 animation1.interval,talk,4
-	 animation1.pattern0,alternativestart,(2,3,4)
-	
-	 animation2.interval,never
-	 animation2.pattern0,overlay,5041,0,0,0
-	 animation2.pattern1,overlay,5043,200,0,0
-	 animation2.pattern2,overlay,-1,200,0,0
-	
-	 animation3.interval,never
-	 animation3.pattern0,overlay,5041,0,0,0
-	 animation3.pattern1,overlay,-1,200,0,0
-	
-	 animation4.interval,never
-	 animation4.pattern0,overlay,5043,0,0,0
-	 animation4.pattern1,overlay,5042,200,0,0
-	 animation4.pattern2,overlay,-1,200,0,0
 }
+
+// Blue Disappointed
+surface504
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5070.png,0,0 //eye styles
+	element2,overlay,surface5045.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element4,overlay,surface5022.png,0,0 //brows (smirk)
+
+	
+//	--- Default Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5070,0,0,0
+	animation0.pattern1,overlay,5035,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0
+
+}
+
+// Blue Starry-eyed
+surface505
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5037.png,0,0 //eye styles
+	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element4,overlay,surface5021.png,0,0 //brows (smirk)
+
+	
+//	--- Default Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5074,0,0,0
+	animation0.pattern1,overlay,5034,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0
+
+}
+
+
+
+// Blue Horrified
+surface506
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5032.png,0,0 //eye styles
+	element2,overlay,surface5049.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element3,overlay,surface5061.png,0,0 //shadow over eyes
+	element4,overlay,surface5060.png,0,0 //sweatdrop
+	element5,overlay,surface5020.png,0,0 //brows (smirk)
+	//element6,overlay,surface5063.png,0,0 
+
+
+	
+//	--- Default Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5072,0,0,0
+	animation0.pattern1,overlay,5036,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0	
+
+}
+
+// Blue Horrified to you
+surface507
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5033.png,0,0 //eye styles
+	element2,overlay,surface5049.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element3,overlay,surface5061.png,0,0 //shadow over eyes
+	element4,overlay,surface5060.png,0,0 //sweatdrop
+	element5,overlay,surface5020.png,0,0 //brows (smirk)
+	//element6,overlay,surface5063.png,0,0 
+
+
+	
+//	--- Default Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5073,0,0,0
+	animation0.pattern1,overlay,5036,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0	
+
+}
+
+// Blue Starry-eyed you
+surface508
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5038.png,0,0 //eye styles
+	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element4,overlay,surface5021.png,0,0 //brows (smirk)
+
+	
+//	--- Default Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5075,0,0,0
+	animation0.pattern1,overlay,5034,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0
+
+
+}
+
+// Blue closed eyes happy
+surface509
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5078.png,0,0 //eye styles
+	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element3,overlay,surface5064.png,0,0 //brows (smirk)
+	element4,overlay,surface5020.png,0,0 //brows (smirk)
+
+}
+
+// Blue look you
+surface510
+{
+	
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface5031.png,0,0 //eye styles
+	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element4,overlay,surface5021.png,0,0 //brows (smirk)
+
+	
+//	--- Default Blink---
+	animation0.interval,random,4
+	animation0.pattern0,overlay,5071,0,0,0
+	animation0.pattern1,overlay,5035,100,0,0
+	animation0.pattern2,overlay,-1,50,0,0
+
+}
+
+
 
 
 //—————————————————————————————— Base Collision ——————————————————————————————
