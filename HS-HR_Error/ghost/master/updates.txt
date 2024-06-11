@@ -149,7 +149,6 @@ file,shell/Biblically Accurate/surface38.pngc1e3125dd85492df181784d1094aa9f4si
 file,shell/Biblically Accurate/surface40.pngc26ebd08ca3e14a008fe2e6b131b01f2size=2907date=2024-06-04T21:06:40
 file,shell/Biblically Accurate/surface4000.pngc12b81b19ae7c012af0ca2c5e30755fcsize=16810date=2024-06-04T21:06:40
 file,shell/Biblically Accurate/surface4001.pnge86c351feab7bbc999e5f8b5e3e05c0bsize=15728date=2024-06-04T21:06:40
-file,shell/Biblically Accurate/surface4002.pnge86c351feab7bbc999e5f8b5e3e05c0bsize=15728date=2024-06-04T21:06:40
 file,shell/Biblically Accurate/surface4003.png17ff75739e1fd109ce94dd52991bc28esize=22323date=2024-06-04T21:06:40
 file,shell/Biblically Accurate/surface4005.png1307f1c47835c66951c146740ece240esize=24136date=2024-06-04T21:06:40
 file,shell/Biblically Accurate/surface4007.png8e72741e896a6b6288d35dad3a047952size=17044date=2024-06-09T15:18:52
@@ -204,7 +203,7 @@ file,shell/Biblically Accurate/surface53.png51d5d24a4bdeb9771a36859e9267759esi
 file,shell/Biblically Accurate/surface70.png7d1e13ad102a25ddc9ff8990020f4f55size=4800date=2024-06-04T21:06:40
 file,shell/Biblically Accurate/surface71.png4ec25c7d35ce7105fe0e93de7142254dsize=4552date=2024-06-04T21:06:40
 file,shell/Biblically Accurate/surface72.png3d55e83b6df3d5075a2131b07670c7aesize=4945date=2024-06-04T21:06:40
-file,shell/Biblically Accurate/surfaces.txt873315df6500cb5061d8ec3ae0b9e63fsize=23500date=2024-06-09T15:32:25
+file,shell/Biblically Accurate/surfaces.txt98768a07ad524c3796d1e262e47060e4size=23541date=2024-06-09T15:18:52
 file,shell/Biblically Accurate/surfacetable.txteac7542fbaea68a3cf8db9246a177e10size=620date=2024-06-04T21:06:40
 file,shell/master/Body Base/surface0.png918eb8b3693bf9a45143bedf62d053acsize=70717date=2024-05-27T20:59:30
 file,shell/master/CollisionBlue.png032ca7cafe0b1d3b6672a22b7301f341size=20443date=2024-05-27T20:59:30
