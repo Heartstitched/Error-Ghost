@@ -430,6 +430,19 @@ surface105
     // element0,overlay,surface4006.png,0,0
 // }
 
+ //blue chillin
+ surface107
+ {
+     element0,overlay,surface4007.png,0,0
+ }
+
+ //fresh chillin
+ surface108
+ {
+     element0,overlay,surface4008.png,0,0
+ }
+
+
 
 //—————————————————————————————— Kero ——————————————————————————————
 
@@ -672,7 +685,7 @@ surface.append0-9,11-22
 //	collisionex4,Nose,region,collisionbody.png,174,2,199
 	
 }
-surface.append500
+surface.append500-510
 {
 	collisionex0,Head,region,collisionBlue.png,33,203,229
 	collisionex1,Scarf,region,collisionBlue.png,33,229,67
