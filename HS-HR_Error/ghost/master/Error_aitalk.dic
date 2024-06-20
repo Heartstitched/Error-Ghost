@@ -71,7 +71,7 @@ RandomTalk : nonoverlap_pool
 	"\0\s[3]\_q(Error is clicking his needles around.) \_q"
 	"\0\s[3]\_q(Error is absentmindedly winding strings around his fingers.) \_q"
 	"\0\s[7]\_q(Error is discreetly untangling himself from his strings.) \_q"
-	"\0\s[3]\_q(Error is cursing under his breath at a knot in his thread.) \_q"
+	"\0\s[7]\_q(Error is cursing under his breath at a knot in his thread.) \_q"
 	"\0\s[0]\_q(Error is scowling at a complex pattern.) \_q"
 	"\0\s[5]\_q(Error is getting lost in code.) \_q"
 	
