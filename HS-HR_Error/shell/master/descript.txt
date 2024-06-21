@@ -80,11 +80,11 @@ sakura.menu, auto
 
 //--Puppets--------------------------------------------------
 
-kero.bindoption2.group,Puppets
+char5.bindoption2.group,Puppets
 
 Ink Puppet
-kero.bindgroup700.name,Puppets,Ink Puppet
-kero.bindgroup700.default,0
+char5.bindgroup700.name,Puppets,Ink Puppet
+char5.bindgroup700.default,0
 
 //Example Outfit 2
 //sakura.bindgroup901.name,Puppets,
@@ -92,38 +92,39 @@ kero.bindgroup700.default,0
 
 
 //--Colors----------------------------------------------------
-kero.bindoption2.group,Souls
+
+char5.bindoption2.group,Souls
 
 //Cyan Soul
-kero.bindgroup801.name,Souls,Cyan Soul
-kero.bindgroup801.default,0
+char5.bindgroup801.name,Souls,Cyan Soul
+char5.bindgroup801.default,0
 
 //Yellow Soul
-kero.bindgroup802.name,Souls,Yellow Soul
-kero.bindgroup802.default,0
+char5.bindgroup802.name,Souls,Yellow Soul
+char5.bindgroup802.default,0
 
 //Purple Soul
-kero.bindgroup803.name,Souls,Purple Soul
-kero.bindgroup803.default,0
+char5.bindgroup803.name,Souls,Purple Soul
+char5.bindgroup803.default,0
 
 //Orange Soul
-kero.bindgroup804.name,Souls,Orange Soul
-kero.bindgroup804.default,0
+char5.bindgroup804.name,Souls,Orange Soul
+char5.bindgroup804.default,0
 
 //Blue Soul
-kero.bindgroup805.name,Souls,Blue Soul
-kero.bindgroup805.default,0
+char5.bindgroup805.name,Souls,Blue Soul
+char5.bindgroup805.default,0
 
 //Green Soul
-kero.bindgroup806.name,Souls,Green Soul
-kero.bindgroup806.default,0
+char5.bindgroup806.name,Souls,Green Soul
+char5.bindgroup806.default,0
 
 //Monster Soul
-kero.bindgroup807.name,Souls,Monster Soul
-kero.bindgroup807.default,0
+char5.bindgroup807.name,Souls,Monster Soul
+char5.bindgroup807.default,0
 
 //Cross Soul
-kero.bindgroup808.name,Souls,Cross Soul
-kero.bindgroup808.default,0
+char5.bindgroup808.name,Souls,Cross Soul
+char5.bindgroup808.default,0
 
-kero.menu, auto
+char5.menu, auto

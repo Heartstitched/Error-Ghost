@@ -53,7 +53,7 @@ SomethingToEat
 "\![*]\q[some chocolate,OnGiveChocolate]"
 "\![*]\q[a milkshake,OnGiveMilkshake]"
 "\![*]\q[chocolate milk,OnGiveChocoMilk]"
-"\![*]\q[battery Acid,OnGiveBatteryAcid]"
+"\![*]\q[battery acid,OnGiveBatteryAcid]"
 "\![*]\q[a salad,OnGiveSalad]"
 "\![*]\q[some popcorn,OnGivePopcorn]"
 }
@@ -141,7 +141,7 @@ OnGiveChocoMilk
 {
 		"You give him some chocolate milk."
 		--
-		"\n\n\n\_b[Milkshaaaake,100,70]"
+		"\n\n\n\_b[Milkshaaaake,100,90]"
 		--
 		"\n\n\nThis is an acceptable offering."
 		"\n\n\nHmmm. Not bad"
@@ -167,11 +167,11 @@ OnGiveBatteryAcid
 {
 		"You give him a wine glass of Battery Acid"
 		--
-		"\_b[BatAcid,100,70]"
+		"\n\n\n\_b[BatAcid,100,90]"
 		--
 		"\n\n\nWhat the hell? It smells awful. Where did you fish this out of, the rivers of a nuclear wasteland?"
 		"\n\n\nI’m not going to drink that."
-		"\n\n\nThe bubbles are making my nose itch."
+		"\n\n\nThe bubbles are making my nasal cavity itch."
 		"\n\n\nWhy would I take this?"
 		"\n\n\nI should use this to poison someone."
 	/*   
@@ -302,7 +302,7 @@ OnGiveHooks
 {		
 		"You hand him some crochet hooks."
 		--
-		"\n\n\n\_b[CrochetHooks,100,70]"
+		"\n\n\n\_b[CrochetHook,100,90]"
 		--
 	"\n\n\nDid you just try to give me my own hooks?\w8\w8\n Idiot!\w8\w8\cStop touching my things!"
 	"\n\n\nAre you making fun of me?"
@@ -333,7 +333,7 @@ OnGiveNeedles
 {
 		"You offer him a set of sewing needles."
 		--
-		"\n\n\n\_b[SewNeedles,100,70]"
+		"\n\n\n\_b[SewNeedles,100,90]"
 		--
 		"\n\n\nI don't need those."
 		"\n\n\nOuch! watch where you're pointing those things!"
@@ -368,7 +368,7 @@ OnGiveKnit
 {
 		"You give him a set of knitting needles."
 		--
-		"\n\n\n\_b[KnitNeedles,100,70]"
+		"\n\n\n\_b[KnitNeedles,100,90]"
 		--
 		"\n\n\nI only keep those around for when Blueberry stops by."
 		"\n\n\nAre you making fun of me?"
@@ -445,13 +445,13 @@ OnGiveBlanket
 }
 OnGiveSunglasses
 {	
-	"You offer him a pair of sunglasses" 
+	"You offer him a pair of sunglasses\n" 
 	--
-	"\n\n\n\_b[Sunglsses,100,70]"
+	"\n\n\n\_b[Sunglasses,120,90]"
 	--
-	"\n\n\nperfect. now I don't have to look at you."
-	"\n\n\nwhere'd you get those? the dump?"
-	"\n\n\nI don't need your input on my style choices, thanks."
+	"\nperfect. now I don't have to look at you."
+	"\nwhere'd you get those? the dump?"
+	"\nI don't need your input on my style choices, thanks."
 	/*
 	if ErrorFriends >=  10
 	{

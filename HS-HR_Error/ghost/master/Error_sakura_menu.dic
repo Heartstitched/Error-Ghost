@@ -284,11 +284,11 @@ OnUnsummonSoul : all
 
 OnKeepSoulHere
 {
-"\0\s[11]Really? What's the point?\w8\w8\n\s[7]Whatever.\n \1\s[10]"
+"\0\s[11]Really? What's the point?\w8\w8\n\s[7]Whatever.\n \p[5]\s[300]"
 }
 OnSendSoulAway
 {
-"\0\s[6]Away it goes.\w8\w8\n\nHeheh.\n \1\s[-1]"
+"\0\s[6]Away it goes.\w8\w8\n\nHeheh.\n \p[5]\s[-1]"
 }
 
 OnErrorGift
