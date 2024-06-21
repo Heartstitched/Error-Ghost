@@ -19,7 +19,7 @@ OnSakuraMenu : all
 		"Or, would you rather.....\n\n"
 	"\![*]\q[ACT,OnActMenu] \n\![*]\q[ask him something?,OnAskMenu]"
 	"\n\n"
-	"\![*]\q[Speech Settings,OnTalkRateMenu]\n\n"
+	"\![*]\q[Settings,OnConfigMenu]\n\n"
 	
 	"\![*]\q[Nevermind...,blank]"	
 }
@@ -235,6 +235,13 @@ OnLastTalk
 	LastTalk
 }
 
+OnConfigMenu : all
+{
+	"\![*]\q[Speech Settings,OnTalkRateMenu]\n\n"
+	"\![*]\q[Decor,OnDecorMenu]\n\n"
+	"\![*]\q[Back,OnSakuraMenu]  \![*]\q[Nevermind,blank]"
+	
+}
 OnTalkRateMenu : all
 {	
 	//This is just setting up a label, you may need to add to it or tweak it if you change what rates are available
@@ -263,6 +270,26 @@ OnTalkRateChange
 	aitalkinterval = TOINT(reference0)
 }
 
+OnDecorMenu : all
+{
+  "\![*]\q[Soul,OnUnsummonSoul]\n\n"
+  "\![*]\q[Back,OnSakuraMenu]  \![*]\q[Nevermind,blank]"
+
+}
+OnUnsummonSoul : all
+{
+	"\0\s[13]You want that thing around?\w8\n\n\_q\![*]\q[Yes,OnKeepSoulHere]\n\![*]\q[No,OnSendSoulAway]\_q\n\n"
+	"\![*]\q[Back,OnSakuraMenu]  \![*]\q[Nevermind,blank]"
+}
+
+OnKeepSoulHere
+{
+"\0\s[11]Really? What's the point?\w8\w8\n\s[7]Whatever.\n \1\s[10]"
+}
+OnSendSoulAway
+{
+"\0\s[6]Away it goes.\w8\w8\n\nHeheh.\n \1\s[-1]"
+}
 
 OnErrorGift
 {
