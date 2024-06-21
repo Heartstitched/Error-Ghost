@@ -445,11 +445,15 @@ surface105
 
 
 //—————————————————————————————— Kero ——————————————————————————————
-
-//the Soul
 surface10
 {
     element0,overlay,surface10.png,0,0
+}
+
+//the Soul
+surface300
+{
+    element0,overlay,surface4209.png,0,0
 
 
 //float	  
@@ -630,6 +634,7 @@ surface508
 	element0,overlay,surface5000.png,0,0
 	element1,overlay,surface5038.png,0,0 //eye styles
 	element2,overlay,surface5040.png,0,0 //mouth, 40 (smile) or 45 (sad) or 49 (horrified)
+	element3,overlay,surface5063.png,0,0
 	element4,overlay,surface5021.png,0,0 //brows (smirk)
 
 	
@@ -752,7 +757,7 @@ animation911.pattern0,add,3005,20,0,0
 
 
 //Kero Drssups
-surface.append10
+surface.append300
 {
 
 //--Puppets-----------------------
